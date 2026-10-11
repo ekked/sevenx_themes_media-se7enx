@@ -80,6 +80,10 @@
     {section name=meta loop=$site.meta}
 <meta name="{$meta:key|wash}" content="{$meta:item|wash}" />
     {/section}
+{* The content license (xrowmetadata 1.4.9). The media pagelayout prints it in
+   pagelayout/head/meta.tpl and never includes this file; this is for a
+   pagelayout that includes page_head.tpl instead. *}
+{if $module_result_node_id}{include uri='design:xrowmetadata/license_head.tpl' node=$module_result_node_id}{else}{include uri='design:xrowmetadata/license_head.tpl'}{/if}
 <meta name="MSSmartTagsPreventParsing" content="TRUE" />
     <meta name="generator" content="Exponential" />
 

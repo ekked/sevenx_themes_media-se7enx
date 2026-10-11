@@ -117,6 +117,13 @@
 {/if}
 {undef $el_renderable_blocks}
 
+{* The content license of the page as a visible notice, [SiteInfo] ShowLicenseNotice in menu.ini *}
+{if ezini('SiteInfo','ShowLicenseNotice','menu.ini')|eq('enabled')}
+<div class="container site-license-notice">
+    {if $node}{include uri='design:xrowmetadata/license_notice.tpl' node=$node tag='small'}{else}{include uri='design:xrowmetadata/license_notice.tpl' tag='small'}{/if}
+</div>
+{/if}
+
 {include uri='design:pagelayout/cookie_control.tpl'}
 {include uri='design:pagelayout/script_bottom.tpl'}
 </body>

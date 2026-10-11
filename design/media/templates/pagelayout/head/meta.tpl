@@ -58,10 +58,26 @@
 {undef $mt_meta}
 {undef $mt_description}
 
+{* The content license (xrowmetadata 1.4.9): link rel="license" and the Dublin
+   Core meta tag here, the schema.org "license" merged into the JSON-LD below
+   as a WebPage next to the BreadcrumbList, so the head carries it once. Open
+   Graph has no license property (parts/opengraph.tpl prints none). *}
+{if $node}
+    {def $mt_license = xrowmetadata_license($node)}
+{else}
+    {def $mt_license = xrowmetadata_license()}
+{/if}
+{include uri='design:xrowmetadata/license_head.tpl' license=$mt_license json_ld=false()}
+{def $mt_license_ld = and($mt_license, $mt_license.show.json_ld)}
+
 {def $mt_last = $path_array|count|sub(1)}
 <script type="application/ld+json">
 {literal}{{/literal}
     "@context": "https://schema.org",
+{if $mt_license_ld}
+    "@graph": [
+    {literal}{{/literal}
+{/if}
     "@type": "BreadcrumbList",
     "itemListElement": [
     {foreach $path_array as $mt_index => $mt_item}
@@ -73,6 +89,13 @@
         {rdelim}{if $mt_index|lt($mt_last)},{/if}
     {/foreach}
     ]
+{if $mt_license_ld}
+    {literal}}{/literal},
+    {$mt_license.json_ld_node}
+    ]
+{/if}
 {literal}}{/literal}
 </script>
 {undef $mt_last}
+{undef $mt_license}
+{undef $mt_license_ld}

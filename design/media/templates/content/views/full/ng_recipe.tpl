@@ -115,6 +115,10 @@
             {if not($content.fields.image['empty'])}
                 "image": "{absolute_url(ng_image_alias($content.fields.image, 'i1320'))}",
             {/if}
+            {* The content license, schema.org "license" (xrowmetadata 1.4.9) *}
+            {if is_set($node)}{def $ld_license = xrowmetadata_license($node)}{else}{def $ld_license = xrowmetadata_license()}{/if}
+            {if and($ld_license, $ld_license.show.json_ld)}{$ld_license.json_ld_property}{/if}
+            {undef $ld_license}
             "publisher": {
                 "type": "Organization",
                 "name": "{$site_name}"

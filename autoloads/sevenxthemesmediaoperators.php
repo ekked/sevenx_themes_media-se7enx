@@ -2521,6 +2521,14 @@ class sevenxThemesMediaOperators
             }
         }
 
+        // The content license (xrowmetadata 1.4.9 and later): schema.org "license" of the Recipe.
+        if ( class_exists( 'xrowMetaDataLicenseOperator' ) && $node instanceof eZContentObjectTreeNode )
+        {
+            $license = xrowMetaDataLicenseOperator::forOutput( $node );
+            if ( is_array( $license ) && $license['show']['json_ld'] )
+                $recipe['license'] = json_decode( $license['json_ld_value'], true );
+        }
+
         $recipe['publisher'] = array(
             '@type' => 'Organization',
             'name' => eZINI::instance( 'site.ini' )->variable( 'SiteSettings', 'SiteName' ),

@@ -9,5 +9,9 @@
 CookieConsentVersion=1
 # The remote id of the folder whose links form the second footer line (pagelayout/footer.tpl).
 FooterLinksRemoteID=media-o-footer-links
+# A visible license notice of the page below every page ("© 2026 Holder · Licensed
+# under CC BY 4.0"), from pagelayout.tpl with design:xrowmetadata/license_notice.tpl
+# (xrowmetadata 1.4.9 and later). enabled or disabled.
+ShowLicenseNotice=disabled
 
 */ ?>
