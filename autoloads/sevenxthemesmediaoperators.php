@@ -58,13 +58,32 @@ class sevenxThemesMediaField implements ArrayAccess
 class sevenxThemesMediaOperators
 {
     /**
+     * Flags for JSON printed inside a <script> element (JSON-LD). JSON_HEX_TAG
+     * turns < and > into \u003C and \u003E, so a "</script>" in a title cannot
+     * end the element; the other HEX flags do the same for & ' ", which keeps
+     * the output safe in an HTML attribute too. Slashes and Unicode stay as
+     * they are, so URLs and names remain readable.
+     */
+    const JSON_LD_FLAGS = JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE;
+
+    /**
+     * A value as JSON for a JSON-LD <script> block: "null" when it cannot be
+     * encoded (invalid UTF-8), never false, so the block always parses.
+     */
+    public static function jsonLd( $value )
+    {
+        $json = json_encode( $value, self::JSON_LD_FLAGS );
+        return $json === false ? 'null' : $json;
+    }
+
+    /**
      * The last five names are deprecated aliases kept for other designs and
      * installations that still call them: ibexa, ibexa_path, ibexa_url,
      * nglayouts_render_result and nglayouts_render_zone run exactly the same
      * code as exponential, exp_path, exp_url, explayouts_render_result and
      * explayouts_render_zone. The media theme's own templates use the new names.
      */
-    public $Operators = array( 'absolute_url', 'app', 'asset', 'content_link', 'content_tags', 'controller', 'tpl_block_template', 'item_view_template', 'tag_url', 'layout_title', 'embed_image', 'component_content', 'enhanced_link', 'fieldRelation', 'fieldRelations', 'fieldValue', 'firstNonEmptyField', 'filterChildren', 'filterFieldRelationLocations', 'filterFieldRelations', 'getParameter', 'get_netgen_open_graph', 'hasField', 'hasParameter', 'haveToPaginate', 'exponential', 'exp_path', 'exp_url', 'explayouts_render_result', 'explayouts_render_zone', 'image', 'image_link', 'intro', 'item_content_link', 'item_image_link', 'item_params', 'ng_image_alias', 'ng_query', 'ng_render_field', 'ng_view_content', 'ngsite', 'ngsite_group_fields', 'ngsite_language_name', 'ngsite_topic_path', 'pagerfanta', 'parameter', 'parent', 'path', 'player', 'player_slide', 'poster', 'poster_slide', 'recipe_schema', 'redirect_to_site_root', 'render', 'render_esi', 'saveXML', 'site_url', 'siteaccess_href', 'title', 'trans', 'video_thumbnail', 'youtube_id', 'ibexa', 'ibexa_path', 'ibexa_url', 'nglayouts_render_result', 'nglayouts_render_zone' );
+    public $Operators = array( 'absolute_url', 'app', 'asset', 'content_link', 'content_tags', 'controller', 'tpl_block_template', 'item_view_template', 'tag_url', 'layout_title', 'embed_image', 'component_content', 'enhanced_link', 'fieldRelation', 'fieldRelations', 'fieldValue', 'firstNonEmptyField', 'filterChildren', 'filterFieldRelationLocations', 'filterFieldRelations', 'getParameter', 'get_netgen_open_graph', 'hasField', 'hasParameter', 'haveToPaginate', 'exponential', 'exp_path', 'exp_url', 'explayouts_render_result', 'explayouts_render_zone', 'image', 'image_link', 'intro', 'item_content_link', 'item_image_link', 'item_params', 'ng_image_alias', 'ng_query', 'ng_render_field', 'ng_view_content', 'ngsite', 'ngsite_group_fields', 'ngsite_language_name', 'ngsite_topic_path', 'pagerfanta', 'parameter', 'parent', 'path', 'player', 'player_slide', 'poster', 'poster_slide', 'recipe_schema', 'json_ld', 'redirect_to_site_root', 'render', 'render_esi', 'saveXML', 'site_url', 'siteaccess_href', 'title', 'trans', 'video_thumbnail', 'youtube_id', 'ibexa', 'ibexa_path', 'ibexa_url', 'nglayouts_render_result', 'nglayouts_render_zone' );
     public $MaxParam = 10;
 
     function operatorList()
@@ -241,6 +260,12 @@ class sevenxThemesMediaOperators
 
             case 'recipe_schema':
                 $operatorValue = $this->recipeSchema( $arg0 );
+                break;
+
+            case 'json_ld':
+                // {$value|json_ld}: the value as a JSON literal (quotes included)
+                // for a JSON-LD <script> block, see JSON_LD_FLAGS.
+                $operatorValue = self::jsonLd( $operatorValue );
                 break;
 
             case 'layout_title':
@@ -2534,7 +2559,11 @@ class sevenxThemesMediaOperators
             'name' => eZINI::instance( 'site.ini' )->variable( 'SiteSettings', 'SiteName' ),
         );
 
-        return '<script type="application/ld+json">' . json_encode( $recipe, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT ) . '</script>';
+        // JSON_LD_FLAGS: a "</script>" in a title or description stays inside the block.
+        $json = json_encode( $recipe, self::JSON_LD_FLAGS | JSON_PRETTY_PRINT );
+        if ( $json === false )
+            return '';
+        return '<script type="application/ld+json">' . $json . '</script>';
     }
 
     /**

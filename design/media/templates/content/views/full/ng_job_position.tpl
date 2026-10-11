@@ -76,22 +76,22 @@
 
 {* BLOCK structuredData *}
     <script type="application/ld+json">
-        {
+        {ldelim}
             "@context": "http://schema.org",
             "@type": "Article",
-            "headline": "{$content.fields.title.value.text}",
-            {if $content.contentInfo.publishedDate}"datePublished": "{$content.contentInfo.publishedDate|format_date}",
+            "headline": {$content.fields.title.value.text|json_ld},
+            {if $content.contentInfo.publishedDate}"datePublished": {$content.contentInfo.publishedDate|format_date|json_ld},
             {/if}{if not($content.fields.image['empty'])}
-                "image": "{absolute_url(ng_image_alias($content.fields.image, 'i1320'))}",
+                "image": {absolute_url(ng_image_alias($content.fields.image, 'i1320'))|json_ld},
             {/if}
             {* The content license, schema.org "license" (xrowmetadata 1.4.9) *}
             {if is_set($node)}{def $ld_license = xrowmetadata_license($node)}{else}{def $ld_license = xrowmetadata_license()}{/if}
             {if and($ld_license, $ld_license.show.json_ld)}{$ld_license.json_ld_property}{/if}
             {undef $ld_license}
-            "publisher": {
-                "type": "Organization",
-                "name": "{$site_name}"
-            }
-        }
+            "publisher": {ldelim}
+                "@type": "Organization",
+                "name": {$site_name|json_ld}
+            {rdelim}
+        {rdelim}
     </script>
 {* ENDBLOCK structuredData *}

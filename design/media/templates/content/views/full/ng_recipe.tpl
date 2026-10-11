@@ -89,40 +89,10 @@
 {/explblock}
 
 {* BLOCK structuredData *}
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "Recipe",
-            "name": "{$content.fields.title.value.text}",
-            {if $content.contentInfo.publishedDate}
-                "datePublished": "{$content.contentInfo.publishedDate|format_date}",
-            {/if}
-            "totalTime": "PT{$content.fields.preparation_time.value.value}M",
-            "nutrition": {
-                "@type": "NutritionInformation",
-                "calories": "{$content.fields.serving_calories.value.value}",
-                "fatContent": "{$content.fields.serving_fat.value.value}",
-                "carbohydrateContent": "{$content.fields.serving_carbohydrates.value.value}",
-                "proteinContent": "{$content.fields.serving_protein.value.value}"
-            },
-            "description": "{ng_render_field($content.fields.full_intro)|strip_tags}",
-            {if not($content.fields.authors['empty'])}
-                "author": {
-                    "@type": "Person",
-                    "name": "{foreach fieldRelations($content, 'authors') as $author}{if $loop.index0|gt(0)} ,{/if}{$author.name}{/foreach}"
-                },
-            {/if}
-            {if not($content.fields.image['empty'])}
-                "image": "{absolute_url(ng_image_alias($content.fields.image, 'i1320'))}",
-            {/if}
-            {* The content license, schema.org "license" (xrowmetadata 1.4.9) *}
-            {if is_set($node)}{def $ld_license = xrowmetadata_license($node)}{else}{def $ld_license = xrowmetadata_license()}{/if}
-            {if and($ld_license, $ld_license.show.json_ld)}{$ld_license.json_ld_property}{/if}
-            {undef $ld_license}
-            "publisher": {
-                "type": "Organization",
-                "name": "{$site_name}"
-            }
-        }
-    </script>
+{* The Recipe JSON-LD of a recipe page is printed once, in the head, by the
+   recipe_schema operator (pagelayout/head/recipe_schema.tpl). It carries the
+   same properties as the block that stood here (and the content license),
+   built and encoded in PHP, so a title such as "</script>" cannot end the
+   script element. The block that stood here was a second Recipe for the
+   same page, and its bare JSON braces stopped the template engine. *}
 {* ENDBLOCK structuredData *}

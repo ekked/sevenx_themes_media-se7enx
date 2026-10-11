@@ -83,8 +83,8 @@
     {foreach $path_array as $mt_index => $mt_item}
         {ldelim}
             "@type": "ListItem",
-            "name": "{$mt_item.text|wash}",
-            {if $mt_item.url|ne(false)}"item": "https://{ezini('SiteSettings','SiteURL')}/{$mt_item.url}",{/if}
+            "name": {$mt_item.text|json_ld},
+            {if $mt_item.url|ne(false)}"item": {concat('https://', ezini('SiteSettings','SiteURL'), '/', $mt_item.url)|json_ld},{/if}
             "position": {$mt_index|sum(1)}
         {rdelim}{if $mt_index|lt($mt_last)},{/if}
     {/foreach}
