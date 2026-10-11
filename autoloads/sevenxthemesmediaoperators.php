@@ -2810,7 +2810,10 @@ class sevenxThemesMediaOperators
         $tags = array();
         $tags[] = array( 'tagName' => 'og:title', 'tagValue' => (string)$object->attribute( 'name' ) );
         $tags[] = array( 'tagName' => 'og:description', 'tagValue' => $this->openGraphDescription( $object ) );
-        $tags[] = array( 'tagName' => 'og:image', 'tagValue' => $this->openGraphImage( $object ) );
+        // The metadata attribute's own or class default image is printed by xrowmetadata's opengraph_image.tpl
+        // (meta.tpl), with its alias, size and twitter:image; a second og:image here would contradict it.
+        if ( !$this->metadataOpenGraphImageShown( $object ) )
+            $tags[] = array( 'tagName' => 'og:image', 'tagValue' => $this->openGraphImage( $object ) );
         $tags[] = array( 'tagName' => 'og:type', 'tagValue' => $type );
         if ( $url !== '' )
             $tags[] = array( 'tagName' => 'og:url', 'tagValue' => $url );
@@ -2838,6 +2841,22 @@ class sevenxThemesMediaOperators
         }
 
         return (string)$object->attribute( 'name' );
+    }
+
+    /**
+     * Whether the metadata attribute (xrowmetadata 1.4.7 and later) resolves an Open Graph image of its own or of
+     * its class default, which meta.tpl then prints through design:xrowmetadata/opengraph_image.tpl.
+     */
+    protected function metadataOpenGraphImageShown( $object )
+    {
+        $dataMap = $object->dataMap();
+        if ( !isset( $dataMap['metadata'] ) || !$dataMap['metadata']->hasContent() )
+            return false;
+        $metadata = $dataMap['metadata']->content();
+        if ( !is_object( $metadata ) || !method_exists( $metadata, 'hasAttribute' ) || !$metadata->hasAttribute( 'og_image_info' ) )
+            return false;
+        $info = $metadata->attribute( 'og_image_info' );
+        return is_array( $info ) && isset( $info['url'] ) && (string)$info['url'] !== '';
     }
 
     protected function openGraphImage( $object )
