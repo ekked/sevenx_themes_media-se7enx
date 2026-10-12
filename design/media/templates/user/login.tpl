@@ -1,3 +1,4 @@
+{* Portions derived from LoveStack (mugoweb/ezpublish-legacy, commit 98854ab935), Copyright (C) Mugo Web, GPL v2 *}
 {* eZ Publish compatible login.tpl for the media design *}
 
 <header class="full-page-header text-center no-breadcrumbs">
@@ -53,7 +54,10 @@
 
                 <div class="buttonblock clearfix">
                     <input class="btn btn-primary" type="submit" name="LoginButton" value="{'Login'|i18n('design/standard/user','Button')}" tabindex="1" />
+                    {* Sign Up only for a user who may register (policy omit list or the user/register policy) *}
+                    {if fetch( 'user', 'can_open', hash( 'uri', 'user/register' ) )}
                     <input class="btn btn-secondary" type="submit" name="RegisterButton" value="{'Sign Up'|i18n('design/standard/user','Button')}" tabindex="1" />
+                    {/if}
                 </div>
 
                 <p class="text-center note mt-5">
