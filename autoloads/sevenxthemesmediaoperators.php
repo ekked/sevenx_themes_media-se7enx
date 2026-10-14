@@ -920,6 +920,19 @@ class sevenxThemesMediaOperators
             return $url;
         }
 
+        // Content of another site of a multisite installation: with
+        // ezurlmultisite active, the address on the siteaccess that serves it
+        // (/video/... from Bold Agency), not /<this siteaccess>/<its prefix>/...,
+        // which answers 404.
+        if ( class_exists( 'eZURLMultisite' ) && eZURLMultisite::isActive() )
+        {
+            $crossSite = eZURLMultisite::crossSiteURL( $value instanceof eZContentObjectTreeNode ? $value : $url, $absolute ? 'full' : 'relative' );
+            if ( $crossSite !== false )
+            {
+                return $crossSite;
+            }
+        }
+
         $uri = new eZURI( $url );
         $out = '/' . $uri->elements( true );
         // A finished URL, as Twig's path() gives and as the templates use it --
