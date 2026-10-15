@@ -13,13 +13,13 @@
     {/if}
         <ul>
     {if $validation.placement}{foreach $validation.placement as $item}
-            <li>{$item.text}</li>
+            <li>{$item.text|wash}</li>
     {/foreach}{/if}
     {if $validation.attributes}{foreach $validation.attributes as $item}
-            <li>{$item.name|wash}: {$item.description}</li>
+            <li>{$item.name|wash}: {$item.description|wash}</li>
     {/foreach}{/if}
     {if $validation.custom_rules}{foreach $validation.custom_rules as $item}
-            <li>{$item.text}</li>
+            <li>{$item.text|wash}</li>
     {/foreach}{/if}
         </ul>
     </div>
@@ -32,7 +32,7 @@
         <p><b>{$log.name|wash}:</b></p>
         <ul>
         {foreach $log.description as $message}
-            <li>{$message}</li>
+            <li>{$message|wash}</li>
         {/foreach}
         </ul>
     {/foreach}
