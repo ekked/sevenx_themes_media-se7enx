@@ -14,31 +14,12 @@
      details      array of label => value for the "Technical details" box
 
    Everything passed in is plain text except login, which is the kernel's own
-   embedded sign-in form. Values are washed here, once. *}
+   embedded sign-in form. Values are washed here, once.
+
+   The look is in stylesheets/error-page.css; exp-search-focus.js puts the
+   cursor in the search field (data-exp-autofocus) when the page opens. *}
 {def $root_node = ezini( 'NodeSettings', 'RootNode', 'content.ini' )
      $error_actions = cond( is_set( $actions ), $actions, array( 'home', 'sitemap', 'back' ) )}
-<style>
-{literal}
-.site-error-page{padding:0 1rem}
-.site-error-page .site-error-code{font-size:7rem;font-weight:700;line-height:1;letter-spacing:-.03em;margin:5rem 0 1rem;color:#FED82F;-webkit-text-stroke:2px #000;text-stroke:2px #000}
-.site-error-page .site-error-title{margin:0 0 1.25rem}
-.site-error-page .site-error-message{margin:0 auto 2.5rem;max-width:36rem}
-.site-error-page .site-error-note{margin-top:-1.5rem}
-.site-error-page .site-error-search{display:flex;gap:.5rem;max-width:30rem;margin:0 auto 2.5rem}
-.site-error-page .site-error-search input{flex:1;min-width:0;padding:.75rem 1rem;border:2px solid #000;border-radius:0;font:inherit}
-.site-error-page .site-error-search input:focus{outline:3px solid #FED82F;outline-offset:1px}
-.site-error-page .site-error-buttons{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center;margin-bottom:3rem}
-.site-error-page .site-error-login{max-width:26rem;margin:0 auto 3rem;text-align:left}
-.site-error-page .site-error-login .full-page-header{display:none}
-.site-error-page .site-error-login .container{padding:0;max-width:none}
-.site-error-page .site-error-login .full-form-content{padding:0;margin:0}
-.site-error-page .site-error-details{max-width:36rem;margin:0 auto 5rem;text-align:left;font-size:.875rem;color:#555}
-.site-error-page .site-error-details summary{cursor:pointer;text-align:center}
-.site-error-page .site-error-details dl{display:grid;grid-template-columns:max-content 1fr;gap:.25rem 1rem;margin:1rem 0 0;word-break:break-word}
-.site-error-page .site-error-details dt{font-weight:600}
-@media (max-width:575.98px){.site-error-page .site-error-code{font-size:4.5rem;margin-top:3rem}}
-{/literal}
-</style>
 <div class="container container-narrow site-error-page">
     <div class="site-error text-center">
         {if and( is_set( $code ), $code|ne( '' ) )}
@@ -60,7 +41,7 @@
     {if and( is_set( $search ), $search )}
     <form class="site-error-search" action={'/content/search'|ezurl} method="get" role="search">
         <label class="visually-hidden" for="site-error-search-text">{'Search this site'|i18n( 'design/media/error' )}</label>
-        <input id="site-error-search-text" type="search" name="SearchText" placeholder="{'Search this site'|i18n( 'design/media/error' )}" />
+        <input id="site-error-search-text" type="search" name="SearchText" data-exp-autofocus="" placeholder="{'Search this site'|i18n( 'design/media/error' )}" />
         <button type="submit" class="btn btn-primary">{'Search'|i18n( 'design/media/error' )}</button>
     </form>
     {/if}

@@ -25,6 +25,8 @@
    account.css draws the account pages: the e-mail preferences, the notification
    settings, the user profile and the public edit form (see its header).
 
+   error-page.css draws the error pages and their search form.
+
    Inter is served from here, so it packs with everything else.
 
    It used to be a raw third-party tag, and it was the first render-blocking
@@ -54,6 +56,7 @@
                     'explayouts.css',
                     'shop.css',
                     'account.css',
+                    'error-page.css',
                     'zoom-support.css',
                     'exp-youtube-consent.css',
                     'exp-cookie-consent.css' ) )}

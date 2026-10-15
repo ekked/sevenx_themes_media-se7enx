@@ -5,7 +5,7 @@
         <div class="container">
             <div class="search-inputs">
                 <div class="input-group">
-                    <input type="text" aria-label="{'Search text'|i18n('ngsite/search')}" value="{$search_text|wash}" name="SearchText" id="Search" class="form-control" placeholder="{'Search text'|i18n('ngsite/search')}" />
+                    <input type="text" aria-label="{'Search text'|i18n('ngsite/search')}" value="{$search_text|wash}" name="SearchText" id="Search" data-exp-autofocus="" class="form-control" placeholder="{'Search text'|i18n('ngsite/search')}" />
                     <button type="submit" aria-label="{'Submit search'|i18n('ngsite/search')}" class="btn btn-sm btn-dark">{'Search'|i18n('ngsite/search')}<i class="icon-search" aria-hidden="true"></i></button>
                 </div>
 

@@ -1,0 +1,42 @@
+/* The error pages (error/parts/page.tpl and error/kernel/4.tpl).
+ *
+ * These rules used to sit in a <style> block inside the template; they live
+ * here so they pack with the rest of the theme. Hand-maintained.
+ *
+ * The search form: on a desktop the input and its button share one row. Below
+ * the theme's sm breakpoint (576px) every .btn is full width (index.css), and
+ * in a row that left the input 36px wide on a phone. There the input takes its
+ * own line at full width and the button goes below it, in DOM order, so the
+ * Tab order is the visual order: input, Search, then the page's buttons.
+ * 16px or more keeps iOS from zooming into the field when it is focused.
+ */
+.site-error-page { padding: 0 1rem; }
+.site-error-page .site-error-code { font-size: 7rem; font-weight: 700; line-height: 1; letter-spacing: -.03em; margin: 5rem 0 1rem; color: #FED82F; -webkit-text-stroke: 2px #000; text-stroke: 2px #000; }
+.site-error-page .site-error-title { margin: 0 0 1.25rem; }
+.site-error-page .site-error-message { margin: 0 auto 2.5rem; max-width: 36rem; }
+.site-error-page .site-error-note { margin-top: -1.5rem; }
+.site-error-page .site-error-search { display: flex; gap: .5rem; max-width: 30rem; margin: 0 auto 2.5rem; }
+.site-error-page .site-error-search input { flex: 1; min-width: 0; min-height: 2.75rem; padding: .75rem 1rem; border: 2px solid #000; border-radius: 0; font: inherit; font-size: max(100%, 16px); }
+.site-error-page .site-error-search input:focus { outline: 3px solid #FED82F; outline-offset: 1px; }
+.site-error-page .site-error-search input:focus-visible { outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #FED82F; }
+.site-error-page .site-error-buttons { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: center; margin-bottom: 3rem; }
+.site-error-page .site-error-login { max-width: 26rem; margin: 0 auto 3rem; text-align: left; }
+.site-error-page .site-error-login .full-page-header { display: none; }
+.site-error-page .site-error-login .container { padding: 0; max-width: none; }
+.site-error-page .site-error-login .full-form-content { padding: 0; margin: 0; }
+.site-error-page .site-error-details { max-width: 36rem; margin: 0 auto 5rem; text-align: left; font-size: .875rem; color: #555; }
+.site-error-page .site-error-details summary { cursor: pointer; text-align: center; }
+.site-error-page .site-error-details dl { display: grid; grid-template-columns: max-content 1fr; gap: .25rem 1rem; margin: 1rem 0 0; word-break: break-word; }
+.site-error-page .site-error-details dt { font-weight: 600; }
+
+/* The "page has moved" page has no code above its title. */
+.site-error-page .site-error-title-first { margin-top: 5rem; }
+.site-error-page .site-error-buttons-last { margin-bottom: 5rem; }
+
+@media (max-width: 575.98px) {
+    .site-error-page .site-error-code { font-size: 4.5rem; margin-top: 3rem; }
+    .site-error-page .site-error-search { flex-direction: column; gap: .75rem; }
+    .site-error-page .site-error-search input,
+    .site-error-page .site-error-search .btn { width: 100%; flex: 0 0 auto; }
+    .site-error-page .site-error-search .btn { min-height: 2.75rem; }
+}
