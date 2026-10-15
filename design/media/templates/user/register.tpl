@@ -108,7 +108,14 @@
     var registerForm = document.forms['Register'];
     if ( registerForm )
     {
-        registerForm.addEventListener( 'submit', disableButtons );
+        // Disabled on the next tick, never inside the submit handler: a submit
+        // button disabled while the event is still running is left out of the
+        // posted data, so PublishButton never arrived, user/register saw no
+        // Publish action and showed the empty form again.
+        registerForm.addEventListener( 'submit', function()
+        {
+            window.setTimeout( disableButtons, 0 );
+        } );
     }
 </script>
 {/literal}
