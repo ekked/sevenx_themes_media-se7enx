@@ -46,4 +46,19 @@ AdminSiteAccessList[]=admin
 ShowSitemap=enabled
 ShowTagCloud=enabled
 
+# The next steps below the message of the account result pages (user/success after a
+# registration, user/activate after the activation link; user/result_page.tpl). They use the
+# entries and settings of [HeaderUserMenu] (Sign in, My profile, Edit profile, the sitemap,
+# the tag cloud, the administration) and add Home and Contact.
+[UserResultMenu]
+# The Contact entry:
+#   auto      (the default) the first node of ContactClassList below the content root that the
+#             user may read; none found, no entry.
+#   disabled  never shown.
+#   /path     this address (a URL alias or a module path).
+ContactURL=auto
+ContactClassList[]
+ContactClassList[]=ng_contact_form
+ContactClassList[]=feedback_form
+
 */ ?>

@@ -593,3 +593,34 @@ fieldset.acc-card { border: 0; min-width: 0; }
 .acc-pw-generate { margin: 1rem 0 0; }
 .acc-pw-status { margin: .5rem 0 0; font-size: 1rem; color: var(--acc-ink); }
 .acc-pw .acc-actions { margin-top: 2rem; }
+
+/* ── Account result pages (user/success, user/activate: user/result_page.tpl) ──
+ * The message, a live region in the design's notice, then the navigation of next steps: a list of
+ * 44px-plus link tiles, one column on phones, as many 15rem columns as fit above. The first steps
+ * (Sign in, My profile, Register) are yellow; the others white with the design's line. */
+.acc-result { max-width: 46rem; }
+.acc-result .acc-result-message { margin-bottom: 2.5rem; font-size: 1.125rem; }
+.acc-result .acc-result-message p { overflow-wrap: anywhere; }
+.acc-result-nav-title { margin: 0 0 1rem; padding: 0; border: 0; background: none; font-size: 1.5rem; font-weight: 700; line-height: 1.33; color: var(--acc-ink); text-transform: none; letter-spacing: normal; }
+.acc-result-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); gap: .75rem; margin: 0; padding: 0; list-style: none; }
+.acc-result-links li { margin: 0; padding: 0; }
+.acc-result-links a, .full-form-content .acc-result-links a {
+    display: flex; align-items: center; justify-content: space-between; gap: .75rem;
+    min-height: 3.5rem; height: 100%; padding: .75rem 1.25rem;
+    border: 2px solid var(--acc-line); border-radius: 0;
+    background: hsl(0, 0%, 100%); color: var(--acc-ink);
+    font-size: 1.125rem; font-weight: 600; line-height: 1.3; text-decoration: none;
+    overflow-wrap: anywhere;
+    transition: border-color .15s ease-in-out, background-color .15s ease-in-out;
+}
+.acc-result-links a::after { content: "\2192"; content: "\2192" / ""; flex: none; font-weight: 700; transition: transform .15s ease-in-out; }
+.acc-result-links a:hover, .full-form-content .acc-result-links a:hover { border-color: var(--acc-ink); background: var(--acc-soft); color: var(--acc-ink); }
+.acc-result-links a:hover::after { transform: translateX(.25rem); }
+.acc-result-links .acc-result-primary a, .full-form-content .acc-result-links .acc-result-primary a { border-color: var(--acc-yellow); background: var(--acc-yellow); }
+.acc-result-links .acc-result-primary a:hover, .full-form-content .acc-result-links .acc-result-primary a:hover { border-color: var(--acc-ink); background: var(--acc-yellow); }
+.acc-result-links a:focus-visible { outline: 2px transparent solid; box-shadow: 0 0 0 2px hsl(0, 0%, 100%), 0 0 0 5px var(--acc-ink); }
+@media (max-width: 575.98px) {
+    .acc-result .acc-result-message { font-size: 1rem; margin-bottom: 2rem; }
+    .acc-result-nav-title { font-size: 1.25rem; }
+}
+@media (prefers-reduced-motion: reduce) { .acc-result-links a, .acc-result-links a::after { transition: none; } }
