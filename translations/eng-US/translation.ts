@@ -953,6 +953,54 @@
 <context>
     <name>design/media/pagelayout</name>
     <message>
+        <source>User menu</source>
+        <translation>User menu</translation>
+    </message>
+    <message>
+        <source>User menu (%name)</source>
+        <translation>User menu (%name)</translation>
+    </message>
+    <message>
+        <source>Sign in</source>
+        <translation>Sign in</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>Register</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Basket</translation>
+    </message>
+    <message>
+        <source>Sitemap</source>
+        <translation>Sitemap</translation>
+    </message>
+    <message>
+        <source>Tag cloud</source>
+        <translation>Tag cloud</translation>
+    </message>
+    <message>
+        <source>My profile</source>
+        <translation>My profile</translation>
+    </message>
+    <message>
+        <source>Edit profile</source>
+        <translation>Edit profile</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Change password</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administration</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Sign out</translation>
+    </message>
+    <message>
         <source>Exponential powered by 7x</source>
         <translation>Exponential powered by 7x</translation>
     </message>

@@ -8,6 +8,7 @@
 
         {include uri='design:pagelayout/header/main_menu.tpl'}
         {include uri='design:pagelayout/header/search_box.tpl'}
+        {include uri='design:pagelayout/header/user_menu.tpl'}
         {include uri='design:pagelayout/header/language_selector.tpl'}
     </div>
 </header>

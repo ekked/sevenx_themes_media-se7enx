@@ -27,6 +27,9 @@
 
    error-page.css draws the error pages and their search form.
 
+   exp-header-menu.css draws the header's user menu and the header search on phones;
+   it comes last because it builds on index.css.
+
    Inter is served from here, so it packs with everything else.
 
    It used to be a raw third-party tag, and it was the first render-blocking
@@ -59,4 +62,5 @@
                     'error-page.css',
                     'zoom-support.css',
                     'exp-youtube-consent.css',
-                    'exp-cookie-consent.css' ) )}
+                    'exp-cookie-consent.css',
+                    'exp-header-menu.css' ) )}

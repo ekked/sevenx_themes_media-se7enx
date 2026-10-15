@@ -116,6 +116,54 @@
 <context>
     <name>design/media/pagelayout</name>
     <message>
+        <source>User menu</source>
+        <translation>Benutzermenü</translation>
+    </message>
+    <message>
+        <source>User menu (%name)</source>
+        <translation>Benutzermenü (%name)</translation>
+    </message>
+    <message>
+        <source>Sign in</source>
+        <translation>Anmelden</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>Registrieren</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Warenkorb</translation>
+    </message>
+    <message>
+        <source>Sitemap</source>
+        <translation>Sitemap</translation>
+    </message>
+    <message>
+        <source>Tag cloud</source>
+        <translation>Schlagwortwolke</translation>
+    </message>
+    <message>
+        <source>My profile</source>
+        <translation>Mein Profil</translation>
+    </message>
+    <message>
+        <source>Edit profile</source>
+        <translation>Profil bearbeiten</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Passwort ändern</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administration</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Abmelden</translation>
+    </message>
+    <message>
         <source>Exponential powered by 7x</source>
         <translation>Exponential powered by 7x</translation>
     </message>

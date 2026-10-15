@@ -59,6 +59,7 @@
                                'ajax-load-more.js',
                                'exp-youtube-consent.js',
                                'exp-cookie-consent.js',
-                               'exp-search-focus.js' ), 2, true() ) as $sc_deferred}
+                               'exp-search-focus.js',
+                               'exp-header-menu.js' ), 2, true() ) as $sc_deferred}
 <script defer type="text/javascript" src="{$sc_deferred}"></script>
 {/foreach}

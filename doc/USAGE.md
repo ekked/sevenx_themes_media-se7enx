@@ -58,7 +58,8 @@ from. Complete `$Operators` list:
 `ng_view_content`, `ngsite`, `ngsite_group_fields`, `ngsite_language_name`,
 `ngsite_topic_path`, `pagerfanta`, `parameter`, `parent`, `path`, `player`,
 `player_slide`, `poster`, `poster_slide`, `redirect_to_site_root`,
-`render`, `render_esi`, `saveXML`, `title`, `trans`.
+`render`, `render_esi`, `saveXML`, `title`, `trans`,
+`exp_can_login_to_siteaccess`.
 
 Deprecated aliases, still registered so that other designs keep working:
 `ibexa` (now `exponential`), `ibexa_path` (`exp_path`), `ibexa_url`
@@ -167,6 +168,33 @@ Practical recipes:
 
 - **Point the theme at a different content root** — override
   `[NodeSettings] RootNode` in `content.ini.append.php`.
+
+- **The header's user menu** — the user button beside the header search
+  (`pagelayout/header/user_menu.tpl`, `javascript/exp-header-menu.js`,
+  `stylesheets/exp-header-menu.css`) shows on phones and desktops. Signed out
+  it lists Sign in, Register, the basket, the sitemap and the tag cloud;
+  signed in My profile, Edit profile, Change password, the basket, the
+  administration, the sitemap, the tag cloud and Sign out, each only where
+  the user's policies open that page. `menu.ini [HeaderUserMenu]`:
+
+  ```ini
+  [HeaderUserMenu]
+  UserMenu=enabled
+  ShowBasket=auto
+  ShowRegister=auto
+  AdminSiteAccessList[]
+  AdminSiteAccessList[]=admin
+  ShowSitemap=enabled
+  ShowTagCloud=enabled
+  ```
+
+  `UserMenu=disabled` removes the button. `ShowRegister=auto` shows Register
+  while the anonymous user may use `user/register`. The first siteaccess of
+  `AdminSiteAccessList[]` the user may log in to gets the administration link.
+  The basket entry is off unless a shop is installed: `auto` asks for the
+  `shop/buy` policy that `shop/basket` needs, which an installation without a
+  shop grants to nobody. `exp_can_login_to_siteaccess( <name> )` is the check
+  behind the administration link (user/login with its SiteAccess limitation).
 
 Always clear caches after INI changes:
 `php bin/php/ezcache.php --clear-all --allow-root-user`.

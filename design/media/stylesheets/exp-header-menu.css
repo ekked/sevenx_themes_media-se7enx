@@ -1,0 +1,194 @@
+/* The header's user menu and the header search on phones (pagelayout/header/user_menu.tpl, search_box.tpl,
+ * javascript/exp-header-menu.js).
+ *
+ * The user button sits beside the search button and looks like it: a 4rem wide, header-high button with the
+ * design's yellow underline on hover and focus, yellow while its menu is open. The menu is a white panel below the
+ * button with 44px rows, each yellow under the pointer or the keyboard focus, so it stands out on the design's
+ * yellow page headers too. On phones and tablets (below the design's 992px breakpoint)
+ * it hangs from the right edge of the header, and the open search form takes the header's full width below the bar,
+ * its input and button side by side, so neither leaves the screen.
+ *
+ * Colors and sizes come from the design: the Bootstrap variables of index.css (--bs-primary is the design's yellow)
+ * and --header-height. The design has no dark mode, so neither has this file. Linked from pagelayout/head/style.tpl
+ * after index.css, which it builds on. */
+
+.site-header {
+    --hm-yellow: var(--bs-primary, #FED82F);
+    --hm-ink: var(--bs-black, #000);
+    --hm-bg: var(--bs-body-bg, #fff);
+    --hm-line: var(--bs-border-color-translucent, rgba(0, 0, 0, 0.175));
+    --hm-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    --hm-target: 2.75rem;
+    --hm-button: 4rem;
+}
+
+/* ── The search button: a button now, drawn as the link was ─────────────── */
+.header-search .searchbox-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--header-height);
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+.header-search .searchbox-toggle:focus-visible,
+.header-user-toggle:focus-visible {
+    outline: 2px transparent solid;
+    box-shadow: inset 0 0 0 2px var(--hm-ink);
+}
+
+/* ── The user button ───────────────────────────────────────────────────── */
+.header-user {
+    position: relative;
+    height: var(--header-height);
+}
+.header-user-toggle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--hm-button);
+    height: var(--header-height);
+    padding: 0;
+    border: 0;
+    background: var(--hm-bg);
+    color: var(--hm-ink);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.header-user-toggle::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5rem;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    background: var(--hm-yellow);
+    transition: transform 0.2s;
+}
+.header-user-toggle:hover::after,
+.header-user-toggle:focus::after {
+    transform: scaleY(1);
+}
+.header-user-toggle[aria-expanded="true"] {
+    background: var(--hm-yellow);
+}
+.header-user-toggle .icon-user {
+    display: inline-block;
+    width: 1.125rem;
+    height: 1.125rem;
+    background: url(../images/person-circle.svg) no-repeat center / contain;
+}
+
+/* ── The menu ──────────────────────────────────────────────────────────── */
+.header-user-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1001;
+    min-width: 14rem;
+    max-width: calc(100vw - 2rem);
+    padding: 0.5rem 0;
+    border: 1px solid var(--hm-line);
+    background: var(--hm-bg);
+    box-shadow: var(--hm-shadow);
+}
+.header-user-menu[hidden] {
+    display: none;
+}
+.header-user-name {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    overflow-wrap: anywhere;
+    color: var(--hm-ink);
+}
+.header-user-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-user-name + .header-user-links,
+.header-user-links + .header-user-links {
+    border-top: 1px solid var(--hm-line);
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
+}
+.header-user-links a {
+    display: flex;
+    align-items: center;
+    min-height: var(--hm-target);
+    padding: 0 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: var(--hm-ink);
+    text-decoration: none;
+}
+.header-user-links a:hover,
+.header-user-links a:focus-visible {
+    background: var(--hm-yellow);
+}
+.header-user-links a:focus-visible {
+    outline: 2px transparent solid;
+    box-shadow: inset 0 0 0 2px var(--hm-ink);
+}
+
+/* ── Phones and tablets ────────────────────────────────────────────────── */
+@media (max-width: 991.98px) {
+    .site-header .header-content .header-user {
+        order: 3;
+    }
+    /* the menu and the search form hang from the header itself, not from their buttons */
+    .site-header .header-content .header-user,
+    .site-header .header-content .header-search {
+        position: static;
+    }
+    .header-user-menu {
+        right: 0;
+        width: min(20rem, 100%);
+        max-width: 100%;
+    }
+    .site-header .header-search .navbar-search {
+        top: 100%;
+        right: 0;
+        bottom: auto;
+        left: 0;
+        width: auto;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.75rem 1rem;
+        box-shadow: var(--hm-shadow);
+        transition: opacity 0.23s;
+    }
+    .searchbox-active .site-header .header-search .navbar-search {
+        width: auto;
+        transition: opacity 0.23s;
+    }
+    .site-header .header-search .search-query {
+        min-width: 0;
+        height: var(--hm-target);
+        font-size: 1rem;
+    }
+    .site-header .header-search .search-submit {
+        position: static;
+        flex: none;
+        width: auto;
+        min-height: var(--hm-target);
+        padding: 0 1rem;
+        border: 0;
+        background: var(--hm-ink);
+        color: var(--hm-yellow);
+        font-weight: 700;
+    }
+    .site-header .header-search .search-submit:focus-visible {
+        box-shadow: 0 0 0 2px var(--hm-yellow), 0 0 0 4px var(--hm-ink);
+    }
+    .searchbox-active .header-search.filled .searchbox-toggle {
+        pointer-events: auto;
+    }
+}

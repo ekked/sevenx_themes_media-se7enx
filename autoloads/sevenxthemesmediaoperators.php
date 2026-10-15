@@ -83,7 +83,7 @@ class sevenxThemesMediaOperators
      * code as exponential, exp_path, exp_url, explayouts_render_result and
      * explayouts_render_zone. The media theme's own templates use the new names.
      */
-    public $Operators = array( 'absolute_url', 'app', 'asset', 'content_link', 'content_tags', 'controller', 'tpl_block_template', 'item_view_template', 'tag_url', 'layout_title', 'embed_image', 'component_content', 'enhanced_link', 'fieldRelation', 'fieldRelations', 'fieldValue', 'firstNonEmptyField', 'filterChildren', 'filterFieldRelationLocations', 'filterFieldRelations', 'getParameter', 'get_netgen_open_graph', 'hasField', 'hasParameter', 'haveToPaginate', 'exponential', 'exp_path', 'exp_url', 'explayouts_render_result', 'explayouts_render_zone', 'image', 'image_link', 'intro', 'item_content_link', 'item_image_link', 'item_params', 'ng_image_alias', 'ng_query', 'ng_render_field', 'ng_view_content', 'ngsite', 'ngsite_group_fields', 'ngsite_language_name', 'ngsite_topic_path', 'pagerfanta', 'parameter', 'parent', 'path', 'player', 'player_slide', 'poster', 'poster_slide', 'recipe_schema', 'json_ld', 'redirect_to_site_root', 'render', 'render_esi', 'saveXML', 'site_url', 'siteaccess_href', 'title', 'trans', 'video_thumbnail', 'youtube_id', 'ibexa', 'ibexa_path', 'ibexa_url', 'nglayouts_render_result', 'nglayouts_render_zone' );
+    public $Operators = array( 'absolute_url', 'app', 'asset', 'content_link', 'content_tags', 'controller', 'tpl_block_template', 'item_view_template', 'tag_url', 'layout_title', 'embed_image', 'component_content', 'enhanced_link', 'fieldRelation', 'fieldRelations', 'fieldValue', 'firstNonEmptyField', 'filterChildren', 'filterFieldRelationLocations', 'filterFieldRelations', 'getParameter', 'get_netgen_open_graph', 'hasField', 'hasParameter', 'haveToPaginate', 'exponential', 'exp_path', 'exp_url', 'explayouts_render_result', 'explayouts_render_zone', 'image', 'image_link', 'intro', 'item_content_link', 'item_image_link', 'item_params', 'ng_image_alias', 'ng_query', 'ng_render_field', 'ng_view_content', 'ngsite', 'ngsite_group_fields', 'ngsite_language_name', 'ngsite_topic_path', 'pagerfanta', 'parameter', 'parent', 'path', 'player', 'player_slide', 'poster', 'poster_slide', 'recipe_schema', 'json_ld', 'redirect_to_site_root', 'render', 'render_esi', 'saveXML', 'site_url', 'siteaccess_href', 'exp_can_login_to_siteaccess', 'title', 'trans', 'video_thumbnail', 'youtube_id', 'ibexa', 'ibexa_path', 'ibexa_url', 'nglayouts_render_result', 'nglayouts_render_zone' );
     public $MaxParam = 10;
 
     function operatorList()
@@ -139,6 +139,10 @@ class sevenxThemesMediaOperators
 
             case 'siteaccess_href':
                 $operatorValue = $this->siteaccessHref( $arg0 );
+                break;
+
+            case 'exp_can_login_to_siteaccess':
+                $operatorValue = $this->canLoginToSiteAccess( $arg0 );
                 break;
 
             case 'path':
@@ -1668,6 +1672,28 @@ class sevenxThemesMediaOperators
      * @param eZContentObjectTreeNode $node
      * @return string
      */
+    /**
+     * Whether the current user may log in to a siteaccess: user/login with its SiteAccess limitation, the check the
+     * login itself makes (eZUser::canLoginToSiteAccess()). The header's user menu (pagelayout/header/user_menu.tpl)
+     * shows its administration link only then. False for the anonymous user, an empty name or a siteaccess that is
+     * not in AvailableSiteAccessList.
+     *
+     * @param mixed $siteaccess
+     * @return bool
+     */
+    protected function canLoginToSiteAccess( $siteaccess )
+    {
+        if ( !is_string( $siteaccess ) || $siteaccess === '' )
+            return false;
+        $available = (array)eZINI::instance( 'site.ini' )->variable( 'SiteAccessSettings', 'AvailableSiteAccessList' );
+        if ( !in_array( $siteaccess, $available, true ) )
+            return false;
+        $user = eZUser::currentUser();
+        if ( !$user instanceof eZUser || !$user->isRegistered() )
+            return false;
+        return (bool)$user->canLoginToSiteAccess( array( 'name' => $siteaccess ) );
+    }
+
     /**
      * The address of a link that names another siteaccess ("/admin/content/dashboard" written in a page of the
      * site), or '' when $href is not such a link (then the template uses ezurl as usual).
