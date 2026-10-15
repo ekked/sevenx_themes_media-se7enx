@@ -140,12 +140,12 @@
 </table>
 {/if}
 {if $mx_links|count}
-<p style="margin:0 0 16px 0; font-size:14px; line-height:1.5; color:{$mx_muted};">
+<p style="margin:0 0 16px 0; font-size:14px; line-height:1.5; color:{$mx_muted}; overflow-wrap:anywhere; word-break:break-word;">
 {foreach $mx_links as $mx_link sequence array( '', ' &middot; ' ) as $mx_sep}{$mx_sep}<a href="{$mx_link.url|wash}" style="color:{$mx_text}; text-decoration:underline;">{$mx_link.label|wash}</a>{/foreach}
 </p>
 {/if}
 {if $mx_links_note|ne( '' )}
-<p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:{$mx_muted};">{$mx_links_note|wash}</p>
+<p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:{$mx_muted}; overflow-wrap:anywhere; word-break:break-word;">{$mx_links_note|wash}</p>
 {/if}
 </td>
 </tr>
