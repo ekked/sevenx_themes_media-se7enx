@@ -30,6 +30,13 @@
    exp-header-menu.css draws the header's user menu and the header search on phones;
    it comes last because it builds on index.css.
 
+   exp-advanced-search.css draws content/advancedsearch; exp-page-parts.css holds the
+   rules that used to sit in <style> blocks and style="" attributes of the page
+   templates (sitemap, tag cloud, tour, product stars, lists, maps, basket).
+
+   exp-mobile-layout.css comes last: the phone, tablet and 200% zoom fixes of the
+   crawl in #514 (tap targets, input sizes, squeezed images, the generic full view).
+
    Inter is served from here, so it packs with everything else.
 
    It used to be a raw third-party tag, and it was the first render-blocking
@@ -63,4 +70,7 @@
                     'zoom-support.css',
                     'exp-youtube-consent.css',
                     'exp-cookie-consent.css',
-                    'exp-header-menu.css' ) )}
+                    'exp-header-menu.css',
+                    'exp-advanced-search.css',
+                    'exp-page-parts.css',
+                    'exp-mobile-layout.css' ) )}

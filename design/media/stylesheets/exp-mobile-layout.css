@@ -1,0 +1,113 @@
+/* Phones, tablets and zoomed desktops: the layout fixes of the public site that the theme's build output
+ * (index.css, not edited) leaves open. Found by crawling every page group at 320, 375, 414, 768, 960 (200% zoom)
+ * and 1440px in Chromium and WebKit (#514). Hand-maintained; loaded last of the theme's stylesheets
+ * (pagelayout/head/style.tpl), so it builds on index.css and the files after it.
+ *
+ * What it covers:
+ * - tap targets: every control at least 24px (WCAG 2.5.8), the primary ones 44px on touch screens;
+ * - inputs: at least 16px text on phones (iOS zooms into anything smaller) and wide enough to type in;
+ * - images: an <img> with width/height attributes keeps its aspect ratio when max-width shrinks it;
+ * - the generic full view (content classes without a theme template of their own) sits in the page's column.
+ *
+ * Sizes and colors come from the design: Bootstrap's --bs-* variables of index.css (--bs-primary is the design's
+ * yellow) and its breakpoints (575.98, 767.98, 991.98px). The design has no dark mode, so neither has this file. */
+
+:root {
+    --exp-target: 2.75rem;     /* 44px: a primary control on a touch screen */
+    --exp-target-min: 1.5rem;  /* 24px: any control (WCAG 2.5.8) */
+}
+
+/* ── Images ──────────────────────────────────────────────────────────────────
+ * Rich text and the generic attribute views print <img width height>; with the theme's max-width: 100% the width
+ * shrank on a phone and the height attribute stayed, so the picture was squeezed (375x309 of 550x309). :where()
+ * keeps this at zero specificity, so any theme rule that sizes an image on purpose (object-fit covers) still wins;
+ * it only beats the presentational attribute. */
+:where(.main-content-block, .site-footer) :where(img[width][height]) {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ── The generic full view ───────────────────────────────────────────────────
+ * A content class without a full view of the theme (the component, image, audio and file test objects) falls back
+ * to ezwebin's node/view/full.tpl inside the layout's full_view block: its framed .border-box had no column, so
+ * the text ran into the screen edges on a phone. It now sits in the theme's narrow column. */
+.main-content-block .ngl-full_view > .border-box {
+    max-width: 845px;
+    margin: 0 auto;
+    padding: 2rem calc(var(--bs-gutter-x, 1.5rem) * 0.5) 3rem;
+}
+.main-content-block .ngl-full_view > .border-box .attribute-header h1 {
+    margin-bottom: 1.5rem;
+    overflow-wrap: anywhere;
+}
+.main-content-block .ngl-full_view > .border-box .content-view-full > div > div {
+    margin-bottom: 1rem;
+}
+.main-content-block .ngl-full_view > .border-box .content-navigator a {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--exp-target-min);
+}
+
+/* ── The search page (content/search.tpl) ────────────────────────────────────
+ * Input and button share one row; on a 320px phone that left the input 151px wide. Below 400px the input takes
+ * its own line and the button goes under it at full width, in DOM order. */
+@media (max-width: 399.98px) {
+    .full-search-header .search-inputs .input-group {
+        flex-wrap: wrap;
+    }
+    .full-search-header .search-inputs .input-group > .form-control {
+        flex: 1 0 100%;
+        width: 100%;
+    }
+    .full-search-header .search-inputs .input-group > .btn {
+        flex: 1 0 100%;
+        justify-content: center;
+        min-height: var(--exp-target);
+        border-radius: var(--bs-border-radius, 0.375rem);
+    }
+}
+
+/* The search results' grey type, date and teaser sat on the card's #F8F9FC at 4.37:1; one step darker passes
+ * 4.5:1 (the design's muted grey of the account pages). */
+.vl7 .info,
+.vl7 .short {
+    color: hsl(0, 0%, 36%);
+}
+
+/* ── Small links that are the only control in their row ─────────────────────── */
+.site-footer .footer-info .js-open-ng-cc {
+    line-height: var(--exp-target-min);
+}
+.info > a.author {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--exp-target-min);
+}
+
+/* ── Slider arrows ───────────────────────────────────────────────────────────
+ * index.css shrinks the swiper arrows to 2.25rem (36px) below 576px, the gallery's and the quote slider's only
+ * controls on a phone. They keep the 44px touch size; the arrow image stays at the phone size. */
+@media (max-width: 575.98px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: var(--exp-target);
+        height: var(--exp-target);
+    }
+}
+
+/* ── Clamped card titles ─────────────────────────────────────────────────────
+ * The overlay card clamps its title to three lines on the h3, so a fourth line of the title link is cut off but its
+ * box still reached into the author link below it: the author link measured as covered (axe target-size). The link
+ * clamps itself, so its box ends where the visible title does. */
+.vl2 .title > a {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .vl2 .title > a {
+        -webkit-line-clamp: 1;
+    }
+}

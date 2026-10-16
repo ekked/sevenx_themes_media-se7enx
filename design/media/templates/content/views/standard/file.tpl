@@ -8,7 +8,7 @@
     <header class="article-header">
         <h3 class="title">
             <a href="{exp_path($location)}">
-                {$content.fields.name.value.text}
+                {$content.name|wash}
             </a>
         </h3>
     </header>

@@ -7,6 +7,9 @@
                 {if and(is_set($fz_title), $fz_title.has_content)}
                 <div class="list-item">
                     <div class="view-type view-type-zigzag vl9">
+                        {def $fz_link = false()}
+                        {def $fz_link_attr = $fz_map[concat('item_', $fz_idx, '_link')]}
+                        {if is_set($fz_link_attr)}{set $fz_link = enhanced_link($fz_link_attr)}{/if}
                         {def $fz_img_attr = $fz_map[concat('item_', $fz_idx, '_image')]}
                         {if and(is_set($fz_img_attr), $fz_img_attr.has_content)}
                         {def $fz_img = $fz_img_attr.content}
@@ -16,12 +19,7 @@
                         {elseif is_set($fz_img['original'])}{set $fz_url = $fz_img['original'].url}{/if}
                         {if $fz_url|ne('')}
                         <figure class="image">
-                            <a href="#"
-                                title="{$fz_img.alternative_text|wash}"
-            ><img
-            src={$fz_url|ezroot}
-            loading="lazy"                                                alt="{$fz_img.alternative_text|wash}"
-                    class="exp_image-field"  /></a>
+                            {if $fz_link}<a href="{$fz_link.href|wash}" tabindex="-1" aria-hidden="true">{/if}<img src={$fz_url|ezroot} loading="lazy" alt="{$fz_img.alternative_text|wash}" class="exp_image-field" />{if $fz_link}</a>{/if}
                         </figure>
                         {/if}
                         {undef $fz_img $fz_url}
@@ -34,9 +32,6 @@
                                 <span class="eyebrow-title">{$fz_hl.content|wash}</span>
                                 {/if}
                                 {undef $fz_hl}
-                                {def $fz_link = false()}
-                                {def $fz_link_attr = $fz_map[concat('item_', $fz_idx, '_link')]}
-                                {if is_set($fz_link_attr)}{set $fz_link = enhanced_link($fz_link_attr)}{/if}
                                 {if $fz_link}
                                 <h3 class="title"><a href="{$fz_link.href|wash}"
                 >

@@ -30,11 +30,12 @@
 .checkout-steps li {
     display: inline-block;
     margin: 0 .75rem;
-    opacity: .6;
+    /* A dark grey, not opacity: black at 60% on the yellow header measured 3.7:1 (#514). */
+    color: hsl(0, 0%, 25%);
 }
 
 .checkout-steps li.active {
-    opacity: 1;
+    color: hsl(0, 0%, 0%);
     font-weight: 700;
 }
 

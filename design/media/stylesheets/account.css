@@ -624,3 +624,15 @@ fieldset.acc-card { border: 0; min-width: 0; }
     .acc-result-nav-title { font-size: 1.25rem; }
 }
 @media (prefers-reduced-motion: reduce) { .acc-result-links a, .acc-result-links a::after { transition: none; } }
+
+/* Phones (#514): the password field and its Show button shared a row, which left the field 160px wide at 320px;
+ * below 400px the button goes under the field. The small account buttons ("Generate a password" and the like) get
+ * the 44px touch height on touch-sized screens. */
+@media (max-width: 399.98px) {
+    .acc-pw-row { flex-wrap: wrap; }
+    .acc-pw-row .form-control { flex: 1 0 100%; }
+    .acc-pw .btn.acc-pw-toggle { min-height: 2.75rem; }
+}
+@media (max-width: 991.98px) {
+    .acc .btn.btn-sm-acc { min-height: 2.75rem; }
+}

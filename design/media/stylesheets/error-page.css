@@ -9,9 +9,12 @@
  * own line at full width and the button goes below it, in DOM order, so the
  * Tab order is the visual order: input, Search, then the page's buttons.
  * 16px or more keeps iOS from zooming into the field when it is focused.
+ *
+ * The big code is black with the yellow as its shadow: yellow letters with a black outline read well but measure
+ * 1.4:1 against the white page, as axe sees only the fill (#514).
  */
 .site-error-page { padding: 0 1rem; }
-.site-error-page .site-error-code { font-size: 7rem; font-weight: 700; line-height: 1; letter-spacing: -.03em; margin: 5rem 0 1rem; color: #FED82F; -webkit-text-stroke: 2px #000; text-stroke: 2px #000; }
+.site-error-page .site-error-code { font-size: 7rem; font-weight: 700; line-height: 1; letter-spacing: -.03em; margin: 5rem 0 1rem; color: var(--bs-black, #000); text-shadow: .06em .06em 0 var(--bs-primary, #FED82F); }
 .site-error-page .site-error-title { margin: 0 0 1.25rem; }
 .site-error-page .site-error-message { margin: 0 auto 2.5rem; max-width: 36rem; }
 .site-error-page .site-error-note { margin-top: -1.5rem; }
