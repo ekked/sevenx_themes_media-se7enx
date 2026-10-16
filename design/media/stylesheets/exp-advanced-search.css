@@ -1,0 +1,76 @@
+/* Advanced search (content/advancedsearch.tpl, #514). Builds on the full search
+   page's header (.full-search-header in index.css): fields stack on phones and
+   sit two to a row from 768px up. Inputs keep a 16px font so phones do not zoom,
+   and every control is at least 44px tall. */
+
+.exp-advanced-search .exp-advanced-search-title {
+  margin: 0 0 1.5rem;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.exp-advanced-search .exp-advanced-search-fields {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .exp-advanced-search .exp-advanced-search-fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem 1.5rem;
+  }
+  .exp-advanced-search .exp-advanced-search-field-wide {
+    grid-column: 1 / -1;
+  }
+}
+
+.exp-advanced-search .exp-advanced-search-field {
+  min-width: 0;
+}
+
+.exp-advanced-search .form-label {
+  display: block;
+  font-weight: 700;
+}
+
+.exp-advanced-search .form-control,
+.exp-advanced-search .form-select {
+  width: 100%;
+  max-width: 100%;
+  min-height: 2.75rem;
+  font-size: 1rem;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.exp-advanced-search .exp-advanced-search-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.exp-advanced-search .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+}
+
+.exp-advanced-search .exp-advanced-search-actions .btn i {
+  margin-left: 0.75rem;
+  width: 1rem;
+  height: 1rem;
+  filter: brightness(0) saturate(100%) invert(92%) sepia(93%) saturate(32%) hue-rotate(251deg) brightness(107%) contrast(100%);
+}
+
+/* Long words in the pager and results never widen the page. */
+.exp-advanced-search .full-search-results a {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 575.98px) {
+  .exp-advanced-search .exp-advanced-search-actions .btn {
+    width: 100%;
+  }
+}
