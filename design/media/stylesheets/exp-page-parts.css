@@ -1,0 +1,272 @@
+/* Page parts of the media design: the rules that used to sit inline in the
+   public page templates (<style> blocks and style="" attributes), one section
+   per template. Colours come from the theme's Bootstrap variables (index.css),
+   with the old literal value as the fallback, and the breakpoints are the
+   theme's (575.98 / 767.98 / 991.98 / 1199.98px).
+
+   Mail templates keep their inline CSS on purpose: mail clients need it. */
+
+
+/* ── Site map: node/view/sitemap.tpl ─────────────────────────────────────── */
+.site-map { padding: 0 1rem 5rem; }
+.site-map > p.text-center { margin-top: 2rem; }
+.site-map-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 1.5rem; margin: 3rem 0 0; }
+.site-map-section { border-top: 4px solid var(--bs-primary, #FED82F); padding: 1.25rem 0 0; }
+.site-map-section h2 { font-size: 1.5rem; font-weight: 700; margin: 0 0 .75rem; }
+.site-map-section h2 a { text-decoration: none; color: inherit; }
+.site-map-section h2 a:hover { text-decoration: underline; text-decoration-color: var(--bs-primary, #FED82F); text-decoration-thickness: 3px; }
+.site-map-section ul { list-style: none; padding: 0; margin: 0; }
+.site-map-section li { padding: .3rem 0; border-bottom: 1px solid #eee; }
+.site-map-section li a { text-decoration: none; color: inherit; }
+.site-map-section li a:hover { text-decoration: underline; }
+.site-map-more { display: inline-block; margin-top: .6rem; font-weight: 600; font-size: .9rem; }
+.site-map-empty { text-align: center; margin: 4rem auto; max-width: 34rem; }
+.site-map-empty .site-error-buttons { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: center; margin-top: 2rem; }
+.site-map-pager { display: flex; justify-content: space-between; margin-top: 3rem; }
+
+/* Phones: every page link is a whole row at least 44px tall, and "All n
+   pages" is as tall, so a thumb hits the one it aims at. */
+@media (max-width: 575.98px) {
+  .site-map-section li { padding: 0; }
+  .site-map-section li a { display: flex; align-items: center; min-height: 2.75rem; padding: .3rem 0; }
+  .site-map-more { display: inline-flex; align-items: center; min-height: 2.75rem; margin-top: .25rem; }
+}
+
+
+/* ── Tag cloud: node/view/tagcloud.tpl ───────────────────────────────────── */
+/* The font size of each tag (and a 5px right padding) is set inline by
+   eztags' own cloud template: it is per-tag data, the share of the tag. */
+.site-tag-cloud { padding: 0 1rem 5rem; }
+.site-tag-cloud > p.text-center { margin-top: 2rem; }
+.site-tag-cloud-tags { display: flex; flex-wrap: wrap; gap: .6rem .9rem; justify-content: center; align-items: baseline; margin: 3rem auto 0; max-width: 60rem; line-height: 1.2; }
+.site-tag-cloud-tags a { display: inline-block; padding: .2rem .7rem; border: 2px solid var(--bs-black, #000); text-decoration: none; color: var(--bs-black, #000); font-weight: 600; transition: background .15s; }
+.site-tag-cloud-tags a:hover,
+.site-tag-cloud-tags a:focus { background: var(--bs-primary, #FED82F); }
+.site-tag-cloud-empty { text-align: center; margin: 4rem auto; max-width: 34rem; }
+.site-tag-cloud-empty .site-error-buttons { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: center; margin-top: 2rem; }
+
+/* Phones: each tag is at least 44px tall. */
+@media (max-width: 575.98px) {
+  .site-tag-cloud-tags { align-items: center; }
+  .site-tag-cloud-tags a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+}
+
+
+/* ── Video player: content/macros/video.tpl (player, player_slide) ───────── */
+/* video-js.css is linked in the body, after this file, so these selectors
+   repeat .video-js to stay ahead of its equally specific rules. */
+.video-js.video-js .vjs-big-play-button {
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: none;
+  background-color: var(--bs-primary, #FED82F);
+  font-size: 5rem;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+  filter: brightness(75%);
+}
+.video-js.video-js:hover .vjs-big-play-button {
+  background-color: var(--bs-primary, #FED82F);
+  filter: brightness(100%);
+}
+.video-js.video-js .vjs-poster { background-size: cover; }
+
+
+/* ── Product stars: node/view/full/full_product.tpl, line/line_review.tpl ── */
+/* The rating (0 to 5, one decimal at most) comes in data-rating; shop.css
+   draws the stars from --rating. One rule per tenth, so no style="". */
+.product-stars[data-rating="0.1"] { --rating: .1; }
+.product-stars[data-rating="0.2"] { --rating: .2; }
+.product-stars[data-rating="0.3"] { --rating: .3; }
+.product-stars[data-rating="0.4"] { --rating: .4; }
+.product-stars[data-rating="0.5"] { --rating: .5; }
+.product-stars[data-rating="0.6"] { --rating: .6; }
+.product-stars[data-rating="0.7"] { --rating: .7; }
+.product-stars[data-rating="0.8"] { --rating: .8; }
+.product-stars[data-rating="0.9"] { --rating: .9; }
+.product-stars[data-rating="1"] { --rating: 1; }
+.product-stars[data-rating="1.1"] { --rating: 1.1; }
+.product-stars[data-rating="1.2"] { --rating: 1.2; }
+.product-stars[data-rating="1.3"] { --rating: 1.3; }
+.product-stars[data-rating="1.4"] { --rating: 1.4; }
+.product-stars[data-rating="1.5"] { --rating: 1.5; }
+.product-stars[data-rating="1.6"] { --rating: 1.6; }
+.product-stars[data-rating="1.7"] { --rating: 1.7; }
+.product-stars[data-rating="1.8"] { --rating: 1.8; }
+.product-stars[data-rating="1.9"] { --rating: 1.9; }
+.product-stars[data-rating="2"] { --rating: 2; }
+.product-stars[data-rating="2.1"] { --rating: 2.1; }
+.product-stars[data-rating="2.2"] { --rating: 2.2; }
+.product-stars[data-rating="2.3"] { --rating: 2.3; }
+.product-stars[data-rating="2.4"] { --rating: 2.4; }
+.product-stars[data-rating="2.5"] { --rating: 2.5; }
+.product-stars[data-rating="2.6"] { --rating: 2.6; }
+.product-stars[data-rating="2.7"] { --rating: 2.7; }
+.product-stars[data-rating="2.8"] { --rating: 2.8; }
+.product-stars[data-rating="2.9"] { --rating: 2.9; }
+.product-stars[data-rating="3"] { --rating: 3; }
+.product-stars[data-rating="3.1"] { --rating: 3.1; }
+.product-stars[data-rating="3.2"] { --rating: 3.2; }
+.product-stars[data-rating="3.3"] { --rating: 3.3; }
+.product-stars[data-rating="3.4"] { --rating: 3.4; }
+.product-stars[data-rating="3.5"] { --rating: 3.5; }
+.product-stars[data-rating="3.6"] { --rating: 3.6; }
+.product-stars[data-rating="3.7"] { --rating: 3.7; }
+.product-stars[data-rating="3.8"] { --rating: 3.8; }
+.product-stars[data-rating="3.9"] { --rating: 3.9; }
+.product-stars[data-rating="4"] { --rating: 4; }
+.product-stars[data-rating="4.1"] { --rating: 4.1; }
+.product-stars[data-rating="4.2"] { --rating: 4.2; }
+.product-stars[data-rating="4.3"] { --rating: 4.3; }
+.product-stars[data-rating="4.4"] { --rating: 4.4; }
+.product-stars[data-rating="4.5"] { --rating: 4.5; }
+.product-stars[data-rating="4.6"] { --rating: 4.6; }
+.product-stars[data-rating="4.7"] { --rating: 4.7; }
+.product-stars[data-rating="4.8"] { --rating: 4.8; }
+.product-stars[data-rating="4.9"] { --rating: 4.9; }
+.product-stars[data-rating="5"] { --rating: 5; }
+
+
+/* ── Load more: explayouts/block/list/list.tpl and list/grid.tpl ─────────── */
+/* ajax-load-more.js hides the bar with style.display = 'none' when the last
+   page is in, which still wins over this rule. */
+.ajax-collection > .ajax-navigation { width: 100%; text-align: center; display: flex; justify-content: center; align-items: center; }
+
+
+/* ── Gallery grid: explayouts/block/gallery/grid_gallery.tpl ─────────────── */
+.explayouts-flex-row > .explayouts-as-flex { width: 33.333333333333%; }
+
+
+/* ── Map: parts/google_maps.tpl ──────────────────────────────────────────── */
+/* 560px unless the include passes map_height; that one arrives in
+   data-map-height and the template's own script applies it (per-map data). */
+.google-maps { width: 100%; height: 560px; }
+
+
+/* ── Shop: shop/basket.tpl and shop/confirmorder.tpl ─────────────────────── */
+/* Options of a product line: three equal columns under the "Selected
+   options" row (the cell with colspan). */
+.shop-options-table td:not([colspan]) { width: 33%; }
+
+
+/* ── Information pages: ezinfo/about.tpl and ezinfo/copyright.tpl ────────── */
+.ezinfo-page .full-page-title { margin-bottom: 0; }
+/* about.tpl */
+.ezinfo-page .ezinfo-section { margin: 0 0 3rem; }
+.ezinfo-page .ezinfo-section h2 { font-size: 1.5rem; margin: 0 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid var(--bs-black, #000); }
+.ezinfo-page .ezinfo-section p { max-width: 44rem; }
+.ezinfo-page .ezinfo-license { max-height: 24rem; overflow: auto; margin: 0; padding: 1rem 1.25rem; background: #f5f5f5; border: 1px solid #ddd; font-size: .8125rem; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
+.ezinfo-page .ezinfo-list { padding-left: 1.25rem; }
+.ezinfo-page .ezinfo-list li { margin-bottom: .35rem; word-break: break-word; }
+.ezinfo-page .ezinfo-extensions { width: 100%; border-collapse: collapse; font-size: .9375rem; }
+.ezinfo-page .ezinfo-extensions th { text-align: left; font-weight: 600; padding: .5rem .75rem .5rem 0; border-bottom: 2px solid var(--bs-black, #000); white-space: nowrap; }
+.ezinfo-page .ezinfo-extensions td { vertical-align: top; padding: .75rem .75rem .75rem 0; border-bottom: 1px solid #ddd; word-break: break-word; }
+.ezinfo-page .ezinfo-extension-name { font-weight: 600; }
+.ezinfo-page .ezinfo-extension-id,
+.ezinfo-page .ezinfo-extension-meta { display: block; font-size: .8125rem; color: #555; font-weight: 400; }
+.ezinfo-page .ezinfo-extension-version { white-space: nowrap; }
+.ezinfo-page .ezinfo-extension-link a,
+.ezinfo-page .ezinfo-section p a,
+.ezinfo-page .ezinfo-extension-meta a { word-break: break-all; text-decoration: underline; }
+@media (max-width: 767.98px) {
+  .ezinfo-page .ezinfo-extensions thead { display: none; }
+  .ezinfo-page .ezinfo-extensions tr { display: block; padding: .75rem 0; border-bottom: 1px solid #ddd; }
+  .ezinfo-page .ezinfo-extensions td { display: block; padding: .125rem 0; border: 0; }
+  .ezinfo-page .ezinfo-extensions td[data-label]:not(:empty)::before { content: attr(data-label) ": "; color: #555; }
+}
+/* copyright.tpl */
+.ezinfo-page .ezinfo-notice { max-width: 44rem; margin: 3rem 0 4rem; }
+.ezinfo-page .ezinfo-notice p { margin-bottom: 1.25rem; }
+.ezinfo-page .ezinfo-notice a { word-break: break-all; text-decoration: underline; }
+
+
+/* ── The tour: override node/view/full/showcase_s1_tour.tpl (/exponential-live) */
+/* The bar widths of the speed table are measurements: the page's script
+   sets each one from its data-w attribute. */
+.exp-tour {
+  --t-ink: #111;
+  --t-text: var(--bs-body-color, #212529);
+  --t-muted: #5c5c5c;
+  --t-yellow: var(--bs-primary, #FED82F);
+  --t-yellow-soft: #fff7d1;
+  --t-card: var(--bs-secondary, #F8F9FC);
+  --t-line: var(--bs-border-color, #dee2e6);
+  --t-radius: 1rem;
+  --t-ok: #146c43;
+  color: var(--t-text);
+}
+.exp-tour * { box-sizing: border-box; }
+.exp-tour-hero { padding: 3.5rem 0 2.5rem; background: linear-gradient(180deg, var(--t-yellow-soft), #fff); }
+.exp-tour-eyebrow { display: inline-block; font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--t-ink); background: var(--t-yellow); border-radius: 999px; padding: .3rem .8rem; margin: 0 0 1rem; }
+.exp-tour-hero h1 { font-size: clamp(2rem, 4.6vw, 3.4rem); line-height: 1.08; font-weight: 800; color: var(--t-ink); margin: 0 0 1rem; max-width: 18ch; }
+.exp-tour-lead { font-size: 1.2rem; line-height: 1.55; max-width: 46rem; margin: 0 0 1.5rem; }
+.exp-tour-facts { display: flex; flex-wrap: wrap; gap: .6rem; list-style: none; padding: 0; margin: 0 0 1.75rem; }
+.exp-tour-facts li { background: #fff; border: 1px solid var(--t-line); border-radius: 999px; padding: .35rem .9rem; font-size: .92rem; }
+.exp-tour-facts strong { color: var(--t-ink); }
+.exp-tour-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.exp-tour-btn,
+.exp-tour-text p + p a { display: inline-flex; align-items: center; min-height: 44px; padding: .55rem 1.1rem; border-radius: 999px; border: 2px solid var(--t-ink); color: var(--t-ink); background: #fff; font-weight: 600; text-decoration: none; line-height: 1.2; transition: background .15s; }
+.exp-tour-btn:hover,
+.exp-tour-text p + p a:hover { background: var(--t-ink); color: #fff; text-decoration: none; }
+.exp-tour-btn.is-primary,
+.exp-tour-text p + p a:first-child { background: var(--t-yellow); border-color: var(--t-yellow); }
+.exp-tour-btn.is-primary:hover,
+.exp-tour-text p + p a:first-child:hover { background: var(--t-ink); border-color: var(--t-ink); color: #fff; }
+.exp-tour-index { border-top: 1px solid var(--t-line); border-bottom: 1px solid var(--t-line); background: #fff; padding: 1rem 0; }
+.exp-tour-index ol { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .35rem 1.5rem; list-style: none; margin: 0; padding: 0; counter-reset: t; }
+.exp-tour-index li { counter-increment: t; }
+.exp-tour-index a { display: flex; gap: .6rem; align-items: baseline; padding: .3rem 0; color: var(--t-text); text-decoration: none; font-size: .95rem; }
+.exp-tour-index a::before { content: counter(t, decimal-leading-zero); font-weight: 700; font-variant-numeric: tabular-nums; color: var(--t-muted); min-width: 1.6rem; }
+.exp-tour-index a:hover { text-decoration: underline; }
+.exp-tour-stops { padding-top: 1rem; padding-bottom: 2rem; }
+.exp-tour-stop { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 2.5rem; align-items: center; padding: 3rem 0; border-bottom: 1px solid var(--t-line); scroll-margin-top: 6rem; }
+.exp-tour-stop:nth-child(even) .exp-tour-shot { order: 2; }
+.exp-tour-shot { margin: 0; }
+.exp-tour-shot a { display: block; border-radius: var(--t-radius); overflow: hidden; border: 1px solid var(--t-line); box-shadow: 0 18px 40px -22px rgba(0, 0, 0, .45); background: var(--t-card); }
+.exp-tour-shot img { display: block; width: 100%; height: auto; }
+.exp-tour-shot.is-empty { aspect-ratio: 16 / 10; border-radius: var(--t-radius); background: var(--t-card); border: 1px dashed var(--t-line); }
+.exp-tour-no { display: inline-flex; align-items: center; justify-content: center; width: 2.6rem; height: 2.6rem; border-radius: 50%; background: var(--t-ink); color: #fff; font-weight: 800; font-variant-numeric: tabular-nums; margin-right: .6rem; }
+.exp-tour-where { display: inline-block; font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--t-muted); vertical-align: middle; }
+.exp-tour-stop h2 { font-size: clamp(1.5rem, 2.6vw, 2.1rem); line-height: 1.15; font-weight: 800; color: var(--t-ink); margin: 1rem 0 .75rem; }
+.exp-tour-text p { font-size: 1.08rem; line-height: 1.6; margin: 0 0 1.25rem; }
+.exp-tour-text p + p { display: flex; flex-wrap: wrap; gap: .6rem; margin: 0; }
+.exp-tour-speed { margin: 0 0 1rem; padding: 1.75rem; border-radius: var(--t-radius); background: var(--t-ink); color: #fff; }
+.exp-tour-speed h2 { color: #fff; font-size: 1.5rem; margin: 0 0 .35rem; }
+.exp-tour-speed p { color: #d7d7d7; margin: 0 0 1.25rem; line-height: 1.5; }
+.exp-tour-speed table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.exp-tour-speed th,
+.exp-tour-speed td { text-align: left; padding: .65rem .5rem; border-top: 1px solid #333; vertical-align: middle; }
+.exp-tour-speed th { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: #bdbdbd; font-weight: 600; border-top: 0; }
+.exp-tour-speed td.num { white-space: nowrap; width: 1%; text-align: right; }
+.exp-tour-bar { display: block; height: .55rem; border-radius: 999px; background: #555; margin-top: .3rem; min-width: 3px; }
+.exp-tour-bar.is-v { background: var(--t-yellow); }
+.exp-tour-factor { display: inline-block; background: var(--t-yellow); color: var(--t-ink); border-radius: 999px; padding: .1rem .55rem; font-weight: 700; font-size: .85rem; }
+.exp-tour-speed-sub { color: #fff; font-size: 1.05rem; font-weight: 700; margin: 1.5rem 0 .25rem; }
+.exp-tour-speed p.exp-tour-speed-note { font-size: .92rem; margin: 0 0 .5rem; }
+.exp-tour-factor.is-a { background: #e6e6e6; }
+.exp-tour-speed small { display: block; color: #a9a9a9; margin-top: 1rem; line-height: 1.5; }
+.exp-tour-speed a { color: var(--t-yellow); }
+.exp-tour-speed-out { overflow-x: auto; }
+.exp-tour-end { padding: 3rem 0 4rem; text-align: center; }
+.exp-tour-end h2 { font-size: 2rem; font-weight: 800; color: var(--t-ink); margin: 0 0 .75rem; }
+.exp-tour-end p { max-width: 40rem; margin: 0 auto 1.5rem; font-size: 1.08rem; line-height: 1.6; }
+.exp-tour-end .exp-tour-actions { justify-content: center; }
+@media (max-width: 991.98px) {
+  .exp-tour-stop { grid-template-columns: 1fr; gap: 1.25rem; padding: 2.25rem 0; }
+  .exp-tour-stop:nth-child(even) .exp-tour-shot { order: 0; }
+}
+@media (max-width: 575.98px) {
+  .exp-tour-hero { padding: 2.25rem 0 1.75rem; }
+  .exp-tour-lead { font-size: 1.08rem; }
+  .exp-tour-speed { padding: 1.25rem 1rem; }
+  .exp-tour-speed th.bar,
+  .exp-tour-speed td.bar,
+  .exp-tour-factor .w { display: none; }
+  .exp-tour-speed th,
+  .exp-tour-speed td { padding: .5rem .3rem; font-size: .92rem; }
+  .exp-tour-btn,
+  .exp-tour-text p + p a { width: 100%; justify-content: center; }
+}

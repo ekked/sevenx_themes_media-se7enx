@@ -72,7 +72,7 @@
             {def $p_rating = $p_map.rating.content}
             {if $p_rating.rating_count|gt(0)}
             <div class="product-rating">
-                <span class="product-stars" style="--rating: {$p_rating.rounded_average};" aria-hidden="true"></span>
+                <span class="product-stars" data-rating="{$p_rating.rounded_average}" aria-hidden="true"></span>
                 <span class="product-rating-text">{'%average out of 5, %count ratings'|i18n( 'ngsite',,
                       hash( '%average', $p_rating.rating|wash, '%count', $p_rating.rating_count|wash ) )}</span>
             </div>
@@ -240,7 +240,7 @@
             {def $p_review_avg = div( $p_review_total, $p_review_scored )}
             {def $p_review_shown = div( mul( $p_review_avg, 10 )|round, 10 )}
             <div class="product-reviews-summary">
-                <span class="product-stars" style="--rating: {$p_review_avg};" aria-hidden="true"></span>
+                <span class="product-stars" data-rating="{$p_review_shown}" aria-hidden="true"></span>
                 <span class="product-rating-text">
                     {if $p_reviews|count()|eq(1)}
                         {'%average out of 5, from 1 review'|i18n( 'ngsite',,

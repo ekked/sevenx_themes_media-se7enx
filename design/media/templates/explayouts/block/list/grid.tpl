@@ -34,7 +34,6 @@
 <div class="ajax-collection">
     {include uri=concat('design:explayouts/block/list/grid/', $gr_cols, '_columns.tpl') block=$block item_view_type=$gr_view view_type_label=$gr_view_label with_intro=$gr_with_intro row_class='ajax-container row'}
     <nav class="ajax-navigation"
-        style="width: 100%; text-align: center; display: flex; justify-content: center; align-items: center;"
         data-page="1"
         data-total-pages="{$gr_total_pages}"
         data-type="{$block.parameters['paged_collections:type']|wash}">

@@ -92,27 +92,6 @@
 
             <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
             <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
-            <style>
-                .video-js .vjs-big-play-button {
-                    left: 50%; top: 50%;
-                    transform: translateX(-50%) translateY(-50%);
-                    border: none;
-                    background-color: #FED82F;
-                    font-size: 5rem;
-                    height: 2em;
-                    width: 2em;
-                    line-height: 2em;
-                    border-radius: 50%;
-                    filter: brightness(75%);
-                }
-                .video-js:hover .vjs-big-play-button {
-                    background-color: #FED82F;
-                    filter: brightness(100%);
-                }
-                .video-js .vjs-poster {
-                    background-size: cover;
-                }
-            </style>
 
         {/if}
     {elseif not($content.fields.video_identifier['empty'])}
@@ -169,27 +148,6 @@
 
             <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
             <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
-            <style>
-                .video-js .vjs-big-play-button {
-                    left: 50%; top: 50%;
-                    transform: translateX(-50%) translateY(-50%);
-                    border: none;
-                    background-color: #FED82F;
-                    font-size: 5rem;
-                    height: 2em;
-                    width: 2em;
-                    line-height: 2em;
-                    border-radius: 50%;
-                    filter: brightness(75%);
-                }
-                .video-js:hover .vjs-big-play-button {
-                    background-color: #FED82F;
-                    filter: brightness(100%);
-                }
-                .video-js .vjs-poster {
-                    background-size: cover;
-                }
-            </style>
         {/if}
     {elseif not($content.fields.video_identifier['empty'])}
         {def $video_identifier = $content.fields.video_identifier.value.text}

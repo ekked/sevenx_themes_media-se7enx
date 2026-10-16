@@ -7,17 +7,6 @@
 {if $tag_cloud_html|trim|eq( '' )}
     {set-block variable=$tag_cloud_html}{eztagcloud( hash( 'parent_node_id', $node.node_id ) )}{/set-block}
 {/if}
-<style>
-{literal}
-.site-tag-cloud{padding:0 1rem 5rem}
-.site-tag-cloud > p.text-center{margin-top:2rem}
-.site-tag-cloud-tags{display:flex;flex-wrap:wrap;gap:.6rem .9rem;justify-content:center;align-items:baseline;margin:3rem auto 0;max-width:60rem;line-height:1.2}
-.site-tag-cloud-tags a{display:inline-block;padding:.2rem .7rem;border:2px solid #000;text-decoration:none;color:#000;font-weight:600;transition:background .15s}
-.site-tag-cloud-tags a:hover,.site-tag-cloud-tags a:focus{background:#FED82F}
-.site-tag-cloud-empty{text-align:center;margin:4rem auto;max-width:34rem}
-.site-tag-cloud-empty .site-error-buttons{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center;margin-top:2rem}
-{/literal}
-</style>
 <header class="full-page-header text-center no-breadcrumbs">
     <div class="container">
         <h1 class="full-page-title">{'Topics'|i18n( 'design/media/tagcloud' )}</h1>

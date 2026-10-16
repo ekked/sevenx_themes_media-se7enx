@@ -118,15 +118,15 @@
                             {section show=$Basket:ProductItem:item.item_object.option_list}
                                 <tr>
                                     <td colspan="8">
-                                        <table class="shop-options-table" style="width:100%;">
+                                        <table class="shop-options-table w-100">
                                             <tr>
                                                 <td colspan="3">{"Selected options"|i18n("design/ezwebin/shop/basket")}</td>
                                             </tr>
                                             {section name=Options loop=$Basket:ProductItem:item.item_object.option_list sequence=array(bglight, bgdark)}
                                                 <tr>
-                                                    <td style="width:33%;">{$Basket:ProductItem:Options:item.name|wash}</td>
-                                                    <td style="width:33%;">{$Basket:ProductItem:Options:item.value|wash}</td>
-                                                    <td style="width:33%;">{$Basket:ProductItem:Options:item.price|l10n( 'currency', $locale, $symbol )}</td>
+                                                    <td>{$Basket:ProductItem:Options:item.name|wash}</td>
+                                                    <td>{$Basket:ProductItem:Options:item.value|wash}</td>
+                                                    <td>{$Basket:ProductItem:Options:item.price|l10n( 'currency', $locale, $symbol )}</td>
                                                 </tr>
                                             {/section}
                                         </table>

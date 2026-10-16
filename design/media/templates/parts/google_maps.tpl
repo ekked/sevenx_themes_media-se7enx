@@ -8,6 +8,9 @@
 
 <script type="text/javascript">
     google.maps.event.addDomListener(window, 'load', function(){
+        // the map's height is per map (map_height, 560 by default); exp-page-parts.css has the rest
+        var mapCanvas = document.getElementById("map-canvas-{$container_id|wash('js')}");
+        if (mapCanvas) mapCanvas.style.height = parseInt(mapCanvas.getAttribute('data-map-height'), 10) + 'px';
         initializeGoogleMaps({
             containerId: "{$container_id|wash('js')}",
             latitude: {$latitude|wash('js')},
@@ -21,5 +24,5 @@
 <div
     id="map-canvas-{$container_id|wash('html_attr')}"
     class="google-maps"
-    style="height:{first_set($map_height, 560)|wash('html_attr')}px; width:100%;">
+    data-map-height="{first_set($map_height, 560)|wash('html_attr')}">
 </div>

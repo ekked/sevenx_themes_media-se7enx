@@ -11,61 +11,6 @@
      $img = false()
      $no = 0}
 <div class="view-type view-type-full exp-tour">
-<style>
-.exp-tour{ldelim}--t-ink:#111;--t-text:#212529;--t-muted:#5c5c5c;--t-yellow:#FED82F;--t-yellow-soft:#fff7d1;--t-card:#F8F9FC;--t-line:#dee2e6;--t-radius:1rem;--t-ok:#146c43;color:var(--t-text){rdelim}
-.exp-tour *{ldelim}box-sizing:border-box{rdelim}
-.exp-tour-hero{ldelim}padding:3.5rem 0 2.5rem;background:linear-gradient(180deg,var(--t-yellow-soft),#fff){rdelim}
-.exp-tour-eyebrow{ldelim}display:inline-block;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--t-ink);background:var(--t-yellow);border-radius:999px;padding:.3rem .8rem;margin:0 0 1rem{rdelim}
-.exp-tour-hero h1{ldelim}font-size:clamp(2rem,4.6vw,3.4rem);line-height:1.08;font-weight:800;color:var(--t-ink);margin:0 0 1rem;max-width:18ch{rdelim}
-.exp-tour-lead{ldelim}font-size:1.2rem;line-height:1.55;max-width:46rem;margin:0 0 1.5rem{rdelim}
-.exp-tour-facts{ldelim}display:flex;flex-wrap:wrap;gap:.6rem;list-style:none;padding:0;margin:0 0 1.75rem{rdelim}
-.exp-tour-facts li{ldelim}background:#fff;border:1px solid var(--t-line);border-radius:999px;padding:.35rem .9rem;font-size:.92rem{rdelim}
-.exp-tour-facts strong{ldelim}color:var(--t-ink){rdelim}
-.exp-tour-actions{ldelim}display:flex;flex-wrap:wrap;gap:.75rem{rdelim}
-.exp-tour-btn,.exp-tour-text p+p a{ldelim}display:inline-flex;align-items:center;min-height:44px;padding:.55rem 1.1rem;border-radius:999px;border:2px solid var(--t-ink);color:var(--t-ink);background:#fff;font-weight:600;text-decoration:none;line-height:1.2;transition:background .15s{rdelim}
-.exp-tour-btn:hover,.exp-tour-text p+p a:hover{ldelim}background:var(--t-ink);color:#fff;text-decoration:none{rdelim}
-.exp-tour-btn.is-primary,.exp-tour-text p+p a:first-child{ldelim}background:var(--t-yellow);border-color:var(--t-yellow){rdelim}
-.exp-tour-btn.is-primary:hover,.exp-tour-text p+p a:first-child:hover{ldelim}background:var(--t-ink);border-color:var(--t-ink);color:#fff{rdelim}
-.exp-tour-index{ldelim}border-top:1px solid var(--t-line);border-bottom:1px solid var(--t-line);background:#fff;padding:1rem 0{rdelim}
-.exp-tour-index ol{ldelim}display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.35rem 1.5rem;list-style:none;margin:0;padding:0;counter-reset:t{rdelim}
-.exp-tour-index li{ldelim}counter-increment:t{rdelim}
-.exp-tour-index a{ldelim}display:flex;gap:.6rem;align-items:baseline;padding:.3rem 0;color:var(--t-text);text-decoration:none;font-size:.95rem{rdelim}
-.exp-tour-index a::before{ldelim}content:counter(t,decimal-leading-zero);font-weight:700;font-variant-numeric:tabular-nums;color:var(--t-muted);min-width:1.6rem{rdelim}
-.exp-tour-index a:hover{ldelim}text-decoration:underline{rdelim}
-.exp-tour-stops{ldelim}padding-top:1rem;padding-bottom:2rem{rdelim}
-.exp-tour-stop{ldelim}display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:2.5rem;align-items:center;padding:3rem 0;border-bottom:1px solid var(--t-line);scroll-margin-top:6rem{rdelim}
-.exp-tour-stop:nth-child(even) .exp-tour-shot{ldelim}order:2{rdelim}
-.exp-tour-shot{ldelim}margin:0{rdelim}
-.exp-tour-shot a{ldelim}display:block;border-radius:var(--t-radius);overflow:hidden;border:1px solid var(--t-line);box-shadow:0 18px 40px -22px rgba(0,0,0,.45);background:var(--t-card){rdelim}
-.exp-tour-shot img{ldelim}display:block;width:100%;height:auto{rdelim}
-.exp-tour-shot.is-empty{ldelim}aspect-ratio:16/10;border-radius:var(--t-radius);background:var(--t-card);border:1px dashed var(--t-line){rdelim}
-.exp-tour-no{ldelim}display:inline-flex;align-items:center;justify-content:center;width:2.6rem;height:2.6rem;border-radius:50%;background:var(--t-ink);color:#fff;font-weight:800;font-variant-numeric:tabular-nums;margin-right:.6rem{rdelim}
-.exp-tour-where{ldelim}display:inline-block;font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t-muted);vertical-align:middle{rdelim}
-.exp-tour-stop h2{ldelim}font-size:clamp(1.5rem,2.6vw,2.1rem);line-height:1.15;font-weight:800;color:var(--t-ink);margin:1rem 0 .75rem{rdelim}
-.exp-tour-text p{ldelim}font-size:1.08rem;line-height:1.6;margin:0 0 1.25rem{rdelim}
-.exp-tour-text p+p{ldelim}display:flex;flex-wrap:wrap;gap:.6rem;margin:0{rdelim}
-.exp-tour-speed{ldelim}margin:0 0 1rem;padding:1.75rem;border-radius:var(--t-radius);background:var(--t-ink);color:#fff{rdelim}
-.exp-tour-speed h2{ldelim}color:#fff;font-size:1.5rem;margin:0 0 .35rem{rdelim}
-.exp-tour-speed p{ldelim}color:#d7d7d7;margin:0 0 1.25rem;line-height:1.5{rdelim}
-.exp-tour-speed table{ldelim}width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums{rdelim}
-.exp-tour-speed th,.exp-tour-speed td{ldelim}text-align:left;padding:.65rem .5rem;border-top:1px solid #333;vertical-align:middle{rdelim}
-.exp-tour-speed th{ldelim}font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#bdbdbd;font-weight:600;border-top:0{rdelim}
-.exp-tour-speed td.num{ldelim}white-space:nowrap;width:1%;text-align:right{rdelim}
-.exp-tour-bar{ldelim}display:block;height:.55rem;border-radius:999px;background:#555;margin-top:.3rem;min-width:3px{rdelim}
-.exp-tour-bar.is-v{ldelim}background:var(--t-yellow){rdelim}
-.exp-tour-factor{ldelim}display:inline-block;background:var(--t-yellow);color:var(--t-ink);border-radius:999px;padding:.1rem .55rem;font-weight:700;font-size:.85rem{rdelim}
-.exp-tour-speed-sub{ldelim}color:#fff;font-size:1.05rem;font-weight:700;margin:1.5rem 0 .25rem{rdelim}
-.exp-tour-speed p.exp-tour-speed-note{ldelim}font-size:.92rem;margin:0 0 .5rem{rdelim}
-.exp-tour-factor.is-a{ldelim}background:#e6e6e6{rdelim}
-.exp-tour-speed small{ldelim}display:block;color:#a9a9a9;margin-top:1rem;line-height:1.5{rdelim}
-.exp-tour-speed a{ldelim}color:var(--t-yellow){rdelim}.exp-tour-speed-out{ldelim}overflow-x:auto{rdelim}
-.exp-tour-end{ldelim}padding:3rem 0 4rem;text-align:center{rdelim}
-.exp-tour-end h2{ldelim}font-size:2rem;font-weight:800;color:var(--t-ink);margin:0 0 .75rem{rdelim}
-.exp-tour-end p{ldelim}max-width:40rem;margin:0 auto 1.5rem;font-size:1.08rem;line-height:1.6{rdelim}
-.exp-tour-end .exp-tour-actions{ldelim}justify-content:center{rdelim}
-@media (max-width:991px){ldelim}.exp-tour-stop{ldelim}grid-template-columns:1fr;gap:1.25rem;padding:2.25rem 0{rdelim}.exp-tour-stop:nth-child(even) .exp-tour-shot{ldelim}order:0{rdelim}{rdelim}
-@media (max-width:575px){ldelim}.exp-tour-hero{ldelim}padding:2.25rem 0 1.75rem{rdelim}.exp-tour-lead{ldelim}font-size:1.08rem{rdelim}.exp-tour-speed{ldelim}padding:1.25rem 1rem{rdelim}.exp-tour-speed th.bar,.exp-tour-speed td.bar,.exp-tour-factor .w{ldelim}display:none{rdelim}.exp-tour-speed th,.exp-tour-speed td{ldelim}padding:.5rem .3rem;font-size:.92rem{rdelim}.exp-tour-btn,.exp-tour-text p+p a{ldelim}width:100%;justify-content:center{rdelim}{rdelim}
-</style>
 
     <header class="exp-tour-hero">
         <div class="container">
@@ -191,8 +136,8 @@
                     else win = 'even';
                     h += '<tr><td><a data-path="' + esc(p.path) + '">' + esc(p.label) + '</a></td>'
                        + '<td class="num">' + ms(a) + '</td><td class="num">' + ms(v) + '</td>'
-                       + '<td class="bar"><span class="exp-tour-bar" style="width:' + Math.max(1, 100 * a / max) + '%"></span>'
-                       + '<span class="exp-tour-bar is-v" style="width:' + Math.max(1, 100 * v / max) + '%"></span></td>'
+                       + '<td class="bar"><span class="exp-tour-bar" data-w="' + Math.max(1, 100 * a / max) + '"></span>'
+                       + '<span class="exp-tour-bar is-v" data-w="' + Math.max(1, 100 * v / max) + '"></span></td>'
                        + '<td class="num">' + win + '</td></tr>';
                 {rdelim});
                 return h + '</tbody></table>';
@@ -206,6 +151,8 @@
             // the page links get their address here, not in the HTML text above: a crawler reading the script
             // as HTML would take the concatenation for an address
             out.querySelectorAll('a[data-path]').forEach(function (a) {ldelim} a.setAttribute('href', a.getAttribute('data-path')); {rdelim});
+            // each bar's length is its measurement (exp-page-parts.css has the rest of the bar)
+            out.querySelectorAll('.exp-tour-bar[data-w]').forEach(function (b) {ldelim} b.style.width = b.getAttribute('data-w') + '%'; {rdelim});
         {rdelim})
         .catch(function () {ldelim} out.innerHTML = '<p>The measurement could not be loaded right now.</p>'; {rdelim});
 {rdelim})();

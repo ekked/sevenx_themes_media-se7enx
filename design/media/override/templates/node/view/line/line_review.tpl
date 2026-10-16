@@ -12,7 +12,7 @@
 <article class="review-item">
     <header class="review-item-head">
         {if and( is_set( $v_map.rating ), $v_map.rating.has_content )}
-        <span class="product-stars" style="--rating: {$v_map.rating.content};" aria-hidden="true"></span>
+        <span class="product-stars" data-rating="{$v_map.rating.content}" aria-hidden="true"></span>
         <span class="review-item-score">{$v_map.rating.content}/5</span>
         {/if}
 

@@ -63,16 +63,16 @@
                         </tr>
                         {section show=$ProductItem:item.item_object.option_list}
                             <tr>
-                                <td colspan="6" style="padding:0;">
-                                    <table class="shop-options-table" style="width:100%;">
+                                <td colspan="6" class="p-0">
+                                    <table class="shop-options-table w-100">
                                         <tr>
                                             <td colspan="3">{"Selected options"|i18n("design/ezwebin/shop/confirmorder")}</td>
                                         </tr>
                                         {section name=Options loop=$ProductItem:item.item_object.option_list}
                                             <tr>
-                                                <td style="width:33%;">{$ProductItem:Options:item.name|wash}</td>
-                                                <td style="width:33%;">{$ProductItem:Options:item.value|wash}</td>
-                                                <td style="width:33%;">{$ProductItem:Options:item.price|l10n( 'currency', $locale, $symbol )}</td>
+                                                <td>{$ProductItem:Options:item.name|wash}</td>
+                                                <td>{$ProductItem:Options:item.value|wash}</td>
+                                                <td>{$ProductItem:Options:item.price|l10n( 'currency', $locale, $symbol )}</td>
                                             </tr>
                                         {/section}
                                     </table>

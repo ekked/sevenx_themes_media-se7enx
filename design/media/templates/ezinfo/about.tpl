@@ -13,30 +13,6 @@
                            and version, mtime, mtime_formatted
 
    Licence and copyright texts are legal notices and are shown as they are. *}
-<style>
-{literal}
-.ezinfo-page .full-page-title{margin-bottom:0}
-.ezinfo-page .ezinfo-section{margin:0 0 3rem}
-.ezinfo-page .ezinfo-section h2{font-size:1.5rem;margin:0 0 1rem;padding-bottom:.5rem;border-bottom:2px solid #000}
-.ezinfo-page .ezinfo-section p{max-width:44rem}
-.ezinfo-page .ezinfo-license{max-height:24rem;overflow:auto;margin:0;padding:1rem 1.25rem;background:#f5f5f5;border:1px solid #ddd;font-size:.8125rem;line-height:1.5;white-space:pre-wrap;word-break:break-word}
-.ezinfo-page .ezinfo-list{padding-left:1.25rem}
-.ezinfo-page .ezinfo-list li{margin-bottom:.35rem;word-break:break-word}
-.ezinfo-page .ezinfo-extensions{width:100%;border-collapse:collapse;font-size:.9375rem}
-.ezinfo-page .ezinfo-extensions th{text-align:left;font-weight:600;padding:.5rem .75rem .5rem 0;border-bottom:2px solid #000;white-space:nowrap}
-.ezinfo-page .ezinfo-extensions td{vertical-align:top;padding:.75rem .75rem .75rem 0;border-bottom:1px solid #ddd;word-break:break-word}
-.ezinfo-page .ezinfo-extension-name{font-weight:600}
-.ezinfo-page .ezinfo-extension-id,.ezinfo-page .ezinfo-extension-meta{display:block;font-size:.8125rem;color:#555;font-weight:400}
-.ezinfo-page .ezinfo-extension-version{white-space:nowrap}
-.ezinfo-page .ezinfo-extension-link a,.ezinfo-page .ezinfo-section p a,.ezinfo-page .ezinfo-extension-meta a{word-break:break-all;text-decoration:underline}
-@media (max-width:767.98px){
-.ezinfo-page .ezinfo-extensions thead{display:none}
-.ezinfo-page .ezinfo-extensions tr{display:block;padding:.75rem 0;border-bottom:1px solid #ddd}
-.ezinfo-page .ezinfo-extensions td{display:block;padding:.125rem 0;border:0}
-.ezinfo-page .ezinfo-extensions td[data-label]:not(:empty)::before{content:attr(data-label) ": ";color:#555}
-}
-{/literal}
-</style>
 <div class="ezinfo-page">
     <header class="full-page-header no-breadcrumbs">
         <div class="container">

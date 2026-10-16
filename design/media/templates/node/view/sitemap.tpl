@@ -11,25 +11,6 @@
      $section_total = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id ) )
      $pages = array()
      $page_total = 0}
-<style>
-{literal}
-.site-map{padding:0 1rem 5rem}
-.site-map > p.text-center{margin-top:2rem}
-.site-map-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:1.5rem;margin:3rem 0 0}
-.site-map-section{border-top:4px solid #FED82F;padding:1.25rem 0 0}
-.site-map-section h2{font-size:1.5rem;font-weight:700;margin:0 0 .75rem}
-.site-map-section h2 a{text-decoration:none;color:inherit}
-.site-map-section h2 a:hover{text-decoration:underline;text-decoration-color:#FED82F;text-decoration-thickness:3px}
-.site-map-section ul{list-style:none;padding:0;margin:0}
-.site-map-section li{padding:.3rem 0;border-bottom:1px solid #eee}
-.site-map-section li a{text-decoration:none;color:inherit}
-.site-map-section li a:hover{text-decoration:underline}
-.site-map-more{display:inline-block;margin-top:.6rem;font-weight:600;font-size:.9rem}
-.site-map-empty{text-align:center;margin:4rem auto;max-width:34rem}
-.site-map-empty .site-error-buttons{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center;margin-top:2rem}
-.site-map-pager{display:flex;justify-content:space-between;margin-top:3rem}
-{/literal}
-</style>
 <header class="full-page-header text-center no-breadcrumbs">
     <div class="container">
         <h1 class="full-page-title">{'Site map'|i18n( 'design/media/sitemap' )}</h1>

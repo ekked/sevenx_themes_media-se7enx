@@ -48,7 +48,6 @@
 {if $li_paged}
     </div>
     <nav class="ajax-navigation"
-        style="width: 100%; text-align: center; display: flex; justify-content: center; align-items: center;"
         data-page="1"
         data-total-pages="{$li_total_pages}"
         data-type="{$block.parameters['paged_collections:type']|wash}">
