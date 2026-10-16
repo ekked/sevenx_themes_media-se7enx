@@ -36,52 +36,52 @@
 
                 <div class="form-group">
                     <label for="FirstName" class="form-label">{"First name"|i18n("design/ezwebin/shop/userregister")}:*</label>
-                    <input class="form-control" type="text" id="FirstName" name="FirstName" value="{$first_name|wash}" />
+                    <input class="form-control" type="text" id="FirstName" name="FirstName" autocomplete="given-name" value="{$first_name|wash}" />
                 </div>
 
                 <div class="form-group">
                     <label for="LastName" class="form-label">{"Last name"|i18n("design/ezwebin/shop/userregister")}:*</label>
-                    <input class="form-control" type="text" id="LastName" name="LastName" value="{$last_name|wash}" />
+                    <input class="form-control" type="text" id="LastName" name="LastName" autocomplete="family-name" value="{$last_name|wash}" />
                 </div>
 
                 <div class="form-group">
                     <label for="EMail" class="form-label">{"E-mail"|i18n("design/ezwebin/shop/userregister")}:*</label>
-                    <input class="form-control" type="email" id="EMail" name="EMail" value="{$email|wash}" />
+                    <input class="form-control" type="email" id="EMail" name="EMail" autocomplete="email" value="{$email|wash}" />
                 </div>
 
                 <div class="form-group">
                     <label for="Street1" class="form-label">{"Address line 1"|i18n("design/ezwebin/shop/userregister")}:*</label>
-                    <input class="form-control" type="text" id="Street1" name="Street1" value="{$street1|wash}" />
+                    <input class="form-control" type="text" id="Street1" name="Street1" autocomplete="address-line1" value="{$street1|wash}" />
                 </div>
 
                 <div class="form-group">
                     <label for="Street2" class="form-label">{"Address line 2"|i18n("design/ezwebin/shop/userregister")}:</label>
-                    <input class="form-control" type="text" id="Street2" name="Street2" value="{$street2|wash}" />
+                    <input class="form-control" type="text" id="Street2" name="Street2" autocomplete="address-line2" value="{$street2|wash}" />
                 </div>
 
                 <div class="form-group">
                     <label for="Zip" class="form-label">{"Zip"|i18n("design/ezwebin/shop/userregister")}:*</label>
-                    <input class="form-control" type="text" id="Zip" name="Zip" value="{$zip|wash}" />
+                    <input class="form-control" type="text" id="Zip" name="Zip" autocomplete="postal-code" value="{$zip|wash}" />
                 </div>
 
                 <div class="form-group">
                     <label for="City" class="form-label">{"City"|i18n("design/ezwebin/shop/userregister")}:*</label>
-                    <input class="form-control" type="text" id="City" name="City" value="{$city|wash}" />
+                    <input class="form-control" type="text" id="City" name="City" autocomplete="address-level2" value="{$city|wash}" />
                 </div>
 
                 <div class="form-group">
                     <label for="State" class="form-label">{"State"|i18n("design/ezwebin/shop/userregister")}:</label>
-                    <input class="form-control" type="text" id="State" name="State" value="{$state|wash}" />
+                    <input class="form-control" type="text" id="State" name="State" autocomplete="address-level1" value="{$state|wash}" />
                 </div>
 
                 <div class="form-group">
                     <label for="Phone" class="form-label">{"Phone"|i18n("design/ezwebin/shop/userregister")}:*</label>
-                    <input class="form-control" type="tel" id="Phone" name="Phone" value="{$phone|wash}" />
+                    <input class="form-control" type="tel" id="Phone" name="Phone" autocomplete="tel" value="{$phone|wash}" />
                 </div>
 
                 <div class="form-group">
                     <label for="Country" class="form-label">{"Country"|i18n("design/ezwebin/shop/userregister")}:*</label>
-                    {include uri='design:shop/country/edit.tpl' select_name='Country' select_size=1 current_val=$country select_class='form-control'}
+                    {include uri='design:shop/country/edit.tpl' select_name='Country' select_id='Country' select_size=1 current_val=$country select_class='form-control'}
                 </div>
 
                 <div class="form-group">
