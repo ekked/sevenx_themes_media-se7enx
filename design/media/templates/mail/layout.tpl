@@ -56,13 +56,15 @@
      $mx_logo_link = first_set( $mail_logo_link, '' )
      $mx_logo_width = first_set( $mail_logo_width, 0 )
      $mx_logo_height = first_set( $mail_logo_height, 0 )
-     $mx_host = first_set( $hostname, ezini( 'SiteSettings', 'SiteURL' ) )
+     $mx_host = ezini( 'SiteSettings', 'SiteURL' )
      $mx_bg = ''
      $mx_fg = ''
      $mx_line = ''}
 {if $mx_logo_alt|eq( '' )}{set $mx_logo_alt = $mx_site_name}{/if}
 {if $mx_logo_link|eq( '' )}{set $mx_logo_link = $mx_site_link}{/if}
-{* the site logo of the page header, as a PNG (mail clients do not show SVG), at its header size *}
+{* the site logo of the page header, as a PNG (mail clients do not show SVG), at its header size. The host is the
+   configured SiteURL, never the request's Host header: a registration posted with a foreign Host must not put
+   another server's image into the mail *}
 {if $mx_logo_url|eq( '' )}
     {set $mx_logo_url = concat( 'https://', $mx_host, 'images/site-logo-mail.png'|ezdesign( 'no' ) )}
     {if $mx_logo_width|eq( 0 )}{set $mx_logo_width = 225 $mx_logo_height = 38}{/if}
