@@ -16,7 +16,7 @@
    Everything passed in is plain text except login, which is the kernel's own
    embedded sign-in form. Values are washed here, once.
 
-   The look is in stylesheets/error-page.css; exp-search-focus.js puts the
+   The look is in stylesheets/error-page.css; exp-page-actions.js does "Go back" and "Try again", exp-search-focus.js puts the
    cursor in the search field (data-exp-autofocus) when the page opens. *}
 {def $root_node = ezini( 'NodeSettings', 'RootNode', 'content.ini' )
      $error_actions = cond( is_set( $actions ), $actions, array( 'home', 'sitemap', 'back' ) )}
@@ -56,8 +56,8 @@
         {switch match=$error_action}
         {case match='home'}<a href={'/'|ezurl} class="btn btn-primary">{'Go to the home page'|i18n( 'design/media/error' )}</a>{/case}
         {case match='sitemap'}<a href={concat( '/content/view/sitemap/', $root_node )|ezurl} class="btn btn-secondary">{'Browse the site map'|i18n( 'design/media/error' )}</a>{/case}
-        {case match='back'}<a href="javascript:history.back()" class="btn btn-secondary" onclick="history.back();return false;">{'Go back'|i18n( 'design/media/error' )}</a>{/case}
-        {case match='retry'}<a href="" class="btn btn-primary" onclick="location.reload();return false;">{'Try again'|i18n( 'design/media/error' )}</a>{/case}
+        {case match='back'}<a href="#" class="btn btn-secondary" data-exp-history-back="">{'Go back'|i18n( 'design/media/error' )}</a>{/case}
+        {case match='retry'}<a href="" class="btn btn-primary" data-exp-reload="">{'Try again'|i18n( 'design/media/error' )}</a>{/case}
         {case match='logout'}<a href={'/user/logout'|ezurl} class="btn btn-secondary">{'Sign in as someone else'|i18n( 'design/media/error' )}</a>{/case}
         {case}{/case}
         {/switch}

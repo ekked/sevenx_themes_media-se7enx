@@ -1,25 +1,6 @@
+{* The map code: javascript/exp-google-maps.js (no inline script, so the page runs under a script-src 'self' policy;
+   the policy must then allow the Maps API). Printed once per map; the file sets itself up once. *}
 {if first_set($include_google_maps_script, false)}
     {include uri='design:parts/google_maps_script.tpl'}
 {/if}
-
-<script type="text/javascript">
-    function initializeGoogleMaps( options ) {
-        var mapCenter = new google.maps.LatLng(
-            options.latitude > 90 || options.latitude < -90 ? defaults.latitude : options.latitude,
-            options.longitude > 180 || options.longitude < -180 ? defaults.longitude : options.longitude
-        );
-
-        var mapOptions = {
-            zoom: options.zoom > 21 || options.zoom < 0 ? defaults.zoom : options.zoom,
-            center: mapCenter,
-            mapTypeId: google.maps.MapTypeId[options.mapType]
-        };
-
-        var map = new google.maps.Map(document.getElementById('map-canvas-' + options.containerId), mapOptions);
-
-        var marker = new google.maps.Marker({
-            position: mapCenter,
-            map: map
-        });
-    }
-</script>
+{ezscript( array( 'exp-google-maps.js' ) )}

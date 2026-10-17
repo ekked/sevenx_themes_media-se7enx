@@ -19,7 +19,7 @@
 <div class="full-form-content shop-checkout">
     <div class="container">
 
-        <form method="post" action={"/shop/confirmorder/"|ezurl} name="ConfirmOrder" class="embed-form">
+        <form method="post" action={"/shop/confirmorder/"|ezurl} name="ConfirmOrder" class="embed-form" data-exp-disable-on-submit="ConfirmOrderButton CancelButton">
 
             <div class="form-group">
                 {shop_account_view_gui view=html order=$order}
@@ -121,26 +121,3 @@
         </form>
     </div>
 </div>
-
-{literal}
-<script type="text/javascript">
-    function disableConfirmOrderButtons()
-    {
-        var confirmButton = document.getElementById( 'ConfirmOrderButton' );
-        var cancelButton = document.getElementById( 'CancelButton' );
-        if ( confirmButton ) confirmButton.disabled = true;
-        if ( cancelButton ) cancelButton.disabled = true;
-    }
-    var confirmOrderForm = document.forms['ConfirmOrder'];
-    if ( confirmOrderForm )
-    {
-        // Disabled on the next tick, never inside the submit handler: a submit
-        // button disabled while the event is still running is left out of the
-        // posted data, so the module would never see ConfirmOrderButton.
-        confirmOrderForm.addEventListener( 'submit', function()
-        {
-            window.setTimeout( disableConfirmOrderButtons, 0 );
-        } );
-    }
-</script>
-{/literal}

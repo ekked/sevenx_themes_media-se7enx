@@ -32,7 +32,7 @@
         {/if}
 
         {if count( $content_attributes )|gt( 0 )}
-            <form enctype="multipart/form-data" action={"/user/register/"|ezurl} method="post" name="Register" class="embed-form">
+            <form enctype="multipart/form-data" action={"/user/register/"|ezurl} method="post" name="Register" class="embed-form" data-exp-disable-on-submit="PublishButton CancelButton">
                 <div class="form-wrapper">
                     {foreach $content_attributes as $attribute}
                         {if or( $attribute.contentclass_attribute_identifier|eq( 'first_name' ), $attribute.contentclass_attribute_identifier|eq( 'last_name' ), $attribute.contentclass_attribute_identifier|eq( 'user_account' ) )}
@@ -96,26 +96,3 @@
     </div>
 </div>
 
-{literal}
-<script type="text/javascript">
-    function disableButtons()
-    {
-        var publishButton = document.getElementById( 'PublishButton' );
-        var cancelButton = document.getElementById( 'CancelButton' );
-        if ( publishButton ) publishButton.disabled = true;
-        if ( cancelButton ) cancelButton.disabled = true;
-    }
-    var registerForm = document.forms['Register'];
-    if ( registerForm )
-    {
-        // Disabled on the next tick, never inside the submit handler: a submit
-        // button disabled while the event is still running is left out of the
-        // posted data, so PublishButton never arrived, user/register saw no
-        // Publish action and showed the empty form again.
-        registerForm.addEventListener( 'submit', function()
-        {
-            window.setTimeout( disableButtons, 0 );
-        } );
-    }
-</script>
-{/literal}

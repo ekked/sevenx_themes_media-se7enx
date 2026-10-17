@@ -31,7 +31,7 @@
             </div>
         {/section}
 
-        <form method="post" action={"/shop/userregister/"|ezurl} name="ShopUserRegister" class="embed-form">
+        <form method="post" action={"/shop/userregister/"|ezurl} name="ShopUserRegister" class="embed-form" data-exp-disable-on-submit="StoreButton CancelButton">
             <div class="form-wrapper">
 
                 <div class="form-group">
@@ -98,27 +98,3 @@
         </form>
     </div>
 </div>
-
-{literal}
-<script type="text/javascript">
-    function disableShopUserRegisterButtons()
-    {
-        var storeButton = document.getElementById( 'StoreButton' );
-        var cancelButton = document.getElementById( 'CancelButton' );
-        if ( storeButton ) storeButton.disabled = true;
-        if ( cancelButton ) cancelButton.disabled = true;
-    }
-    var shopUserRegisterForm = document.forms['ShopUserRegister'];
-    if ( shopUserRegisterForm )
-    {
-        // Disable on the next tick, not inside the submit handler. A submit
-        // button that is disabled while the event is still running is left out
-        // of the posted data, so StoreButton never arrived, the module saw no
-        // Store action and simply re-rendered an empty form.
-        shopUserRegisterForm.addEventListener( 'submit', function()
-        {
-            window.setTimeout( disableShopUserRegisterButtons, 0 );
-        } );
-    }
-</script>
-{/literal}
