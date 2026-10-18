@@ -322,6 +322,10 @@
         <translation>Spesifikasjoner</translation>
     </message>
     <message>
+        <source>View product details</source>
+        <translation>Vis produktdetaljer</translation>
+    </message>
+    <message>
         <source>Subject</source>
         <translation>Emne</translation>
     </message>
@@ -360,6 +364,28 @@
     <message>
         <source>on %title</source>
         <translation>om %title</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/node/view</name>
+    <message>
+        <source>Missing or invalid input</source>
+        <translation>Manglende eller ugyldige data</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/product</name>
+    <message>
+        <source>Add to basket</source>
+        <translation>Legg til i handlekurv</translation>
+    </message>
+    <message>
+        <source>Add to wish list</source>
+        <translation>Legg til i ønskeliste</translation>
+    </message>
+    <message>
+        <source>People who bought this also bought</source>
+        <translation>Kunder som kjøpte dette produktet, kjøpte også</translation>
     </message>
 </context>
 <context>
@@ -857,6 +883,37 @@
     </message>
 </context>
 <context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>No</source>
+        <translation>Nei</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ja</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation>Brukernavn</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Passord</translation>
+    </message>
+    <message>
+        <source>Confirm password</source>
+        <translation>Bekreft passord</translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation>E-post</translation>
+    </message>
+    <message>
+        <source>Confirm email</source>
+        <translation>Bekreft e-post</translation>
+    </message>
+</context>
+<context>
     <name>design/sevenx_themes_media/forgotpasswordmail</name>
     <message>
         <source>Click the button to confirm it is you. We will then email you a new password straight away.</source>
@@ -1165,6 +1222,150 @@
         <source>Most Recent Videos</source>
         <translation>Nyeste videoer</translation>
     </message>
+    <message>
+        <source>Hero Style 1</source>
+        <translation>Hero, stil 1</translation>
+    </message>
+    <message>
+        <source>Hero Style 2</source>
+        <translation>Hero, stil 2</translation>
+    </message>
+    <message>
+        <source>Hero Style 3</source>
+        <translation>Hero, stil 3</translation>
+    </message>
+    <message>
+        <source>Features Style 1</source>
+        <translation>Funksjoner, stil 1</translation>
+    </message>
+    <message>
+        <source>Features Style 2</source>
+        <translation>Funksjoner, stil 2</translation>
+    </message>
+    <message>
+        <source>Features Style 3</source>
+        <translation>Funksjoner, stil 3</translation>
+    </message>
+    <message>
+        <source>Features Style 4</source>
+        <translation>Funksjoner, stil 4</translation>
+    </message>
+    <message>
+        <source>Features Style 5</source>
+        <translation>Funksjoner, stil 5</translation>
+    </message>
+    <message>
+        <source>Features Style 6</source>
+        <translation>Funksjoner, stil 6</translation>
+    </message>
+    <message>
+        <source>Features Style 7</source>
+        <translation>Funksjoner, stil 7</translation>
+    </message>
+    <message>
+        <source>About Style 1</source>
+        <translation>Om oss, stil 1</translation>
+    </message>
+    <message>
+        <source>About Style 2</source>
+        <translation>Om oss, stil 2</translation>
+    </message>
+    <message>
+        <source>About Style 3</source>
+        <translation>Om oss, stil 3</translation>
+    </message>
+    <message>
+        <source>About Style 4</source>
+        <translation>Om oss, stil 4</translation>
+    </message>
+    <message>
+        <source>About Style 5</source>
+        <translation>Om oss, stil 5</translation>
+    </message>
+    <message>
+        <source>Logos Style 1</source>
+        <translation>Logoer, stil 1</translation>
+    </message>
+    <message>
+        <source>Logos Style 2</source>
+        <translation>Logoer, stil 2</translation>
+    </message>
+    <message>
+        <source>Quote style 1</source>
+        <translation>Sitat, stil 1</translation>
+    </message>
+    <message>
+        <source>Lead Style 1 (embed)</source>
+        <translation>Lead, stil 1 (innebygd)</translation>
+    </message>
+    <message>
+        <source>Lead Style 2 (embed)</source>
+        <translation>Lead, stil 2 (innebygd)</translation>
+    </message>
+    <message>
+        <source>Lead Style 1 (modal)</source>
+        <translation>Lead, stil 1 (modalvindu)</translation>
+    </message>
+    <message>
+        <source>Lead Style 2 (modal)</source>
+        <translation>Lead, stil 2 (modalvindu)</translation>
+    </message>
+    <message>
+        <source>Standard view</source>
+        <translation>Standardvisning</translation>
+    </message>
+    <message>
+        <source>Standard with intro view</source>
+        <translation>Standardvisning med ingress</translation>
+    </message>
+    <message>
+        <source>Overlay view</source>
+        <translation>Overleggsvisning</translation>
+    </message>
+    <message>
+        <source>Line view</source>
+        <translation>Linjevisning</translation>
+    </message>
+    <message>
+        <source>Listitem view</source>
+        <translation>Listeelementvisning</translation>
+    </message>
+    <message>
+        <source>Listitem with intro view</source>
+        <translation>Listeelementvisning med ingress</translation>
+    </message>
+    <message>
+        <source>Mini view</source>
+        <translation>Minivisning</translation>
+    </message>
+    <message>
+        <source>Slide view</source>
+        <translation>Lysbildevisning</translation>
+    </message>
+    <message>
+        <source>Sushi slider view</source>
+        <translation>Sushi-glidervisning</translation>
+    </message>
+    <message>
+        <source>Sushi slider view Full width</source>
+        <translation>Sushi-glidervisning i full bredde</translation>
+    </message>
+    <message>
+        <source>Gallery grid view</source>
+        <translation>Gallerivisning som rutenett</translation>
+    </message>
+    <message>
+        <source>Gallery thumb view</source>
+        <translation>Gallerivisning med miniatyrbilder</translation>
+    </message>
+    <message>
+        <source>List (zig-zag) with banners</source>
+        <translation>Liste (sikksakk) med bannere</translation>
+    </message>
+    <message>
+        <source>List (Accordion) with accordion items</source>
+        <translation>Liste (trekkspill) med trekkspillelementer</translation>
+    </message>
 </context>
 <context>
     <name>design/media/navigator</name>
@@ -1183,6 +1384,17 @@
     <message>
         <source>Go to page %page</source>
         <translation>Gå til side %page</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/navigator</name>
+    <message>
+        <source>Previous</source>
+        <translation>Forrige</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Neste</translation>
     </message>
 </context>
 <context>
@@ -1273,11 +1485,11 @@
     </message>
     <message>
         <source>No results were found when searching for &quot;%searchText%&quot;.</source>
-        <translation>Søket etter «%searchText%» ga ingen treff.</translation>
+        <translation>Søket etter &quot;%searchText%&quot; ga ingen treff.</translation>
     </message>
     <message>
         <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation>Prøv å endre noen søkeord (for eksempel «bil» i stedet for «biler»).</translation>
+        <translation>Prøv å endre noen søkeord (for eksempel &quot;bil&quot; i stedet for &quot;biler&quot;).</translation>
     </message>
     <message>
         <source>Check spelling of keywords.</source>
@@ -1293,7 +1505,7 @@
     </message>
     <message>
         <source>Search for &quot;%searchText%&quot; returned %searchCount% matches</source>
-        <translation>Søket etter «%searchText%» ga %searchCount% treff</translation>
+        <translation>Søket etter &quot;%searchText%&quot; ga %searchCount% treff</translation>
     </message>
     <message>
         <source>Submit search</source>
@@ -1335,12 +1547,112 @@
         <translation>Handlekurv</translation>
     </message>
     <message>
+        <source>Basket</source>
+        <translation>Handlekurv</translation>
+    </message>
+    <message>
+        <source>Shopping basket</source>
+        <translation>Handlekurv</translation>
+    </message>
+    <message>
+        <source>Account information</source>
+        <translation>Informasjon om brukerkonto</translation>
+    </message>
+    <message>
+        <source>Confirm order</source>
+        <translation>Bekreft ordre</translation>
+    </message>
+    <message>
+        <source>The following items were removed from your basket because the products were changed.</source>
+        <translation>Følgende ble fjernet fra handlekurven din fordi produktene er blitt endret.</translation>
+    </message>
+    <message>
+        <source>VAT is unknown</source>
+        <translation>Mva. er ukjent</translation>
+    </message>
+    <message>
+        <source>VAT percentage is not yet known for some of the items being purchased.</source>
+        <translation>Mva-prosent er ennå ikke kjent for noen av produktene du kjøper.</translation>
+    </message>
+    <message>
+        <source>This probably means that some information about you is not yet available and will be obtained during checkout.</source>
+        <translation>Dette betyr trolig at noe informasjon om deg ennå ikke er tilgjengelig, og at den blir innhentet når du går til kassen.</translation>
+    </message>
+    <message>
+        <source>Attempted to add object without price to basket.</source>
+        <translation>Forsøkte å legge til vare uten pris i handlekurv.</translation>
+    </message>
+    <message>
+        <source>Your payment was aborted.</source>
+        <translation>Betalingen ble avbrutt.</translation>
+    </message>
+    <message>
         <source>Product</source>
         <translation>Produkt</translation>
     </message>
     <message>
+        <source>Count</source>
+        <translation>Antall</translation>
+    </message>
+    <message>
+        <source>VAT</source>
+        <translation>Mva.</translation>
+    </message>
+    <message>
+        <source>Price inc. VAT</source>
+        <translation>Pris inkl. mva.</translation>
+    </message>
+    <message>
+        <source>Discount</source>
+        <translation>Rabatt</translation>
+    </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation>Totalpris eks. mva.</translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation>Totalpris inkl. mva.</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Fjern</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Ukjent</translation>
+    </message>
+    <message>
+        <source>Selected options</source>
+        <translation>Valgte alternativer</translation>
+    </message>
+    <message>
+        <source>Update</source>
+        <translation>Oppdater</translation>
+    </message>
+    <message>
         <source>Subtotal of items</source>
         <translation>Delsum for varer</translation>
+    </message>
+    <message>
+        <source>Shipping</source>
+        <translation>Frakt</translation>
+    </message>
+    <message>
+        <source>Order total</source>
+        <translation>Ordretotal</translation>
+    </message>
+    <message>
+        <source>Checkout</source>
+        <translation>Gå til kassen</translation>
+    </message>
+    <message>
+        <source>Continue shopping</source>
+        <translation>Fortsett å handle</translation>
+    </message>
+    <message>
+        <source>You have no products in your basket.</source>
+        <translation>Handlekurven din er tom.</translation>
     </message>
     <message>
         <source>Summary</source>
@@ -1349,6 +1661,54 @@
 </context>
 <context>
     <name>design/ezwebin/shop/confirmorder</name>
+    <message>
+        <source>Confirm order</source>
+        <translation>Bekreft ordre</translation>
+    </message>
+    <message>
+        <source>Shopping basket</source>
+        <translation>Handlekurv</translation>
+    </message>
+    <message>
+        <source>Account information</source>
+        <translation>Informasjon om brukerkonto</translation>
+    </message>
+    <message>
+        <source>Product items</source>
+        <translation>Produkter</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Antall</translation>
+    </message>
+    <message>
+        <source>VAT</source>
+        <translation>Mva.</translation>
+    </message>
+    <message>
+        <source>Price inc. VAT</source>
+        <translation>Pris inkl. mva.</translation>
+    </message>
+    <message>
+        <source>Discount</source>
+        <translation>Rabatt</translation>
+    </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation>Totalpris eks. mva.</translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation>Totalpris inkl. mva.</translation>
+    </message>
+    <message>
+        <source>Selected options</source>
+        <translation>Valgte alternativer</translation>
+    </message>
+    <message>
+        <source>Order summary</source>
+        <translation>Ordresammendrag</translation>
+    </message>
     <message>
         <source>Summary</source>
         <translation>Sammendrag</translation>
@@ -1361,6 +1721,22 @@
         <source>Total inc. VAT</source>
         <translation>Totalt inkl. mva.</translation>
     </message>
+    <message>
+        <source>Subtotal of items</source>
+        <translation>Delsum for varer</translation>
+    </message>
+    <message>
+        <source>Order total</source>
+        <translation>Ordretotal</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Bekreft</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderview</name>
@@ -1368,9 +1744,97 @@
         <source>Order %order_id</source>
         <translation>Ordre %order_id</translation>
     </message>
+    <message>
+        <source>Product items</source>
+        <translation>Produkter</translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation>Produkt</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Antall</translation>
+    </message>
+    <message>
+        <source>VAT</source>
+        <translation>Mva.</translation>
+    </message>
+    <message>
+        <source>Price inc. VAT</source>
+        <translation>Pris inkl. mva.</translation>
+    </message>
+    <message>
+        <source>Discount</source>
+        <translation>Rabatt</translation>
+    </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation>Totalpris eks. mva.</translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation>Totalpris inkl. mva.</translation>
+    </message>
+    <message>
+        <source>Order summary</source>
+        <translation>Ordresammendrag</translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation>Sammendrag</translation>
+    </message>
+    <message>
+        <source>Subtotal of items</source>
+        <translation>Delsum for varer</translation>
+    </message>
+    <message>
+        <source>Order total</source>
+        <translation>Ordretotal</translation>
+    </message>
+    <message>
+        <source>Order history</source>
+        <translation>Ordrehistorie</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dato</translation>
+    </message>
+    <message>
+        <source>Order status</source>
+        <translation>Ordrestatus</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/userregister</name>
+    <message>
+        <source>Your account information</source>
+        <translation>Din kontoinformasjon</translation>
+    </message>
+    <message>
+        <source>Shopping basket</source>
+        <translation>Handlekurv</translation>
+    </message>
+    <message>
+        <source>Account information</source>
+        <translation>Informasjon om brukerkonto</translation>
+    </message>
+    <message>
+        <source>Confirm order</source>
+        <translation>Bekreft ordre</translation>
+    </message>
+    <message>
+        <source>Input did not validate. All fields marked with * must be filled in.</source>
+        <translation>Innlagte data er ikke gyldige. Alle felter merket med * må fylles inn.</translation>
+    </message>
+    <message>
+        <source>First name</source>
+        <translation>Fornavn</translation>
+    </message>
+    <message>
+        <source>Last name</source>
+        <translation>Etternavn</translation>
+    </message>
     <message>
         <source>Address line 1</source>
         <translation>Adresselinje 1</translation>
@@ -1380,8 +1844,16 @@
         <translation>Adresselinje 2</translation>
     </message>
     <message>
+        <source>Zip</source>
+        <translation>Postnummer</translation>
+    </message>
+    <message>
         <source>City</source>
         <translation>Poststed</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tilstand</translation>
     </message>
     <message>
         <source>E-mail</source>
@@ -1391,9 +1863,33 @@
         <source>Phone</source>
         <translation>Telefon</translation>
     </message>
+    <message>
+        <source>Country</source>
+        <translation>Land</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Kommentar</translation>
+    </message>
+    <message>
+        <source>Continue</source>
+        <translation>Fortsett</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/content/edit</name>
+    <message>
+        <source>Collected information from %1</source>
+        <translation>Innhentet informasjon fra %1</translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
+        <translation>Følgende informasjon ble registrert</translation>
+    </message>
     <message>
         <source>Collection ID</source>
         <translation>Innsamlings-ID</translation>
@@ -1449,8 +1945,32 @@
 <context>
     <name>design/standard/ezinfo/about</name>
     <message>
+        <source>Exponential information: %version</source>
+        <translation>Exponential-informasjon: %version</translation>
+    </message>
+    <message>
+        <source>What is Exponential?</source>
+        <translation>Hva er Exponential?</translation>
+    </message>
+    <message>
+        <source>License</source>
+        <translation>Lisens</translation>
+    </message>
+    <message>
         <source>Could not load LICENSE file! You should have a LICENSE file in your Exponential root directory.</source>
         <translation>Kunne ikke laste inn LICENSE-filen! Det skal ligge en LICENSE-fil i rotkatalogen til Exponential.</translation>
+    </message>
+    <message>
+        <source>Contributors</source>
+        <translation>Bidragsytere</translation>
+    </message>
+    <message>
+        <source>Copyright Notice</source>
+        <translation>Informasjon om copyright</translation>
+    </message>
+    <message>
+        <source>Third-Party Software</source>
+        <translation>Programvare fra tredjeparter</translation>
     </message>
     <message>
         <source>Includes</source>
@@ -1469,6 +1989,10 @@
         <translation>Dette er listen over tredjepartsprogramvare som distribueres med denne Exponential-installasjonen. For hver programvare vises lisensen og katalogen eller filene som inneholder den.</translation>
     </message>
     <message>
+        <source>Extensions</source>
+        <translation>Utvidelser</translation>
+    </message>
+    <message>
         <source>Version</source>
         <translation>Versjon</translation>
     </message>
@@ -1480,6 +2004,18 @@
 <context>
     <name>design/standard/shop</name>
     <message>
+        <source>Customer</source>
+        <translation>Kunde</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Navn</translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation>E-post</translation>
+    </message>
+    <message>
         <source>Address line 1</source>
         <translation>Adresselinje 1</translation>
     </message>
@@ -1488,16 +2024,60 @@
         <translation>Adresselinje 2</translation>
     </message>
     <message>
+        <source>Zip</source>
+        <translation>Postnummer</translation>
+    </message>
+    <message>
         <source>City</source>
         <translation>Poststed</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tilstand</translation>
+    </message>
+    <message>
+        <source>Country/region</source>
+        <translation>Land/region</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Kommentar</translation>
     </message>
     <message>
         <source>Phone</source>
         <translation>Telefon</translation>
     </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user</name>
+    <message>
+        <source>Activate account</source>
+        <translation>Aktiver konto</translation>
+    </message>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation>E-postadressen din er bekreftet. En administrator må godkjenne registreringen før kontoen din blir gyldig.</translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation>Kontoen din er nå aktivert.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation>Kontoen din er allerede aktivert.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation>Beklager, nøkkelen som ble brukt er ikke godkjent. Kontoen ble ikke aktivert.</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
     <message>
         <source>First name</source>
         <translation>Fornavn</translation>
@@ -1507,19 +2087,81 @@
         <translation>Etternavn</translation>
     </message>
     <message>
+        <source>Please note that your browser must use and support cookies to register a new user.</source>
+        <translation>Merk at informasjonskapsler (cookies) må være aktivert i nettleseren for at du skal kunne registrere deg som bruker.</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <comment>Button</comment>
+        <translation>Registrer</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <comment>Button</comment>
+        <translation>Forkast</translation>
+    </message>
+    <message>
+        <source>Unable to register new user</source>
+        <translation>Kunne ikke registrere den nye brukeren</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Tilbake</translation>
+    </message>
+    <message>
         <source>Login</source>
         <translation>Logg inn</translation>
     </message>
     <message>
+        <source>Username</source>
+        <comment>User name</comment>
+        <translation>Brukernavn</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Passord</translation>
+    </message>
+    <message>
         <source>Remember me</source>
         <translation>Husk meg</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <comment>Button</comment>
+        <translation>Logg inn</translation>
+    </message>
+    <message>
+        <source>Sign Up</source>
+        <comment>Button</comment>
+        <translation>Registrer deg</translation>
+    </message>
+    <message>
+        <source>Forgot your password?</source>
+        <translation>Har du glemt passordet ditt?</translation>
+    </message>
+    <message>
+        <source>Register user</source>
+        <translation>Registrer bruker</translation>
+    </message>
+    <message>
+        <source>Input did not validate</source>
+        <translation>Den innlagte informasjonen ble ikke godkjent</translation>
+    </message>
+    <message>
+        <source>Input was stored successfully</source>
+        <translation>Den innlagte informasjonen er lagret</translation>
     </message>
 </context>
 <context>
     <name>kernel/classes/datatypes</name>
     <message>
         <source>Tags</source>
-        <translation>Tags</translation>
+        <comment>Datatype name</comment>
+        <translation>Tagger</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation type="obsolete">Tags</translation>
     </message>
 </context>
 <context>
@@ -1530,7 +2172,7 @@
     </message>
     <message>
         <source>Layouts</source>
-        <translation>Layouts</translation>
+        <translation>Layouter</translation>
     </message>
     <message>
         <source>eZ Tags</source>
@@ -1542,6 +2184,88 @@
     <message>
         <source>Login</source>
         <translation>Logg inn</translation>
+    </message>
+</context>
+<context>
+    <name>design/media/video</name>
+    <message>
+        <source>Playing this video loads it from YouTube (Google). See our %privacy_link.</source>
+        <translation>Når du spiller av denne videoen, lastes den fra YouTube (Google). Se vår %privacy_link.</translation>
+    </message>
+    <message>
+        <source>Privacy policy</source>
+        <translation>Personvernerklæring</translation>
+    </message>
+    <message>
+        <source>Play video</source>
+        <translation>Spill av video</translation>
+    </message>
+    <message>
+        <source>Play video: %title</source>
+        <translation>Spill av video: %title</translation>
+    </message>
+    <message>
+        <source>Always allow YouTube videos on this site</source>
+        <translation>Tillat alltid YouTube-videoer på dette nettstedet</translation>
+    </message>
+    <message>
+        <source>Stop loading YouTube automatically</source>
+        <translation>Slutt å laste YouTube automatisk</translation>
+    </message>
+    <message>
+        <source>YouTube video</source>
+        <translation>YouTube-video</translation>
+    </message>
+</context>
+<context>
+    <name>design/media/cookieconsent</name>
+    <message>
+        <source>Cookies on this website</source>
+        <translation>Informasjonskapsler på dette nettstedet</translation>
+    </message>
+    <message>
+        <source>Close without changes</source>
+        <translation>Lukk uten endringer</translation>
+    </message>
+    <message>
+        <source>This website stores only what it needs to work: a session cookie when you sign in, and copies of the pages you visit, kept in your browser so they open faster. YouTube videos load only when you press play. &quot;Accept all&quot; lets them load as soon as a page opens; YouTube (Google) may then store data in your browser. Your choice is kept in a cookie for 6 months. Details are in our %cookie_link.</source>
+        <translation>Dette nettstedet lagrer bare det det trenger for å fungere: en sesjonsinformasjonskapsel når du logger inn, og kopier av sidene du besøker, som oppbevares i nettleseren din slik at de åpnes raskere. YouTube-videoer lastes bare når du trykker på avspilling. &quot;Godta alle&quot; lar dem lastes så snart en side åpnes; YouTube (Google) kan da lagre data i nettleseren din. Valget ditt lagres i en informasjonskapsel i 6 måneder. Detaljer finner du i vår %cookie_link.</translation>
+    </message>
+    <message>
+        <source>Reject all</source>
+        <translation>Avvis alle</translation>
+    </message>
+    <message>
+        <source>Accept all</source>
+        <translation>Godta alle</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Innstillinger</translation>
+    </message>
+    <message>
+        <source>Strictly necessary</source>
+        <translation>Strengt nødvendige</translation>
+    </message>
+    <message>
+        <source>Always on</source>
+        <translation>Alltid på</translation>
+    </message>
+    <message>
+        <source>The session cookie for signing in and for forms, the cookie that keeps this choice, and the copies of pages you visited that let them open faster. They stay on because the website needs them; you can delete them in your browser settings at any time.</source>
+        <translation>Sesjonsinformasjonskapselen for innlogging og skjemaer, informasjonskapselen som husker dette valget, og kopiene av sider du har besøkt, som gjør at de åpnes raskere. De er alltid på fordi nettstedet trenger dem; du kan når som helst slette dem i innstillingene i nettleseren din.</translation>
+    </message>
+    <message>
+        <source>Embedded videos (YouTube)</source>
+        <translation>Innebygde videoer (YouTube)</translation>
+    </message>
+    <message>
+        <source>Load YouTube videos as soon as a page opens, from www.youtube-nocookie.com. YouTube (Google) may then store data in your browser. When this is off, each video shows a picture and loads only when you press its play button. This is the same as &quot;Always allow YouTube videos on this site&quot; under a video.</source>
+        <translation>Last inn YouTube-videoer så snart en side åpnes, fra www.youtube-nocookie.com. YouTube (Google) kan da lagre data i nettleseren din. Når dette er av, viser hver video et bilde og lastes bare når du trykker på avspillingsknappen. Dette er det samme som &quot;Tillat alltid YouTube-videoer på dette nettstedet&quot; under en video.</translation>
+    </message>
+    <message>
+        <source>Save my choice</source>
+        <translation>Lagre valget mitt</translation>
     </message>
 </context>
 </TS>

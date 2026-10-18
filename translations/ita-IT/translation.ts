@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ita-IT" sourcelanguage="en">
+<TS version="2.0" language="it_IT" sourcelanguage="en">
 <context>
     <name>design/media/pagelayout</name>
     <message>
@@ -360,6 +360,10 @@
     <message>
         <source>on %title</source>
         <translation>su %title</translation>
+    </message>
+    <message>
+        <source>View product details</source>
+        <translation>Visualizza i dettagli del prodotto</translation>
     </message>
 </context>
 <context>
@@ -1165,6 +1169,150 @@
         <source>Most Recent Videos</source>
         <translation>Video più recenti</translation>
     </message>
+    <message>
+        <source>Hero Style 1</source>
+        <translation>Hero stile 1</translation>
+    </message>
+    <message>
+        <source>Hero Style 2</source>
+        <translation>Hero stile 2</translation>
+    </message>
+    <message>
+        <source>Hero Style 3</source>
+        <translation>Hero stile 3</translation>
+    </message>
+    <message>
+        <source>Features Style 1</source>
+        <translation>Caratteristiche stile 1</translation>
+    </message>
+    <message>
+        <source>Features Style 2</source>
+        <translation>Caratteristiche stile 2</translation>
+    </message>
+    <message>
+        <source>Features Style 3</source>
+        <translation>Caratteristiche stile 3</translation>
+    </message>
+    <message>
+        <source>Features Style 4</source>
+        <translation>Caratteristiche stile 4</translation>
+    </message>
+    <message>
+        <source>Features Style 5</source>
+        <translation>Caratteristiche stile 5</translation>
+    </message>
+    <message>
+        <source>Features Style 6</source>
+        <translation>Caratteristiche stile 6</translation>
+    </message>
+    <message>
+        <source>Features Style 7</source>
+        <translation>Caratteristiche stile 7</translation>
+    </message>
+    <message>
+        <source>About Style 1</source>
+        <translation>Chi siamo stile 1</translation>
+    </message>
+    <message>
+        <source>About Style 2</source>
+        <translation>Chi siamo stile 2</translation>
+    </message>
+    <message>
+        <source>About Style 3</source>
+        <translation>Chi siamo stile 3</translation>
+    </message>
+    <message>
+        <source>About Style 4</source>
+        <translation>Chi siamo stile 4</translation>
+    </message>
+    <message>
+        <source>About Style 5</source>
+        <translation>Chi siamo stile 5</translation>
+    </message>
+    <message>
+        <source>Logos Style 1</source>
+        <translation>Loghi stile 1</translation>
+    </message>
+    <message>
+        <source>Logos Style 2</source>
+        <translation>Loghi stile 2</translation>
+    </message>
+    <message>
+        <source>Quote style 1</source>
+        <translation>Citazione stile 1</translation>
+    </message>
+    <message>
+        <source>Lead Style 1 (embed)</source>
+        <translation>Lead stile 1 (incorporato)</translation>
+    </message>
+    <message>
+        <source>Lead Style 2 (embed)</source>
+        <translation>Lead stile 2 (incorporato)</translation>
+    </message>
+    <message>
+        <source>Lead Style 1 (modal)</source>
+        <translation>Lead stile 1 (modale)</translation>
+    </message>
+    <message>
+        <source>Lead Style 2 (modal)</source>
+        <translation>Lead stile 2 (modale)</translation>
+    </message>
+    <message>
+        <source>Standard view</source>
+        <translation>Vista standard</translation>
+    </message>
+    <message>
+        <source>Standard with intro view</source>
+        <translation>Vista standard con introduzione</translation>
+    </message>
+    <message>
+        <source>Overlay view</source>
+        <translation>Vista sovrapposta</translation>
+    </message>
+    <message>
+        <source>Line view</source>
+        <translation>Vista riga</translation>
+    </message>
+    <message>
+        <source>Listitem view</source>
+        <translation>Vista elemento di elenco</translation>
+    </message>
+    <message>
+        <source>Listitem with intro view</source>
+        <translation>Vista elemento di elenco con introduzione</translation>
+    </message>
+    <message>
+        <source>Mini view</source>
+        <translation>Vista mini</translation>
+    </message>
+    <message>
+        <source>Slide view</source>
+        <translation>Vista slide</translation>
+    </message>
+    <message>
+        <source>Sushi slider view</source>
+        <translation>Vista slider sushi</translation>
+    </message>
+    <message>
+        <source>Sushi slider view Full width</source>
+        <translation>Vista slider sushi a tutta larghezza</translation>
+    </message>
+    <message>
+        <source>Gallery grid view</source>
+        <translation>Vista galleria a griglia</translation>
+    </message>
+    <message>
+        <source>Gallery thumb view</source>
+        <translation>Vista galleria a miniature</translation>
+    </message>
+    <message>
+        <source>List (zig-zag) with banners</source>
+        <translation>Elenco (zig-zag) con banner</translation>
+    </message>
+    <message>
+        <source>List (Accordion) with accordion items</source>
+        <translation>Elenco (fisarmonica) con elementi a fisarmonica</translation>
+    </message>
 </context>
 <context>
     <name>design/media/navigator</name>
@@ -1346,6 +1494,106 @@
         <source>Summary</source>
         <translation>Riepilogo</translation>
     </message>
+    <message>
+        <source>Basket</source>
+        <translation>Carrello</translation>
+    </message>
+    <message>
+        <source>Shopping basket</source>
+        <translation>Carrello acquisti</translation>
+    </message>
+    <message>
+        <source>Account information</source>
+        <translation>Informazioni sull&apos;account</translation>
+    </message>
+    <message>
+        <source>Confirm order</source>
+        <translation>Conferma l&apos;ordine</translation>
+    </message>
+    <message>
+        <source>The following items were removed from your basket because the products were changed.</source>
+        <translation>Gli elementi seguenti sono stati rimossi dal carrello perché i prodotti sono cambiati.</translation>
+    </message>
+    <message>
+        <source>VAT is unknown</source>
+        <translation>IVA sconosciuta</translation>
+    </message>
+    <message>
+        <source>VAT percentage is not yet known for some of the items being purchased.</source>
+        <translation>La percentuale di IVA è ancora sconosciuta per alcuni degli oggetti acquistati.</translation>
+    </message>
+    <message>
+        <source>This probably means that some information about you is not yet available and will be obtained during checkout.</source>
+        <translation>Ciò significa probabilmente che qualche informazione su di te non è ancora disponibile e verrà ottenuta alla fine degli acquisti.</translation>
+    </message>
+    <message>
+        <source>Attempted to add object without price to basket.</source>
+        <translation>Provato ad aggiungere un oggetto senza prezzo al carrello.</translation>
+    </message>
+    <message>
+        <source>Your payment was aborted.</source>
+        <translation>Il tuo pagamento è stato abortito.</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Quantità</translation>
+    </message>
+    <message>
+        <source>VAT</source>
+        <translation>IVA</translation>
+    </message>
+    <message>
+        <source>Price inc. VAT</source>
+        <translation>Prezzo con IVA</translation>
+    </message>
+    <message>
+        <source>Discount</source>
+        <translation>Sconto</translation>
+    </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation>Prezzo totale ex IVA</translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation>Prezzo totale con IVA</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Elimina</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Sconosciuto</translation>
+    </message>
+    <message>
+        <source>Selected options</source>
+        <translation>Opzioni selezionate</translation>
+    </message>
+    <message>
+        <source>Update</source>
+        <translation>Aggiorna</translation>
+    </message>
+    <message>
+        <source>Shipping</source>
+        <translation>Spedizione</translation>
+    </message>
+    <message>
+        <source>Order total</source>
+        <translation>Totale ordine</translation>
+    </message>
+    <message>
+        <source>Checkout</source>
+        <translation>Acquista</translation>
+    </message>
+    <message>
+        <source>Continue shopping</source>
+        <translation>Continua gli acquisti</translation>
+    </message>
+    <message>
+        <source>You have no products in your basket.</source>
+        <translation>Non hai prodotti nel carrello.</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/confirmorder</name>
@@ -1361,12 +1609,136 @@
         <source>Total inc. VAT</source>
         <translation>Totale IVA inclusa</translation>
     </message>
+    <message>
+        <source>Confirm order</source>
+        <translation>Conferma l&apos;ordine</translation>
+    </message>
+    <message>
+        <source>Shopping basket</source>
+        <translation>Carrello acquisti</translation>
+    </message>
+    <message>
+        <source>Account information</source>
+        <translation>Informazioni sull&apos;account</translation>
+    </message>
+    <message>
+        <source>Product items</source>
+        <translation>Prodotti</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Quantità</translation>
+    </message>
+    <message>
+        <source>VAT</source>
+        <translation>IVA</translation>
+    </message>
+    <message>
+        <source>Price inc. VAT</source>
+        <translation>Prezzo con IVA</translation>
+    </message>
+    <message>
+        <source>Discount</source>
+        <translation>Sconto</translation>
+    </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation>Prezzo totale ex IVA</translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation>Prezzo totale con IVA</translation>
+    </message>
+    <message>
+        <source>Selected options</source>
+        <translation>Opzioni selezionate</translation>
+    </message>
+    <message>
+        <source>Order summary</source>
+        <translation>Riepilogo ordine</translation>
+    </message>
+    <message>
+        <source>Subtotal of items</source>
+        <translation>Subtotale elementi</translation>
+    </message>
+    <message>
+        <source>Order total</source>
+        <translation>Totale ordine</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Conferma</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/shop/orderview</name>
     <message>
         <source>Order %order_id</source>
         <translation>Ordine %order_id</translation>
+    </message>
+    <message>
+        <source>Product items</source>
+        <translation>Prodotti</translation>
+    </message>
+    <message>
+        <source>Product</source>
+        <translation>Prodotto</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Quantità</translation>
+    </message>
+    <message>
+        <source>VAT</source>
+        <translation>IVA</translation>
+    </message>
+    <message>
+        <source>Price inc. VAT</source>
+        <translation>Prezzo con IVA</translation>
+    </message>
+    <message>
+        <source>Discount</source>
+        <translation>Sconto</translation>
+    </message>
+    <message>
+        <source>Total price ex. VAT</source>
+        <translation>Prezzo totale ex IVA</translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation>Prezzo totale con IVA</translation>
+    </message>
+    <message>
+        <source>Order summary</source>
+        <translation>Riepilogo ordine</translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation>Riepilogo</translation>
+    </message>
+    <message>
+        <source>Subtotal of items</source>
+        <translation>Subtotale elementi</translation>
+    </message>
+    <message>
+        <source>Order total</source>
+        <translation>Totale ordine</translation>
+    </message>
+    <message>
+        <source>Order history</source>
+        <translation>Storia dell&apos;ordine</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Order status</source>
+        <translation>Stato dell&apos;ordine</translation>
     </message>
 </context>
 <context>
@@ -1391,6 +1763,58 @@
         <source>Phone</source>
         <translation>Telefono</translation>
     </message>
+    <message>
+        <source>Your account information</source>
+        <translation>Informazioni sul tuo account</translation>
+    </message>
+    <message>
+        <source>Shopping basket</source>
+        <translation>Carrello acquisti</translation>
+    </message>
+    <message>
+        <source>Account information</source>
+        <translation>Informazioni sull&apos;account</translation>
+    </message>
+    <message>
+        <source>Confirm order</source>
+        <translation>Conferma l&apos;ordine</translation>
+    </message>
+    <message>
+        <source>Input did not validate. All fields marked with * must be filled in.</source>
+        <translation>Input non valido. Tutti i campi marcati con * devono essere compilati.</translation>
+    </message>
+    <message>
+        <source>First name</source>
+        <translation>Nome</translation>
+    </message>
+    <message>
+        <source>Last name</source>
+        <translation>Cognome</translation>
+    </message>
+    <message>
+        <source>Zip</source>
+        <translation>Codice Postale</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stato</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Paese</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Commento</translation>
+    </message>
+    <message>
+        <source>Continue</source>
+        <translation>Continua</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/content/edit</name>
@@ -1413,6 +1837,14 @@
     <message>
         <source>Sent from</source>
         <translation>Inviato da</translation>
+    </message>
+    <message>
+        <source>Collected information from %1</source>
+        <translation>Informazioni raccolte da %1</translation>
+    </message>
+    <message>
+        <source>The following information was collected</source>
+        <translation>Sono arrivate le seguenti informazioni</translation>
     </message>
 </context>
 <context>
@@ -1476,6 +1908,34 @@
         <source>Website</source>
         <translation>Sito web</translation>
     </message>
+    <message>
+        <source>Exponential information: %version</source>
+        <translation>Informazioni su Exponential: %version</translation>
+    </message>
+    <message>
+        <source>What is Exponential?</source>
+        <translation>Che cos&apos;è Exponential?</translation>
+    </message>
+    <message>
+        <source>License</source>
+        <translation>Licenza</translation>
+    </message>
+    <message>
+        <source>Contributors</source>
+        <translation>Collaboratori</translation>
+    </message>
+    <message>
+        <source>Copyright Notice</source>
+        <translation>Nota di copyright</translation>
+    </message>
+    <message>
+        <source>Third-Party Software</source>
+        <translation>Software di terze parti</translation>
+    </message>
+    <message>
+        <source>Extensions</source>
+        <translation>Estensioni</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/shop</name>
@@ -1494,6 +1954,38 @@
     <message>
         <source>Phone</source>
         <translation>Telefono</translation>
+    </message>
+    <message>
+        <source>Customer</source>
+        <translation>Cliente</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nome</translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation>E-mail</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Indirizzo</translation>
+    </message>
+    <message>
+        <source>Zip</source>
+        <translation>Codice Postale</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stato</translation>
+    </message>
+    <message>
+        <source>Country/region</source>
+        <translation>Nazione/regione</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Commento</translation>
     </message>
 </context>
 <context>
@@ -1514,12 +2006,98 @@
         <source>Remember me</source>
         <translation>Ricordami</translation>
     </message>
+    <message>
+        <source>Activate account</source>
+        <translation>Account attivato</translation>
+    </message>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation>Il tuo indirizzo e-mail è stato confermato. Un amministratore deve approvare la tua richiesta di registrazione, prima che il tuo login diventi valido.</translation>
+    </message>
+    <message>
+        <source>Your account is now activated.</source>
+        <translation>Il tuo account ora è attivo.</translation>
+    </message>
+    <message>
+        <source>Your account is already active.</source>
+        <translation>Il tuo account è già attivo.</translation>
+    </message>
+    <message>
+        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
+        <translation>Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <comment>User name</comment>
+        <translation>Nome utente</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Password</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <comment>Button</comment>
+        <translation>Accedi</translation>
+    </message>
+    <message>
+        <source>Sign Up</source>
+        <comment>Button</comment>
+        <translation>Iscriviti</translation>
+    </message>
+    <message>
+        <source>Forgot your password?</source>
+        <translation>Hai dimenticato la password?</translation>
+    </message>
+    <message>
+        <source>Register user</source>
+        <translation>Registra utente</translation>
+    </message>
+    <message>
+        <source>Input did not validate</source>
+        <translation>Inserimento non valido</translation>
+    </message>
+    <message>
+        <source>Input was stored successfully</source>
+        <translation>Dati inseriti salvati correttamente</translation>
+    </message>
+    <message>
+        <source>Please note that your browser must use and support cookies to register a new user.</source>
+        <translation>Si noti che il browser deve fare uso e supportare i cookies per registrare un nuovo utente.</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <comment>Button</comment>
+        <translation>Registrati</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <comment>Button</comment>
+        <translation>Scarta</translation>
+    </message>
+    <message>
+        <source>Unable to register new user</source>
+        <translation>Impossibile registrare un nuovo utente</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Indietro</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes</name>
     <message>
         <source>Tags</source>
-        <translation>Parole chiave</translation>
+        <translation type="obsolete">Parole chiave</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <comment>Datatype name</comment>
+        <translation>Tag</translation>
     </message>
 </context>
 <context>
@@ -1530,7 +2108,7 @@
     </message>
     <message>
         <source>Layouts</source>
-        <translation>Layouts</translation>
+        <translation>Layout</translation>
     </message>
     <message>
         <source>eZ Tags</source>
@@ -1542,6 +2120,152 @@
     <message>
         <source>Login</source>
         <translation>Accedi</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/node/view</name>
+    <message>
+        <source>Missing or invalid input</source>
+        <translation>Inserimento mancante o non valido</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/full/product</name>
+    <message>
+        <source>Add to basket</source>
+        <translation>Aggiungi al carrello</translation>
+    </message>
+    <message>
+        <source>Add to wish list</source>
+        <translation>Aggiungi alla lista dei desideri</translation>
+    </message>
+    <message>
+        <source>People who bought this also bought</source>
+        <translation>Chi ha acquistato questo ha comprato anche</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>No</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Sì</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation>Nome utente</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Password</translation>
+    </message>
+    <message>
+        <source>Confirm password</source>
+        <translation>Conferma password</translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation>E-mail</translation>
+    </message>
+    <message>
+        <source>Confirm email</source>
+        <translation>Conferma e-mail</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/navigator</name>
+    <message>
+        <source>Previous</source>
+        <translation>Precedente</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Successivo</translation>
+    </message>
+</context>
+<context>
+    <name>design/media/video</name>
+    <message>
+        <source>Playing this video loads it from YouTube (Google). See our %privacy_link.</source>
+        <translation>La riproduzione di questo video lo carica da YouTube (Google). Consulta la nostra %privacy_link.</translation>
+    </message>
+    <message>
+        <source>Privacy policy</source>
+        <translation>Informativa sulla privacy</translation>
+    </message>
+    <message>
+        <source>Play video</source>
+        <translation>Riproduci video</translation>
+    </message>
+    <message>
+        <source>Play video: %title</source>
+        <translation>Riproduci video: %title</translation>
+    </message>
+    <message>
+        <source>Always allow YouTube videos on this site</source>
+        <translation>Consenti sempre i video di YouTube su questo sito</translation>
+    </message>
+    <message>
+        <source>Stop loading YouTube automatically</source>
+        <translation>Non caricare più YouTube automaticamente</translation>
+    </message>
+    <message>
+        <source>YouTube video</source>
+        <translation>Video YouTube</translation>
+    </message>
+</context>
+<context>
+    <name>design/media/cookieconsent</name>
+    <message>
+        <source>Cookies on this website</source>
+        <translation>Cookie su questo sito web</translation>
+    </message>
+    <message>
+        <source>Close without changes</source>
+        <translation>Chiudi senza modifiche</translation>
+    </message>
+    <message>
+        <source>This website stores only what it needs to work: a session cookie when you sign in, and copies of the pages you visit, kept in your browser so they open faster. YouTube videos load only when you press play. "Accept all" lets them load as soon as a page opens; YouTube (Google) may then store data in your browser. Your choice is kept in a cookie for 6 months. Details are in our %cookie_link.</source>
+        <translation>Questo sito web memorizza solo ciò che gli serve per funzionare: un cookie di sessione quando accedi e copie delle pagine che visiti, conservate nel tuo browser perché si aprano più velocemente. I video di YouTube vengono caricati solo quando premi play. &quot;Accetta tutto&quot; li carica non appena si apre una pagina; YouTube (Google) può quindi memorizzare dati nel tuo browser. La tua scelta viene conservata in un cookie per 6 mesi. I dettagli sono nella nostra %cookie_link.</translation>
+    </message>
+    <message>
+        <source>Reject all</source>
+        <translation>Rifiuta tutto</translation>
+    </message>
+    <message>
+        <source>Accept all</source>
+        <translation>Accetta tutti</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Impostazioni</translation>
+    </message>
+    <message>
+        <source>Strictly necessary</source>
+        <translation>Strettamente necessari</translation>
+    </message>
+    <message>
+        <source>Always on</source>
+        <translation>Sempre attivi</translation>
+    </message>
+    <message>
+        <source>The session cookie for signing in and for forms, the cookie that keeps this choice, and the copies of pages you visited that let them open faster. They stay on because the website needs them; you can delete them in your browser settings at any time.</source>
+        <translation>Il cookie di sessione per l&apos;accesso e per i moduli, il cookie che conserva questa scelta e le copie delle pagine visitate che permettono di aprirle più velocemente. Restano attivi perché il sito web ne ha bisogno; puoi eliminarli in qualsiasi momento nelle impostazioni del browser.</translation>
+    </message>
+    <message>
+        <source>Embedded videos (YouTube)</source>
+        <translation>Video incorporati (YouTube)</translation>
+    </message>
+    <message>
+        <source>Load YouTube videos as soon as a page opens, from www.youtube-nocookie.com. YouTube (Google) may then store data in your browser. When this is off, each video shows a picture and loads only when you press its play button. This is the same as "Always allow YouTube videos on this site" under a video.</source>
+        <translation>Carica i video di YouTube non appena si apre una pagina, da www.youtube-nocookie.com. YouTube (Google) può quindi memorizzare dati nel tuo browser. Quando questa opzione è disattivata, ogni video mostra un&apos;immagine e viene caricato solo quando premi il suo pulsante play. Equivale a &quot;Consenti sempre i video di YouTube su questo sito&quot; sotto un video.</translation>
+    </message>
+    <message>
+        <source>Save my choice</source>
+        <translation>Salva la mia scelta</translation>
     </message>
 </context>
 </TS>
