@@ -615,6 +615,66 @@
         <source>shop 4 (currency inactive)</source>
         <translation>shop 4 (waluta nieaktywna)</translation>
     </message>
+    <message>
+        <source>It can't be bought together with what is already in your basket. Check out the basket first, or remove what is in it, and then add this product.</source>
+        <translation>Nie można go kupić razem z tym, co jest już w koszyku. Najpierw sfinalizuj zamówienie lub opróżnij koszyk, a potem dodaj ten produkt.</translation>
+    </message>
+    <message>
+        <source>It isn't a product in the shop, or it is no longer for sale.</source>
+        <translation>To nie jest produkt ze sklepu albo nie jest już w sprzedaży.</translation>
+    </message>
+    <message>
+        <source>That currency isn't available</source>
+        <translation>Ta waluta jest niedostępna</translation>
+    </message>
+    <message>
+        <source>That currency isn't available at the moment</source>
+        <translation>Ta waluta jest w tej chwili niedostępna</translation>
+    </message>
+    <message>
+        <source>The address doesn't match any page on this site. It may have a typo, or the link that brought you here may be out of date.</source>
+        <translation>Ten adres nie pasuje do żadnej strony w tym serwisie. Może zawierać literówkę albo link, który Cię tu przyprowadził, jest nieaktualny.</translation>
+    </message>
+    <message>
+        <source>The shop doesn't sell in the currency that was asked for. Go back and choose another one.</source>
+        <translation>Sklep nie prowadzi sprzedaży w wybranej walucie. Wróć i wybierz inną.</translation>
+    </message>
+    <message>
+        <source>The site can't reach its content right now. This is usually over within a minute or two, so please try again shortly.</source>
+        <translation>Serwis nie może teraz dotrzeć do swoich treści. Zwykle trwa to minutę lub dwie, więc spróbuj ponownie za chwilę.</translation>
+    </message>
+    <message>
+        <source>This item can't be bought</source>
+        <translation>Tego produktu nie można kupić</translation>
+    </message>
+    <message>
+        <source>This page isn't available</source>
+        <translation>Ta strona jest niedostępna</translation>
+    </message>
+    <message>
+        <source>This page isn't available in that language</source>
+        <translation>Ta strona nie jest dostępna w tym języku</translation>
+    </message>
+    <message>
+        <source>This product can't be added to your basket</source>
+        <translation>Tego produktu nie można dodać do koszyka</translation>
+    </message>
+    <message>
+        <source>We couldn't find that page</source>
+        <translation>Nie znaleźliśmy tej strony</translation>
+    </message>
+    <message>
+        <source>We'll be right back</source>
+        <translation>Zaraz wracamy</translation>
+    </message>
+    <message>
+        <source>You don't have access to this page</source>
+        <translation>Nie masz dostępu do tej strony</translation>
+    </message>
+    <message>
+        <source>Your account is signed in but is not allowed to open this page. If you think it should be, ask the site's editors to give your account access, or sign in with another account.</source>
+        <translation>Twoje konto jest zalogowane, ale nie ma uprawnień do tej strony. Jeśli uważasz, że powinno je mieć, poproś redaktorów serwisu o dostęp albo zaloguj się na inne konto.</translation>
+    </message>
 </context>
 <context>
     <name>design/media/user</name>
@@ -769,6 +829,22 @@
     <message>
         <source>Your username and password are right, but this account isn&apos;t allowed to use %1. Sign in with another account, or ask the site&apos;s editors for access.</source>
         <translation>Nazwa użytkownika i hasło są prawidłowe, ale to konto nie może korzystać z %1. Należy zalogować się na inne konto albo poprosić redaktorów serwisu o dostęp.</translation>
+    </message>
+    <message>
+        <source>That didn't work</source>
+        <translation>Nie udało się</translation>
+    </message>
+    <message>
+        <source>This account can't sign in here</source>
+        <translation>To konto nie może się tu zalogować</translation>
+    </message>
+    <message>
+        <source>This link can't be used</source>
+        <translation>Tego linku nie można użyć</translation>
+    </message>
+    <message>
+        <source>Your username and password are right, but this account isn't allowed to use %1. Sign in with another account, or ask the site's editors for access.</source>
+        <translation>Nazwa użytkownika i hasło są prawidłowe, ale to konto nie może korzystać z %1. Zaloguj się na inne konto albo poproś redaktorów serwisu o dostęp.</translation>
     </message>
 </context>
 <context>
@@ -1470,6 +1546,18 @@
     <message>
         <source>E-mail</source>
         <translation>E-mail</translation>
+    </message>
+    <message>
+        <source>No results were found when searching for &quot;%searchText%&quot;.</source>
+        <translation>Wyszukiwanie „%searchText%” nie dało wyników.</translation>
+    </message>
+    <message>
+        <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
+        <translation>Zmień niektóre słowa kluczowe (np. „samochód” zamiast „samochody”).</translation>
+    </message>
+    <message>
+        <source>Search for &quot;%searchText%&quot; returned %searchCount% matches</source>
+        <translation>Wyszukiwanie „%searchText%” dało %searchCount% wyników</translation>
     </message>
 </context>
 <context>
