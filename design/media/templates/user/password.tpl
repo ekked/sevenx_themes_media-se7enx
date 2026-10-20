@@ -74,6 +74,11 @@
                     <ul>{foreach $error_summary as $pw_error}<li>{$pw_error.text|wash}</li>{/foreach}</ul>
                 </div>
             </div>
+        {elseif first_set( $demo_mode_locked, false() )}
+            {* demo mode (EXP_DEMO_MODE=1): an administrator's password cannot be changed; the text comes from the kernel *}
+            <div class="acc-notice warning" role="status">
+                <div><p>{$demo_mode_text|wash}</p></div>
+            </div>
         {/if}
             <div class="acc-card">
                 <p class="acc-lead">{'Signed in as %1.'|i18n( 'design/media/user', '', array( $userAccount.login|wash ) )}</p>

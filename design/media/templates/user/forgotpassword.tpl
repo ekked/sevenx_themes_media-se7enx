@@ -19,6 +19,13 @@
 
 <div class="full-form-content">
     <div class="container">
+    {* demo mode (EXP_DEMO_MODE=1): shown to everyone, so it says nothing about the address typed; the text comes from
+       the kernel *}
+    {if first_set( $demo_mode_text, '' )|ne( '' )}
+        <div class="acc-notice warning" role="status">
+            <div><p>{$demo_mode_text|wash}</p></div>
+        </div>
+    {/if}
     {if or( $link, $wrong_email )}
         {def $typed_email = cond( $link, $email, $wrong_email )}
         <div class="alert alert-success" role="status">
