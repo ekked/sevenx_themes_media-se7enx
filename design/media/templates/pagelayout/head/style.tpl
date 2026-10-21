@@ -59,18 +59,43 @@
    Regenerate with ai/bin/one/selfhost_google_fonts_into_media_theme.py, which
    re-downloads from Google and rewrites the paths. *}
 
-{ezcss_load( array( 'inter.css',
-                    'explayouts_standard/grid.css',
-                    'index.css',
-                    'index-noncritical.css',
-                    'explayouts.css',
-                    'shop.css',
-                    'account.css',
-                    'error-page.css',
-                    'zoom-support.css',
-                    'exp-youtube-consent.css',
-                    'exp-cookie-consent.css',
-                    'exp-header-menu.css',
-                    'exp-advanced-search.css',
-                    'exp-page-parts.css',
-                    'exp-mobile-layout.css' ) )}
+{* After the theme's own list: what other extensions add to design.ini
+   [StylesheetSettings] CSSFileList[] and FrontendCSSFileList[], in that
+   order, each file once. Entries the media design replaces (the simple
+   theme's base styles and the theme's retired files) are named in
+   MediaReplacedCSSFileList[] and left out, as are files already in the
+   theme's list. They go into the same packed bundle, after the theme's
+   files, so an extension can build on the theme's styles. *}
+{def $media_css_own = array( 'inter.css',
+                             'explayouts_standard/grid.css',
+                             'index.css',
+                             'index-noncritical.css',
+                             'explayouts.css',
+                             'shop.css',
+                             'account.css',
+                             'error-page.css',
+                             'zoom-support.css',
+                             'exp-youtube-consent.css',
+                             'exp-cookie-consent.css',
+                             'exp-header-menu.css',
+                             'exp-advanced-search.css',
+                             'exp-page-parts.css',
+                             'exp-mobile-layout.css' )
+     $media_css_skip = cond( ezini_hasvariable( 'StylesheetSettings', 'MediaReplacedCSSFileList', 'design.ini' ),
+                             ezini( 'StylesheetSettings', 'MediaReplacedCSSFileList', 'design.ini' ),
+                             array() )
+     $media_css_extra = array()}
+{foreach array( 'CSSFileList', 'FrontendCSSFileList' ) as $media_css_setting}
+    {if ezini_hasvariable( 'StylesheetSettings', $media_css_setting, 'design.ini' )}
+        {foreach ezini( 'StylesheetSettings', $media_css_setting, 'design.ini' ) as $media_css_file}
+            {if and( $media_css_file|ne( '' ),
+                     $media_css_own|contains( $media_css_file )|not,
+                     $media_css_skip|contains( $media_css_file )|not,
+                     $media_css_extra|contains( $media_css_file )|not )}
+                {set $media_css_extra = $media_css_extra|append( $media_css_file )}
+            {/if}
+        {/foreach}
+    {/if}
+{/foreach}
+{ezcss_load( $media_css_own|merge( $media_css_extra ) )}
+{undef $media_css_own $media_css_skip $media_css_extra}
