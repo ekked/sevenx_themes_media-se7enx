@@ -17,7 +17,7 @@
     <name>ngsite</name>
     <message>
         <source>Write a comment</source>
-        <translation>Napisz komentarz</translation>
+        <translation>Napisać komentarz</translation>
     </message>
     <message>
         <source>on %title</source>
@@ -29,7 +29,7 @@
     </message>
     <message>
         <source>Your name</source>
-        <translation>Twoje imię</translation>
+        <translation>Imię i nazwisko</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -37,19 +37,19 @@
     </message>
     <message>
         <source>Post comment</source>
-        <translation>Opublikuj komentarz</translation>
+        <translation>Opublikować komentarz</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Anuluj</translation>
+        <translation>Anulować</translation>
     </message>
     <message>
         <source>Write a review</source>
-        <translation>Napisz opinię</translation>
+        <translation>Napisać opinię</translation>
     </message>
     <message>
         <source>Your rating</source>
-        <translation>Twoja ocena</translation>
+        <translation>Ocena</translation>
     </message>
     <message>
         <source>Headline</source>
@@ -57,15 +57,15 @@
     </message>
     <message>
         <source>Your review</source>
-        <translation>Twoja opinia</translation>
+        <translation>Opinia</translation>
     </message>
     <message>
         <source>Post review</source>
-        <translation>Opublikuj opinię</translation>
+        <translation>Opublikować opinię</translation>
     </message>
     <message>
         <source>Your browser does not support the audio element.</source>
-        <translation>Twoja przeglądarka nie obsługuje odtwarzania dźwięku.</translation>
+        <translation>Przeglądarka nie obsługuje elementu audio.</translation>
     </message>
     <message>
         <source>Pagination navigation</source>
@@ -73,7 +73,7 @@
     </message>
     <message>
         <source>Go to previous page</source>
-        <translation>Przejdź do poprzedniej strony</translation>
+        <translation>Przejść do poprzedniej strony</translation>
     </message>
     <message>
         <source>Previous</source>
@@ -85,15 +85,15 @@
     </message>
     <message>
         <source>Go to page %page</source>
-        <translation>Przejdź do strony %page</translation>
+        <translation>Przejść do strony %page</translation>
     </message>
     <message>
         <source>Go to next page</source>
-        <translation>Przejdź do następnej strony</translation>
+        <translation>Przejść do następnej strony</translation>
     </message>
     <message>
         <source>Next</source>
-        <translation>Dalej</translation>
+        <translation>Następna</translation>
     </message>
     <message>
         <source>Application deadline</source>
@@ -113,7 +113,7 @@
     </message>
     <message>
         <source>Item</source>
-        <translation>Produkt</translation>
+        <translation>Element</translation>
     </message>
     <message>
         <source>%average out of 5, %count ratings</source>
@@ -121,7 +121,7 @@
     </message>
     <message>
         <source>Save %percent</source>
-        <translation>Oszczędzasz %percent</translation>
+        <translation>Oszczędność %percent</translation>
     </message>
     <message>
         <source>Includes %percent% VAT</source>
@@ -137,7 +137,7 @@
     </message>
     <message>
         <source>View product details</source>
-        <translation>Zobacz szczegóły produktu</translation>
+        <translation>Pokazać szczegóły produktu</translation>
     </message>
     <message>
         <source>Category</source>
@@ -157,7 +157,7 @@
     </message>
     <message>
         <source>No reviews yet. Be the first.</source>
-        <translation>Nie ma jeszcze opinii. Bądź pierwszy.</translation>
+        <translation>Brak opinii. Można dodać pierwszą.</translation>
     </message>
     <message>
         <source>Customer comments</source>
@@ -165,11 +165,11 @@
     </message>
     <message>
         <source>No comments yet.</source>
-        <translation>Nie ma jeszcze komentarzy.</translation>
+        <translation>Brak komentarzy.</translation>
     </message>
     <message>
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate an account%create_link_end to comment.</source>
-        <translation>%login_link_startZaloguj się%login_link_end lub %create_link_startzałóż konto%create_link_end, aby dodać komentarz.</translation>
+        <translation>%login_link_startZalogować się%login_link_end lub %create_link_startutworzyć konto%create_link_end, aby dodać komentarz.</translation>
     </message>
     <message>
         <source>Verified purchase</source>
@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>Apply now</source>
-        <translation>Aplikuj teraz</translation>
+        <translation>Aplikować teraz</translation>
     </message>
     <message>
         <source>%title by %author (%date)</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>Search</source>
-        <translation>Szukaj</translation>
+        <translation>Wyszukać</translation>
     </message>
     <message>
         <source>Save</source>
@@ -203,11 +203,11 @@
     <name>design/ezwebin/full/product</name>
     <message>
         <source>Add to basket</source>
-        <translation>Dodaj do koszyka</translation>
+        <translation>Dodać do koszyka</translation>
     </message>
     <message>
         <source>Add to wish list</source>
-        <translation>Dodaj do listy życzeń</translation>
+        <translation>Dodać do listy życzeń</translation>
     </message>
     <message>
         <source>People who bought this also bought</source>
@@ -342,27 +342,27 @@
     </message>
     <message>
         <source>Share on Twitter</source>
-        <translation>Udostępnij na Twitterze</translation>
+        <translation>Udostępnić na Twitterze</translation>
     </message>
     <message>
         <source>Share on LinkedIn</source>
-        <translation>Udostępnij na LinkedIn</translation>
+        <translation>Udostępnić na LinkedIn</translation>
     </message>
     <message>
         <source>Share on Facebook</source>
-        <translation>Udostępnij na Facebooku</translation>
+        <translation>Udostępnić na Facebooku</translation>
     </message>
     <message>
         <source>Your browser does not support the audio element.</source>
-        <translation>Twoja przeglądarka nie obsługuje odtwarzania dźwięku.</translation>
+        <translation>Przeglądarka nie obsługuje elementu audio.</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Zamknij</translation>
+        <translation>Zamknąć</translation>
     </message>
     <message>
         <source>Find out more</source>
-        <translation>Dowiedz się więcej</translation>
+        <translation>Dowiedzieć się więcej</translation>
     </message>
 </context>
 <context>
@@ -373,11 +373,11 @@
     </message>
     <message>
         <source>Submit search</source>
-        <translation>Wyszukaj</translation>
+        <translation>Wyszukać</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Szukaj</translation>
+        <translation>Wyszukać</translation>
     </message>
     <message>
         <source>No results were found when searching for %1</source>
@@ -389,42 +389,42 @@
     </message>
     <message>
         <source>Search for %1 returned %2 matches</source>
-        <translation>Wyszukiwanie %1 dało %2 wyników</translation>
+        <translation>Wyszukiwanie %1 dało wyniki: %2</translation>
     </message>
     <message>
         <source>Check the spelling of your keywords.</source>
-        <translation>Sprawdź pisownię słów kluczowych.</translation>
+        <translation>Warto sprawdzić pisownię słów kluczowych.</translation>
     </message>
     <message>
         <source>Try using different keywords.</source>
-        <translation>Spróbuj użyć innych słów kluczowych.</translation>
+        <translation>Warto użyć innych słów kluczowych.</translation>
     </message>
     <message>
         <source>Try using fewer keywords.</source>
-        <translation>Spróbuj użyć mniejszej liczby słów kluczowych.</translation>
+        <translation>Warto użyć mniejszej liczby słów kluczowych.</translation>
     </message>
     <message>
         <source>Try using more generic keywords.</source>
-        <translation>Spróbuj użyć bardziej ogólnych słów kluczowych.</translation>
+        <translation>Warto użyć bardziej ogólnych słów kluczowych.</translation>
     </message>
 </context>
 <context>
     <name>design/sevenx_themes_media/tipafriendmail</name>
     <message>
         <source>Someone shared this page with you from</source>
-        <translation>Ktoś udostępnił Ci tę stronę z serwisu</translation>
+        <translation>Ta strona została udostępniona przez inną osobę z serwisu</translation>
     </message>
     <message>
         <source>. If you were not expecting it, you can ignore this message.</source>
-        <translation>. Jeśli się tego nie spodziewasz, możesz zignorować tę wiadomość.</translation>
+        <translation>. Jeśli ta wiadomość nie była oczekiwana, można ją zignorować.</translation>
     </message>
     <message>
         <source>A page was recommended to you</source>
-        <translation>Polecono Ci stronę</translation>
+        <translation>Polecono stronę</translation>
     </message>
     <message>
         <source>%name thought you would find this page on %site interesting:</source>
-        <translation>%name uznał(a), że ta strona w %site może Cię zainteresować:</translation>
+        <translation>%name uważa, że ta strona w %site może okazać się interesująca:</translation>
     </message>
     <message>
         <source>Their message</source>
@@ -439,7 +439,7 @@
     <name>design/media/lead_form</name>
     <message>
         <source>Send form</source>
-        <translation>Wyślij formularz</translation>
+        <translation>Wysłać formularz</translation>
     </message>
     <message>
         <source>Privacy Policy</source>
@@ -447,7 +447,7 @@
     </message>
     <message>
         <source>Please correct the following errors:</source>
-        <translation>Popraw następujące błędy:</translation>
+        <translation>Proszę poprawić następujące błędy:</translation>
     </message>
     <message>
         <source>First name</source>
@@ -459,7 +459,7 @@
     </message>
     <message>
         <source>Enter a valid %name</source>
-        <translation>Wpisz prawidłową wartość w polu %name</translation>
+        <translation>Należy wprowadzić prawidłową wartość w polu %name</translation>
     </message>
     <message>
         <source>Middle name</source>
@@ -479,7 +479,7 @@
     </message>
     <message>
         <source>I have read %privacy_link and agree to its terms.</source>
-        <translation>Przeczytałem(-am) %privacy_link i akceptuję jej warunki.</translation>
+        <translation>Akceptuję %privacy_link po zapoznaniu się z jej treścią.</translation>
     </message>
     <message>
         <source>GDPR Consent not checked</source>
@@ -487,7 +487,7 @@
     </message>
     <message>
         <source>I consent to receiving marketing and promotional materials. I understand that I can unsubscribe at any time.</source>
-        <translation>Wyrażam zgodę na otrzymywanie materiałów marketingowych i promocyjnych. Wiem, że mogę zrezygnować w każdej chwili.</translation>
+        <translation>Wyrażam zgodę na otrzymywanie materiałów marketingowych i promocyjnych. Przyjmuję do wiadomości, że w każdej chwili mogę zrezygnować z subskrypcji.</translation>
     </message>
     <message>
         <source>Newsletter 1 Consent not checked</source>
@@ -498,11 +498,11 @@
     <name>design/media/error</name>
     <message>
         <source>Please sign in to see this page</source>
-        <translation>Zaloguj się, aby zobaczyć tę stronę</translation>
+        <translation>Aby zobaczyć tę stronę, należy się zalogować</translation>
     </message>
     <message>
         <source>This page is for members. Sign in below and you will be taken straight back to it.</source>
-        <translation>Ta strona jest dla członków. Zaloguj się poniżej, a wrócisz prosto do niej.</translation>
+        <translation>Ta strona jest przeznaczona dla członków. Po zalogowaniu się poniżej nastąpi bezpośredni powrót do niej.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -521,20 +521,20 @@
         <translation>Wymagane uprawnienia</translation>
     </message>
     <message>
-        <source>You don&apos;t have access to this page</source>
-        <translation>Nie masz dostępu do tej strony</translation>
+        <source>You don't have access to this page</source>
+        <translation>Brak dostępu do tej strony</translation>
     </message>
     <message>
-        <source>Your account is signed in but is not allowed to open this page. If you think it should be, ask the site&apos;s editors to give your account access, or sign in with another account.</source>
-        <translation>Twoje konto jest zalogowane, ale nie ma uprawnień do tej strony. Jeśli uważasz, że powinno je mieć, poproś redaktorów serwisu o dostęp albo zaloguj się na inne konto.</translation>
+        <source>Your account is signed in but is not allowed to open this page. If you think it should be, ask the site's editors to give your account access, or sign in with another account.</source>
+        <translation>Konto jest zalogowane, ale nie ma uprawnień do otwarcia tej strony. Jeśli powinno je mieć, należy poprosić redaktorów serwisu o przyznanie dostępu albo zalogować się na inne konto.</translation>
     </message>
     <message>
-        <source>We couldn&apos;t find that page</source>
-        <translation>Nie znaleźliśmy tej strony</translation>
+        <source>We couldn't find that page</source>
+        <translation>Nie znaleziono tej strony</translation>
     </message>
     <message>
         <source>It may have moved or been removed, or the address may have a typo. Try a search, or start again from the home page.</source>
-        <translation>Mogła zostać przeniesiona lub usunięta albo adres zawiera literówkę. Spróbuj wyszukiwania lub zacznij od strony głównej.</translation>
+        <translation>Mogła zostać przeniesiona lub usunięta albo adres zawiera literówkę. Warto skorzystać z wyszukiwania lub zacząć od strony głównej.</translation>
     </message>
     <message>
         <source>kernel 2 (not found)</source>
@@ -549,8 +549,8 @@
         <translation>Część adresu</translation>
     </message>
     <message>
-        <source>The address doesn&apos;t match any page on this site. It may have a typo, or the link that brought you here may be out of date.</source>
-        <translation>Ten adres nie pasuje do żadnej strony w tym serwisie. Może zawierać literówkę albo link, który Cię tu przyprowadził, jest nieaktualny.</translation>
+        <source>The address doesn't match any page on this site. It may have a typo, or the link that brought you here may be out of date.</source>
+        <translation>Ten adres nie pasuje do żadnej strony w tym serwisie. Może zawierać literówkę albo link prowadzący tutaj jest nieaktualny.</translation>
     </message>
     <message>
         <source>kernel 21 (view not found)</source>
@@ -558,7 +558,7 @@
     </message>
     <message>
         <source>This part of the site exists, but not the page the address asks for. It may have a typo, or the link may be out of date.</source>
-        <translation>Ta część serwisu istnieje, ale nie ma w niej strony, o którą pyta adres. Może zawierać literówkę albo link jest nieaktualny.</translation>
+        <translation>Ta część serwisu istnieje, ale nie ma w niej strony, której dotyczy adres. Może zawierać literówkę albo link jest nieaktualny.</translation>
     </message>
     <message>
         <source>This part of the site is switched off</source>
@@ -566,19 +566,19 @@
     </message>
     <message>
         <source>It is not available at the moment. Everything else on the site is working as usual.</source>
-        <translation>Jest w tej chwili niedostępna. Cała reszta strony działa normalnie.</translation>
+        <translation>Jest w tej chwili niedostępna. Pozostała część serwisu działa normalnie.</translation>
     </message>
     <message>
         <source>kernel 22 (module disabled)</source>
         <translation>kernel 22 (moduł wyłączony)</translation>
     </message>
     <message>
-        <source>This page isn&apos;t available</source>
+        <source>This page isn't available</source>
         <translation>Ta strona jest niedostępna</translation>
     </message>
     <message>
         <source>It may have been unpublished, removed or moved. Try a search, or have a look at what else is on the site.</source>
-        <translation>Mogła zostać wycofana, usunięta lub przeniesiona. Spróbuj wyszukiwania albo zobacz, co jeszcze jest na stronie.</translation>
+        <translation>Mogła zostać wycofana z publikacji, usunięta lub przeniesiona. Warto skorzystać z wyszukiwania albo zobaczyć, co jeszcze jest w serwisie.</translation>
     </message>
     <message>
         <source>kernel 3 (not available)</source>
@@ -594,27 +594,27 @@
     </message>
     <message>
         <source>Go to the new page</source>
-        <translation>Przejdź do nowej strony</translation>
+        <translation>Przejść do nowej strony</translation>
     </message>
     <message>
-        <source>This page isn&apos;t available in that language</source>
+        <source>This page isn't available in that language</source>
         <translation>Ta strona nie jest dostępna w tym języku</translation>
     </message>
     <message>
         <source>The page exists, but not in the language that was asked for. Try the home page to see what is available in your language.</source>
-        <translation>Ta strona istnieje, ale nie w wybranym języku. Zajrzyj na stronę główną, aby zobaczyć, co jest dostępne w Twoim języku.</translation>
+        <translation>Ta strona istnieje, ale nie w wybranym języku. Na stronie głównej można sprawdzić, co jest dostępne w danym języku.</translation>
     </message>
     <message>
         <source>kernel 5 (language not found)</source>
         <translation>kernel 5 (nie znaleziono języka)</translation>
     </message>
     <message>
-        <source>We&apos;ll be right back</source>
+        <source>We'll be right back</source>
         <translation>Zaraz wracamy</translation>
     </message>
     <message>
-        <source>The site can&apos;t reach its content right now. This is usually over within a minute or two, so please try again shortly.</source>
-        <translation>Serwis nie może teraz dotrzeć do swoich treści. Zwykle trwa to minutę lub dwie, więc spróbuj ponownie za chwilę.</translation>
+        <source>The site can't reach its content right now. This is usually over within a minute or two, so please try again shortly.</source>
+        <translation>Serwis nie może teraz uzyskać dostępu do swoich treści. Zwykle trwa to minutę lub dwie, dlatego proszę spróbować ponownie za chwilę.</translation>
     </message>
     <message>
         <source>kernel 50 (no database connection)</source>
@@ -622,42 +622,42 @@
     </message>
     <message>
         <source>Search this site</source>
-        <translation>Szukaj na tej stronie</translation>
+        <translation>Przeszukać serwis</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Szukaj</translation>
+        <translation>Wyszukać</translation>
     </message>
     <message>
         <source>Go to the home page</source>
-        <translation>Przejdź do strony głównej</translation>
+        <translation>Przejść do strony głównej</translation>
     </message>
     <message>
         <source>Browse the site map</source>
-        <translation>Przejrzyj mapę strony</translation>
+        <translation>Przejrzeć mapę witryny</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation>Wróć</translation>
+        <translation>Wrócić</translation>
     </message>
     <message>
         <source>Try again</source>
-        <translation>Spróbuj ponownie</translation>
+        <translation>Spróbować ponownie</translation>
     </message>
     <message>
         <source>Sign in as someone else</source>
-        <translation>Zaloguj się jako ktoś inny</translation>
+        <translation>Zalogować się jako inny użytkownik</translation>
     </message>
     <message>
         <source>Technical details</source>
         <translation>Szczegóły techniczne</translation>
     </message>
     <message>
-        <source>This item can&apos;t be bought</source>
+        <source>This item can't be bought</source>
         <translation>Tego produktu nie można kupić</translation>
     </message>
     <message>
-        <source>It isn&apos;t a product in the shop, or it is no longer for sale.</source>
+        <source>It isn't a product in the shop, or it is no longer for sale.</source>
         <translation>To nie jest produkt ze sklepu albo nie jest już w sprzedaży.</translation>
     </message>
     <message>
@@ -665,36 +665,36 @@
         <translation>shop 1 (to nie jest produkt)</translation>
     </message>
     <message>
-        <source>This product can&apos;t be added to your basket</source>
+        <source>This product can't be added to your basket</source>
         <translation>Tego produktu nie można dodać do koszyka</translation>
     </message>
     <message>
-        <source>It can&apos;t be bought together with what is already in your basket. Check out the basket first, or remove what is in it, and then add this product.</source>
-        <translation>Nie można go kupić razem z tym, co jest już w koszyku. Najpierw sfinalizuj zamówienie lub opróżnij koszyk, a potem dodaj ten produkt.</translation>
+        <source>It can't be bought together with what is already in your basket. Check out the basket first, or remove what is in it, and then add this product.</source>
+        <translation>Nie można go kupić razem z tym, co jest już w koszyku. Należy najpierw sfinalizować zamówienie lub opróżnić koszyk, a następnie dodać ten produkt.</translation>
     </message>
     <message>
         <source>shop 2 (incompatible product type)</source>
         <translation>shop 2 (niezgodny typ produktu)</translation>
     </message>
     <message>
-        <source>That currency isn&apos;t available</source>
+        <source>That currency isn't available</source>
         <translation>Ta waluta jest niedostępna</translation>
     </message>
     <message>
-        <source>The shop doesn&apos;t sell in the currency that was asked for. Go back and choose another one.</source>
-        <translation>Sklep nie prowadzi sprzedaży w wybranej walucie. Wróć i wybierz inną.</translation>
+        <source>The shop doesn't sell in the currency that was asked for. Go back and choose another one.</source>
+        <translation>Sklep nie prowadzi sprzedaży w wybranej walucie. Należy wrócić i wybrać inną.</translation>
     </message>
     <message>
         <source>shop 3 (currency does not exist)</source>
         <translation>shop 3 (waluta nie istnieje)</translation>
     </message>
     <message>
-        <source>That currency isn&apos;t available at the moment</source>
+        <source>That currency isn't available at the moment</source>
         <translation>Ta waluta jest w tej chwili niedostępna</translation>
     </message>
     <message>
         <source>The shop has paused sales in this currency. Go back and choose another one.</source>
-        <translation>Sklep wstrzymał sprzedaż w tej walucie. Wróć i wybierz inną.</translation>
+        <translation>Sklep wstrzymał sprzedaż w tej walucie. Należy wrócić i wybrać inną.</translation>
     </message>
     <message>
         <source>shop 4 (currency inactive)</source>
@@ -705,15 +705,15 @@
     <name>design/standard/error/formtoken</name>
     <message>
         <source>Reload the form and send it again.</source>
-        <translation>Wczytaj formularz ponownie i wyślij go jeszcze raz.</translation>
+        <translation>Należy ponownie wczytać formularz i wysłać go jeszcze raz.</translation>
     </message>
     <message>
         <source>You may have been signed out in the meantime. If so, please sign in again.</source>
-        <translation>W międzyczasie mogłeś zostać wylogowany. W takim przypadku zaloguj się ponownie.</translation>
+        <translation>W międzyczasie mogło nastąpić wylogowanie. W takim przypadku proszę zalogować się ponownie.</translation>
     </message>
     <message>
         <source>If you were signing in, please sign in again.</source>
-        <translation>Jeśli właśnie się logowałeś, zaloguj się ponownie.</translation>
+        <translation>Jeśli trwało logowanie, proszę zalogować się ponownie.</translation>
     </message>
     <message>
         <source>This form has expired</source>
@@ -721,15 +721,15 @@
     </message>
     <message>
         <source>The page with this form was open for a long time, or the form was sent from another page. To keep your information safe, nothing was saved.</source>
-        <translation>Strona z tym formularzem była długo otwarta albo formularz został wysłany z innej strony. Dla bezpieczeństwa Twoich danych nic nie zostało zapisane.</translation>
+        <translation>Strona z tym formularzem była długo otwarta albo formularz został wysłany z innej strony. Dla bezpieczeństwa danych nic nie zostało zapisane.</translation>
     </message>
     <message>
         <source>Reload the form</source>
-        <translation>Wczytaj formularz ponownie</translation>
+        <translation>Wczytać formularz ponownie</translation>
     </message>
     <message>
         <source>Go to the front page</source>
-        <translation>Przejdź do strony głównej</translation>
+        <translation>Przejść do strony głównej</translation>
     </message>
 </context>
 <context>
@@ -744,7 +744,7 @@
     </message>
     <message>
         <source>Load more</source>
-        <translation>Wczytaj więcej</translation>
+        <translation>Wczytać więcej</translation>
     </message>
     <message>
         <source>Most Popular this Week</source>
@@ -756,7 +756,7 @@
     </message>
     <message>
         <source>Get and Stay Fit</source>
-        <translation>Zadbaj o formę i utrzymaj ją</translation>
+        <translation>Dobra forma na co dzień</translation>
     </message>
     <message>
         <source>Recent Blog Posts</source>
@@ -768,7 +768,7 @@
     </message>
     <message>
         <source>Eat Well</source>
-        <translation>Jedz zdrowo</translation>
+        <translation>Zdrowe jedzenie</translation>
     </message>
     <message>
         <source>Recipes</source>
@@ -780,7 +780,7 @@
     </message>
     <message>
         <source>Running</source>
-        <translation>Bieganie</translation>
+        <translation>Uruchomione</translation>
     </message>
     <message>
         <source>Fitness</source>
@@ -836,91 +836,91 @@
     </message>
     <message>
         <source>Hero Style 1</source>
-        <translation>Styl Hero 1</translation>
+        <translation>Baner główny, styl 1</translation>
     </message>
     <message>
         <source>Hero Style 2</source>
-        <translation>Styl Hero 2</translation>
+        <translation>Baner główny, styl 2</translation>
     </message>
     <message>
         <source>Hero Style 3</source>
-        <translation>Styl Hero 3</translation>
+        <translation>Baner główny, styl 3</translation>
     </message>
     <message>
         <source>Features Style 1</source>
-        <translation>Styl funkcji 1</translation>
+        <translation>Funkcje, styl 1</translation>
     </message>
     <message>
         <source>Features Style 2</source>
-        <translation>Styl funkcji 2</translation>
+        <translation>Funkcje, styl 2</translation>
     </message>
     <message>
         <source>Features Style 3</source>
-        <translation>Styl funkcji 3</translation>
+        <translation>Funkcje, styl 3</translation>
     </message>
     <message>
         <source>Features Style 4</source>
-        <translation>Styl funkcji 4</translation>
+        <translation>Funkcje, styl 4</translation>
     </message>
     <message>
         <source>Features Style 5</source>
-        <translation>Styl funkcji 5</translation>
+        <translation>Funkcje, styl 5</translation>
     </message>
     <message>
         <source>Features Style 6</source>
-        <translation>Styl funkcji 6</translation>
+        <translation>Funkcje, styl 6</translation>
     </message>
     <message>
         <source>Features Style 7</source>
-        <translation>Styl funkcji 7</translation>
+        <translation>Funkcje, styl 7</translation>
     </message>
     <message>
         <source>About Style 1</source>
-        <translation>Styl „O nas” 1</translation>
+        <translation>O nas, styl 1</translation>
     </message>
     <message>
         <source>About Style 2</source>
-        <translation>Styl „O nas” 2</translation>
+        <translation>O nas, styl 2</translation>
     </message>
     <message>
         <source>About Style 3</source>
-        <translation>Styl „O nas” 3</translation>
+        <translation>O nas, styl 3</translation>
     </message>
     <message>
         <source>About Style 4</source>
-        <translation>Styl „O nas” 4</translation>
+        <translation>O nas, styl 4</translation>
     </message>
     <message>
         <source>About Style 5</source>
-        <translation>Styl „O nas” 5</translation>
+        <translation>O nas, styl 5</translation>
     </message>
     <message>
         <source>Logos Style 1</source>
-        <translation>Styl logotypów 1</translation>
+        <translation>Logotypy, styl 1</translation>
     </message>
     <message>
         <source>Logos Style 2</source>
-        <translation>Styl logotypów 2</translation>
+        <translation>Logotypy, styl 2</translation>
     </message>
     <message>
         <source>Quote style 1</source>
-        <translation>Styl cytatu 1</translation>
+        <translation>Cytat, styl 1</translation>
     </message>
     <message>
         <source>Lead Style 1 (embed)</source>
-        <translation>Styl leadu 1 (osadzony)</translation>
+        <translation>Formularz kontaktowy, styl 1 (osadzony)</translation>
     </message>
     <message>
         <source>Lead Style 2 (embed)</source>
-        <translation>Styl leadu 2 (osadzony)</translation>
+        <translation>Formularz kontaktowy, styl 2 (osadzony)</translation>
     </message>
     <message>
         <source>Lead Style 1 (modal)</source>
-        <translation>Styl leadu 1 (okno modalne)</translation>
+        <translation>Formularz kontaktowy, styl 1 (okno modalne)</translation>
     </message>
     <message>
         <source>Lead Style 2 (modal)</source>
-        <translation>Styl leadu 2 (okno modalne)</translation>
+        <translation>Formularz kontaktowy, styl 2 (okno modalne)</translation>
     </message>
     <message>
         <source>Standard view</source>
@@ -928,7 +928,7 @@
     </message>
     <message>
         <source>Standard with intro view</source>
-        <translation>Widok standardowy ze wstępem</translation>
+        <translation>Widok standardowy z wprowadzeniem</translation>
     </message>
     <message>
         <source>Overlay view</source>
@@ -944,7 +944,7 @@
     </message>
     <message>
         <source>Listitem with intro view</source>
-        <translation>Widok elementu listy ze wstępem</translation>
+        <translation>Widok elementu listy z wprowadzeniem</translation>
     </message>
     <message>
         <source>Mini view</source>
@@ -995,7 +995,7 @@
     </message>
     <message>
         <source>Could not load LICENSE file! You should have a LICENSE file in your Exponential root directory.</source>
-        <translation>Nie można wczytać pliku LICENSE! W katalogu głównym Exponential powinien znajdować się plik LICENSE.</translation>
+        <translation>Nie można wczytać pliku LICENSE! Plik LICENSE powinien znajdować się w katalogu głównym Exponential.</translation>
     </message>
     <message>
         <source>Contributors</source>
@@ -1031,7 +1031,7 @@
     </message>
     <message>
         <source>Website</source>
-        <translation>Strona internetowa</translation>
+        <translation>Witryna internetowa</translation>
     </message>
     <message>
         <source>Includes</source>
@@ -1046,15 +1046,15 @@
     </message>
     <message>
         <source>Go to previous page</source>
-        <translation>Przejdź do poprzedniej strony</translation>
+        <translation>Przejść do poprzedniej strony</translation>
     </message>
     <message>
         <source>Go to page %page</source>
-        <translation>Przejdź do strony %page</translation>
+        <translation>Przejść do strony %page</translation>
     </message>
     <message>
         <source>Go to next page</source>
-        <translation>Przejdź do następnej strony</translation>
+        <translation>Przejść do następnej strony</translation>
     </message>
 </context>
 <context>
@@ -1072,7 +1072,7 @@
     <name>design/media/sitemap</name>
     <message>
         <source>Site map</source>
-        <translation>Mapa strony</translation>
+        <translation>Mapa witryny</translation>
     </message>
     <message>
         <source>Everything on %name, section by section.</source>
@@ -1084,7 +1084,7 @@
     </message>
     <message>
         <source>Site map pages</source>
-        <translation>Strony mapy strony</translation>
+        <translation>Strony mapy witryny</translation>
     </message>
     <message>
         <source>Previous sections</source>
@@ -1100,11 +1100,11 @@
     </message>
     <message>
         <source>%name has no pages under it at the moment.</source>
-        <translation>%name nie ma na razie żadnych stron.</translation>
+        <translation>%name nie zawiera na razie żadnych stron.</translation>
     </message>
     <message>
         <source>Up one level</source>
-        <translation>Poziom wyżej</translation>
+        <translation>O jeden poziom w górę</translation>
     </message>
 </context>
 <context>
@@ -1115,34 +1115,34 @@
     </message>
     <message>
         <source>The topics people write about on %name. The bigger the word, the more there is to read.</source>
-        <translation>Tematy, o których piszemy w %name. Im większe słowo, tym więcej do czytania.</translation>
+        <translation>Tematy, o których powstają teksty w %name. Im większe słowo, tym więcej do przeczytania.</translation>
     </message>
     <message>
         <source>No topics yet</source>
-        <translation>Nie ma jeszcze tematów</translation>
+        <translation>Brak tematów</translation>
     </message>
     <message>
         <source>Nothing under %name has been tagged with a topic so far. The site map shows everything that is here.</source>
-        <translation>Nic w %name nie zostało jeszcze oznaczone tematem. Mapa strony pokazuje wszystko, co tu jest.</translation>
+        <translation>Żadna treść w %name nie została jeszcze oznaczona tematem. Mapa witryny pokazuje wszystko, co tu jest.</translation>
     </message>
 </context>
 <context>
     <name>design/media/pagelayout</name>
     <message>
         <source>Visit us on Facebook</source>
-        <translation>Odwiedź nas na Facebooku</translation>
+        <translation>Odwiedzić nas na Facebooku</translation>
     </message>
     <message>
         <source>Visit us on Twitter</source>
-        <translation>Odwiedź nas na Twitterze</translation>
+        <translation>Odwiedzić nas na Twitterze</translation>
     </message>
     <message>
         <source>Visit us on Instagram</source>
-        <translation>Odwiedź nas na Instagramie</translation>
+        <translation>Odwiedzić nas na Instagramie</translation>
     </message>
     <message>
         <source>Visit us on LinkedIn</source>
-        <translation>Odwiedź nas na LinkedInie</translation>
+        <translation>Odwiedzić nas na LinkedInie</translation>
     </message>
     <message>
         <source>Cookie settings</source>
@@ -1154,7 +1154,7 @@
     </message>
     <message>
         <source>Powered by %company &amp;amp; %exponential</source>
-        <translation>Napędzane przez %company &amp;amp; %exponential</translation>
+        <translation>Działa dzięki %company &amp;amp; %exponential</translation>
     </message>
     <message>
         <source>Main navigation</source>
@@ -1162,7 +1162,7 @@
     </message>
     <message>
         <source>Skip to main content</source>
-        <translation>Przejdź do treści głównej</translation>
+        <translation>Przejść do treści głównej</translation>
     </message>
     <message>
         <source>Breadcrumbs</source>
@@ -1174,15 +1174,15 @@
     </message>
     <message>
         <source>To make this website run properly and to improve your experience, we use cookies. For more detailed information, please check our %cookie_link.</source>
-        <translation>Aby ta strona działała prawidłowo i aby poprawić jej działanie dla Ciebie, używamy plików cookie. Więcej informacji znajdziesz w naszej %cookie_link.</translation>
+        <translation>Ta witryna używa plików cookie, aby działać prawidłowo i zapewniać lepsze wrażenia. Szczegółowe informacje podano w %cookie_link.</translation>
     </message>
     <message>
         <source>Customize settings</source>
-        <translation>Dostosuj ustawienia</translation>
+        <translation>Dostosować ustawienia</translation>
     </message>
     <message>
         <source>Accept all</source>
-        <translation>Zaakceptuj wszystkie</translation>
+        <translation>Zaakceptować wszystkie</translation>
     </message>
     <message>
         <source>Accepted</source>
@@ -1198,11 +1198,11 @@
     </message>
     <message>
         <source>Necessary cookies enable core functionality. The website cannot function properly without these cookies, and can only be disabled by changing your browser preferences.</source>
-        <translation>Niezbędne pliki cookie zapewniają podstawowe funkcje. Bez nich strona nie może działać prawidłowo; można je wyłączyć tylko w ustawieniach przeglądarki.</translation>
+        <translation>Niezbędne pliki cookie zapewniają podstawowe funkcje. Bez nich witryna nie może działać prawidłowo; można je wyłączyć tylko w ustawieniach przeglądarki.</translation>
     </message>
     <message>
         <source>Save and close</source>
-        <translation>Zapisz i zamknij</translation>
+        <translation>Zapisać i zamknąć</translation>
     </message>
     <message>
         <source>Analytics cookies</source>
@@ -1210,7 +1210,7 @@
     </message>
     <message>
         <source>Analytics cookies help us to improve our website by collecting and reporting information on its usage.</source>
-        <translation>Analityczne pliki cookie pomagają nam ulepszać stronę, zbierając i przekazując informacje o sposobie korzystania z niej.</translation>
+        <translation>Analityczne pliki cookie pomagają ulepszać witrynę przez zbieranie i raportowanie informacji o sposobie korzystania z niej.</translation>
     </message>
     <message>
         <source>Marketing cookies</source>
@@ -1218,15 +1218,15 @@
     </message>
     <message>
         <source>We use marketing cookies to help us improve the relevancy of advertising campaigns you receive.</source>
-        <translation>Używamy marketingowych plików cookie, aby kampanie reklamowe, które otrzymujesz, były lepiej dopasowane.</translation>
+        <translation>Marketingowe pliki cookie służą do lepszego dopasowania wyświetlanych kampanii reklamowych.</translation>
     </message>
     <message>
         <source>Visit us on %social</source>
-        <translation>Odwiedź nas na %social</translation>
+        <translation>Odwiedzić nas na %social</translation>
     </message>
     <message>
         <source>This demo site is built on Exponential 6.0.15+ and Exponential Layouts.</source>
-        <translation>Ta strona demonstracyjna została zbudowana na Exponential 6.0.15+ i Exponential Layouts.</translation>
+        <translation>Ta witryna demonstracyjna została zbudowana na Exponential 6.0.15+ i Exponential Layouts.</translation>
     </message>
     <message>
         <source>%site_name front page</source>
@@ -1234,11 +1234,11 @@
     </message>
     <message>
         <source>Search %site_name</source>
-        <translation>Szukaj w %site_name</translation>
+        <translation>Przeszukać %site_name</translation>
     </message>
     <message>
         <source>Exponential powered by 7x</source>
-        <translation>Exponential, napędzany przez 7x</translation>
+        <translation>Exponential, działa dzięki 7x</translation>
     </message>
     <message>
         <source>Menu</source>
@@ -1246,7 +1246,7 @@
     </message>
     <message>
         <source>Change language</source>
-        <translation>Zmień język</translation>
+        <translation>Zmienić język</translation>
     </message>
     <message>
         <source>Powered by</source>
@@ -1384,7 +1384,7 @@
     </message>
     <message>
         <source>Confirm order</source>
-        <translation>Potwierdź zamówienie</translation>
+        <translation>Potwierdzić zamówienie</translation>
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
@@ -1440,7 +1440,7 @@
     </message>
     <message>
         <source>Remove</source>
-        <translation>Usuń</translation>
+        <translation>Usunąć</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -1452,7 +1452,7 @@
     </message>
     <message>
         <source>Update</source>
-        <translation>Zaktualizuj</translation>
+        <translation>Zaktualizować</translation>
     </message>
     <message>
         <source>Basket summary</source>
@@ -1476,22 +1476,22 @@
     </message>
     <message>
         <source>Checkout</source>
-        <translation>Przejdź do kasy</translation>
+        <translation>Przejść do kasy</translation>
     </message>
     <message>
         <source>Continue shopping</source>
-        <translation>Kontynuuj zakupy</translation>
+        <translation>Kontynuować zakupy</translation>
     </message>
     <message>
         <source>You have no products in your basket.</source>
-        <translation>Koszyk jest pusty.</translation>
+        <translation>Koszyk nie zawiera produktów.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/shop/confirmorder</name>
     <message>
         <source>Confirm order</source>
-        <translation>Potwierdź zamówienie</translation>
+        <translation>Potwierdzić zamówienie</translation>
     </message>
     <message>
         <source>Shopping basket</source>
@@ -1543,11 +1543,11 @@
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation>Suma netto</translation>
+        <translation>Suma bez VAT</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation>Suma brutto</translation>
+        <translation>Suma z VAT</translation>
     </message>
     <message>
         <source>Subtotal of items</source>
@@ -1559,11 +1559,11 @@
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Potwierdź</translation>
+        <translation>Potwierdzić</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Anuluj</translation>
+        <translation>Anulować</translation>
     </message>
 </context>
 <context>
@@ -1578,23 +1578,23 @@
     </message>
     <message>
         <source>Order ID</source>
-        <translation>Numer zamówienia</translation>
+        <translation>ID zamówienia</translation>
     </message>
     <message>
         <source>Thank you, your order has been received. A summary is below.</source>
-        <translation>Dziękujemy, otrzymaliśmy Twoje zamówienie. Podsumowanie znajdziesz poniżej.</translation>
+        <translation>Dziękujemy, zamówienie zostało przyjęte. Podsumowanie znajduje się poniżej.</translation>
     </message>
     <message>
         <source>View your receipt</source>
-        <translation>Zobacz potwierdzenie</translation>
+        <translation>Wyświetlić potwierdzenie</translation>
     </message>
     <message>
         <source>Sign in to view it; the address does not expire.</source>
-        <translation>Zaloguj się, aby go zobaczyć; adres nie wygasa.</translation>
+        <translation>Aby je wyświetlić, należy się zalogować; adres nie wygasa.</translation>
     </message>
     <message>
         <source>Item</source>
-        <translation>Produkt</translation>
+        <translation>Element</translation>
     </message>
     <message>
         <source>Total</source>
@@ -1610,7 +1610,7 @@
     </message>
     <message>
         <source>Order total</source>
-        <translation>Suma zamówienia</translation>
+        <translation>Do zapłaty</translation>
     </message>
     <message>
         <source>Customer</source>
@@ -1626,7 +1626,7 @@
     </message>
     <message>
         <source>Order</source>
-        <translation>Zamówienie</translation>
+        <translation>Kolejność</translation>
     </message>
     <message>
         <source>each</source>
@@ -1716,11 +1716,11 @@
     </message>
     <message>
         <source>Confirm order</source>
-        <translation>Potwierdź zamówienie</translation>
+        <translation>Potwierdzić zamówienie</translation>
     </message>
     <message>
         <source>Input did not validate. All fields marked with * must be filled in.</source>
-        <translation>Wprowadzone dane są nieprawidłowe. Wszystkie pola oznaczone * muszą zostać wypełnione.</translation>
+        <translation>Dane są nieprawidłowe. Wszystkie pola oznaczone * muszą zostać wypełnione.</translation>
     </message>
     <message>
         <source>First name</source>
@@ -1768,22 +1768,22 @@
     </message>
     <message>
         <source>Continue</source>
-        <translation>Kontynuuj</translation>
+        <translation>Kontynuować</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Anuluj</translation>
+        <translation>Anulować</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Activate account</source>
-        <translation>Aktywuj konto</translation>
+        <translation>Aktywować konto</translation>
     </message>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation>Twój adres e-mail został potwierdzony. Zanim będzie można się zalogować, administrator musi zatwierdzić Twoją rejestrację.</translation>
+        <translation>Adres e-mail został potwierdzony. Zanim logowanie będzie możliwe, administrator musi zatwierdzić prośbę o rejestrację.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
@@ -1803,7 +1803,7 @@
     </message>
     <message>
         <source>Login</source>
-        <translation>Zaloguj</translation>
+        <translation>Login</translation>
     </message>
     <message>
         <source>Username</source>
@@ -1816,17 +1816,17 @@
     </message>
     <message>
         <source>Remember me</source>
-        <translation>Zapamiętaj mnie</translation>
+        <translation>Zapamiętać mnie</translation>
     </message>
     <message>
         <source>Login</source>
         <comment>Button</comment>
-        <translation>Zaloguj</translation>
+        <translation>Zalogować</translation>
     </message>
     <message>
         <source>Sign Up</source>
         <comment>Button</comment>
-        <translation>Zarejestruj się</translation>
+        <translation>Zarejestrować się</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
@@ -1854,17 +1854,17 @@
     </message>
     <message>
         <source>Please note that your browser must use and support cookies to register a new user.</source>
-        <translation>Aby zarejestrować nowego użytkownika, przeglądarka musi obsługiwać i akceptować pliki cookie.</translation>
+        <translation>Do zarejestrowania nowego użytkownika przeglądarka musi obsługiwać i akceptować pliki cookie.</translation>
     </message>
     <message>
         <source>Register</source>
         <comment>Button</comment>
-        <translation>Zarejestruj się</translation>
+        <translation>Zarejestrować się</translation>
     </message>
     <message>
         <source>Discard</source>
         <comment>Button</comment>
-        <translation>Odrzuć</translation>
+        <translation>Odrzucić</translation>
     </message>
     <message>
         <source>Unable to register new user</source>
@@ -1879,51 +1879,51 @@
     <name>design/media/user</name>
     <message>
         <source>Check your email</source>
-        <translation>Sprawdź pocztę</translation>
+        <translation>Proszę sprawdzić skrzynkę e-mail</translation>
     </message>
     <message>
         <source>Your new password is on its way</source>
-        <translation>Nowe hasło jest już w drodze</translation>
+        <translation>Nowe hasło zostało wysłane</translation>
     </message>
     <message>
-        <source>This link can&apos;t be used</source>
+        <source>This link can't be used</source>
         <translation>Tego linku nie można użyć</translation>
     </message>
     <message>
         <source>Forgotten your password?</source>
-        <translation>Nie pamiętasz hasła?</translation>
+        <translation>Zapomniane hasło?</translation>
     </message>
     <message>
         <source>If an account uses %email, we have sent it a link to set a new password.</source>
-        <translation>Jeśli jakieś konto używa adresu %email, wysłaliśmy na nie link do ustawienia nowego hasła.</translation>
+        <translation>Jeśli istnieje konto z adresem %email, wysłano na ten adres link do ustawienia nowego hasła.</translation>
     </message>
     <message>
         <source>The link works once. Nothing there after a few minutes? Check your spam folder, or make sure the address is the one you signed up with and ask again.</source>
-        <translation>Link działa jeden raz. Nic nie przyszło po kilku minutach? Sprawdź folder spamu albo upewnij się, że to adres użyty przy rejestracji, i poproś ponownie.</translation>
+        <translation>Link działa jeden raz. Po kilku minutach nadal nic nie dotarło? Należy sprawdzić folder spamu albo upewnić się, że to adres użyty przy rejestracji, i poprosić ponownie.</translation>
     </message>
     <message>
         <source>Back to sign in</source>
-        <translation>Wróć do logowania</translation>
+        <translation>Wrócić do logowania</translation>
     </message>
     <message>
         <source>Try another address</source>
-        <translation>Spróbuj innego adresu</translation>
+        <translation>Spróbować innego adresu</translation>
     </message>
     <message>
         <source>We have emailed a new password to %email. Sign in with it, then change it to one of your own from your account page.</source>
-        <translation>Wysłaliśmy nowe hasło na adres %email. Zaloguj się nim, a potem zmień je na własne na stronie swojego konta.</translation>
+        <translation>Nowe hasło zostało wysłane na adres %email. Należy się nim zalogować, a następnie zmienić je na własne na stronie konta.</translation>
     </message>
     <message>
         <source>Sign in</source>
-        <translation>Zaloguj się</translation>
+        <translation>Zalogować się</translation>
     </message>
     <message>
         <source>Password links work only once and only for a while, and this one has been used or has run out. Ask for a new one below; it takes a moment.</source>
-        <translation>Linki do hasła działają tylko raz i tylko przez pewien czas, a ten został już użyty lub wygasł. Poproś poniżej o nowy – to chwila.</translation>
+        <translation>Linki do ustawienia hasła działają tylko raz i tylko przez pewien czas, a ten został już użyty lub wygasł. Nowy link można zamówić poniżej; zajmie to chwilę.</translation>
     </message>
     <message>
         <source>Enter the email address you signed up with and we will send you a link to set a new password.</source>
-        <translation>Wpisz adres e-mail, którego użyto przy rejestracji, a wyślemy Ci link do ustawienia nowego hasła.</translation>
+        <translation>Należy wprowadzić adres e-mail użyty przy rejestracji, a zostanie na niego wysłany link do ustawienia nowego hasła.</translation>
     </message>
     <message>
         <source>Email address</source>
@@ -1931,11 +1931,11 @@
     </message>
     <message>
         <source>Send me a link</source>
-        <translation>Wyślij mi link</translation>
+        <translation>Wysłać link</translation>
     </message>
     <message>
         <source>Remembered it? Sign in</source>
-        <translation>Przypomniałeś sobie? Zaloguj się</translation>
+        <translation>Hasło jednak znane? Zalogować się</translation>
     </message>
     <message>
         <source>Sign-in is paused for this account</source>
@@ -1943,39 +1943,39 @@
     </message>
     <message>
         <source>There have been too many unsuccessful attempts, so signing in is paused to keep the account safe. Resetting the password unlocks it straight away.</source>
-        <translation>Było zbyt wiele nieudanych prób, więc logowanie wstrzymano, aby chronić konto. Zresetowanie hasła od razu je odblokuje.</translation>
+        <translation>Wystąpiło zbyt wiele nieudanych prób, dlatego logowanie wstrzymano, aby chronić konto. Zresetowanie hasła od razu je odblokowuje.</translation>
     </message>
     <message>
         <source>Reset my password</source>
-        <translation>Zresetuj moje hasło</translation>
+        <translation>Zresetować hasło</translation>
     </message>
     <message>
-        <source>That didn&apos;t work</source>
+        <source>That didn't work</source>
         <translation>Nie udało się</translation>
     </message>
     <message>
         <source>The username or password is not right. Check that Caps Lock is off and try again.</source>
-        <translation>Nazwa użytkownika lub hasło są nieprawidłowe. Sprawdź, czy Caps Lock jest wyłączony, i spróbuj ponownie.</translation>
+        <translation>Nazwa użytkownika lub hasło są nieprawidłowe. Należy sprawdzić, czy Caps Lock jest wyłączony, i spróbować ponownie.</translation>
     </message>
     <message>
         <source>Forgotten it?</source>
-        <translation>Nie pamiętasz?</translation>
+        <translation>Zapomniane hasło?</translation>
     </message>
     <message>
         <source>Get a new password by email</source>
-        <translation>Otrzymaj nowe hasło e-mailem</translation>
+        <translation>Otrzymać nowe hasło e-mailem</translation>
     </message>
     <message>
-        <source>This account can&apos;t sign in here</source>
+        <source>This account can't sign in here</source>
         <translation>To konto nie może się tu zalogować</translation>
     </message>
     <message>
-        <source>Your username and password are right, but this account isn&apos;t allowed to use %1. Sign in with another account, or ask the site&apos;s editors for access.</source>
-        <translation>Nazwa użytkownika i hasło są prawidłowe, ale to konto nie może korzystać z %1. Zaloguj się na inne konto albo poproś redaktorów serwisu o dostęp.</translation>
+        <source>Your username and password are right, but this account isn't allowed to use %1. Sign in with another account, or ask the site's editors for access.</source>
+        <translation>Nazwa użytkownika i hasło są prawidłowe, ale to konto nie może korzystać z %1. Należy zalogować się na inne konto albo poprosić redaktorów serwisu o dostęp.</translation>
     </message>
     <message>
         <source>Change your password</source>
-        <translation>Zmień swoje hasło</translation>
+        <translation>Zmiana hasła</translation>
     </message>
     <message>
         <source>Your password was not changed</source>
@@ -1983,15 +1983,15 @@
     </message>
     <message>
         <source>Your current password is not right. Type it again; it is the one you signed in with.</source>
-        <translation>Obecne hasło jest nieprawidłowe. Wpisz je ponownie – to to, którym się zalogowałeś.</translation>
+        <translation>Bieżące hasło jest nieprawidłowe. Należy wpisać je ponownie; jest to hasło użyte do zalogowania.</translation>
     </message>
     <message>
         <source>The two new passwords are not the same. Type the new password twice, exactly the same.</source>
-        <translation>Dwa nowe hasła się różnią. Wpisz nowe hasło dwa razy dokładnie tak samo.</translation>
+        <translation>Dwa nowe hasła się różnią. Należy wpisać nowe hasło dwa razy dokładnie tak samo.</translation>
     </message>
     <message>
         <source>The new password is too short. Use at least %1 characters; a few words together are easy to remember and hard to guess.</source>
-        <translation>Nowe hasło jest za krótkie. Użyj co najmniej %1 znaków; kilka słów razem łatwo zapamiętać i trudno odgadnąć.</translation>
+        <translation>Nowe hasło jest za krótkie. Należy użyć co najmniej %1 znaków; kilka połączonych słów łatwo zapamiętać i trudno odgadnąć.</translation>
     </message>
     <message>
         <source>Your password has been changed</source>
@@ -1999,7 +1999,7 @@
     </message>
     <message>
         <source>Use the new one the next time you sign in.</source>
-        <translation>Przy następnym logowaniu użyj nowego.</translation>
+        <translation>Przy następnym logowaniu należy użyć nowego hasła.</translation>
     </message>
     <message>
         <source>Signed in as %1.</source>
@@ -2007,7 +2007,7 @@
     </message>
     <message>
         <source>Current password</source>
-        <translation>Obecne hasło</translation>
+        <translation>Bieżące hasło</translation>
     </message>
     <message>
         <source>New password</source>
@@ -2019,15 +2019,15 @@
     </message>
     <message>
         <source>New password again</source>
-        <translation>Powtórz nowe hasło</translation>
+        <translation>Nowe hasło (powtórzenie)</translation>
     </message>
     <message>
         <source>Change password</source>
-        <translation>Zmień hasło</translation>
+        <translation>Zmienić hasło</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Anuluj</translation>
+        <translation>Anulować</translation>
     </message>
     <message>
         <source>Check your e-mail</source>
@@ -2186,47 +2186,47 @@
     <name>design/sevenx_themes_media/forgotpasswordmail</name>
     <message>
         <source>Set a new password for %site</source>
-        <translation>Ustaw nowe hasło do %site</translation>
+        <translation>Ustawienie nowego hasła do %site</translation>
     </message>
     <message>
         <source>Your new password for %site</source>
-        <translation>Twoje nowe hasło do %site</translation>
+        <translation>Nowe hasło do %site</translation>
     </message>
     <message>
         <source>You are getting this because someone asked to reset the password for this account on %site. If it was not you, ignore this email: your password stays as it is, and nobody can change it without this email.</source>
-        <translation>Otrzymujesz tę wiadomość, ponieważ ktoś poprosił o zresetowanie hasła do tego konta w serwisie %site. Jeśli to nie Ty, zignoruj tę wiadomość: Twoje hasło pozostanie bez zmian i nikt nie może go zmienić bez tej wiadomości.</translation>
+        <translation>Ta wiadomość została wysłana, ponieważ ktoś poprosił o zresetowanie hasła do tego konta w serwisie %site. Jeśli prośba nie pochodzi od właściciela konta, wiadomość można zignorować: hasło pozostanie bez zmian i nikt nie może go zmienić bez tej wiadomości.</translation>
     </message>
     <message>
         <source>The password for this account on %site was reset from the link we emailed. If that was not you, sign in with the password above and change it at once.</source>
-        <translation>Hasło do tego konta w %site zostało zresetowane z linku, który wysłaliśmy. Jeśli to nie Ty, zaloguj się hasłem podanym powyżej i od razu je zmień.</translation>
+        <translation>Hasło do tego konta w %site zostało zresetowane za pomocą wysłanego linku. Jeśli nie zrobił tego właściciel konta, należy zalogować się podanym powyżej hasłem i natychmiast je zmienić.</translation>
     </message>
     <message>
         <source>Set a new password</source>
-        <translation>Ustaw nowe hasło</translation>
+        <translation>Ustawić nowe hasło</translation>
     </message>
     <message>
         <source>Click the button to confirm it is you. We will then email you a new password straight away.</source>
-        <translation>Kliknij przycisk, aby potwierdzić, że to Ty. Od razu wyślemy Ci e-mailem nowe hasło.</translation>
+        <translation>Kliknięcie przycisku potwierdza tożsamość. Nowe hasło zostanie od razu wysłane e-mailem.</translation>
     </message>
     <message>
         <source>Confirm and send my new password</source>
-        <translation>Potwierdź i wyślij nowe hasło</translation>
+        <translation>Potwierdzić i wysłać nowe hasło</translation>
     </message>
     <message>
         <source>The link works once. If the button does not work, copy this address into your browser:</source>
-        <translation>Link działa jeden raz. Jeśli przycisk nie działa, skopiuj ten adres do przeglądarki:</translation>
+        <translation>Link działa jeden raz. Jeśli przycisk nie działa, należy skopiować ten adres do przeglądarki:</translation>
     </message>
     <message>
         <source>Here is your new password</source>
-        <translation>Oto Twoje nowe hasło</translation>
+        <translation>Oto nowe hasło</translation>
     </message>
     <message>
         <source>Sign in with it, then change it to one of your own from your account page.</source>
-        <translation>Zaloguj się nim, a potem zmień je na własne na stronie swojego konta.</translation>
+        <translation>Należy się nim zalogować, a następnie zmienić je na własne na stronie konta.</translation>
     </message>
     <message>
         <source>Sign in</source>
-        <translation>Zaloguj się</translation>
+        <translation>Zalogować się</translation>
     </message>
     <message>
         <source>Username</source>
@@ -2256,15 +2256,15 @@
     <name>design/media/ngsite</name>
     <message>
         <source>Send form</source>
-        <translation>Wyślij formularz</translation>
+        <translation>Wysłać formularz</translation>
     </message>
     <message>
         <source>Enter a valid</source>
-        <translation>Wpisz prawidłową wartość:</translation>
+        <translation>Należy wprowadzić prawidłową wartość:</translation>
     </message>
     <message>
         <source>not checked</source>
-        <translation>nie zaznaczono</translation>
+        <translation>nie sprawdzono</translation>
     </message>
     <message>
         <source>The following information was collected</source>
@@ -2276,7 +2276,7 @@
     </message>
     <message>
         <source>Thank you for your feedback.</source>
-        <translation>Dziękujemy za wiadomość.</translation>
+        <translation>Dziękujemy za opinię.</translation>
     </message>
     <message>
         <source>Application deadline</source>
@@ -2332,43 +2332,43 @@
     </message>
     <message>
         <source>Search</source>
-        <translation>Szukaj</translation>
+        <translation>Wyszukać</translation>
     </message>
     <message>
         <source>Did you mean</source>
         <translation>Czy chodziło o</translation>
     </message>
     <message>
-        <source>No results were found when searching for &quot;%searchText%&quot;.</source>
+        <source>No results were found when searching for "%searchText%".</source>
         <translation>Wyszukiwanie „%searchText%” nie dało wyników.</translation>
     </message>
     <message>
-        <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation>Zmień niektóre słowa kluczowe (np. „samochód” zamiast „samochody”).</translation>
+        <source>Try changing some keywords (eg, "car" instead of "cars").</source>
+        <translation>Warto zmienić niektóre słowa kluczowe (np. „samochód” zamiast „samochody”).</translation>
     </message>
     <message>
         <source>Check spelling of keywords.</source>
-        <translation>Sprawdź pisownię słów kluczowych.</translation>
+        <translation>Należy sprawdzić pisownię słów kluczowych.</translation>
     </message>
     <message>
         <source>Try searching with less specific keywords.</source>
-        <translation>Spróbuj mniej szczegółowych słów kluczowych.</translation>
+        <translation>Warto wyszukać, używając mniej szczegółowych słów kluczowych.</translation>
     </message>
     <message>
         <source>Reduce number of keywords to get more results.</source>
-        <translation>Użyj mniej słów kluczowych, aby uzyskać więcej wyników.</translation>
+        <translation>Zmniejszenie liczby słów kluczowych daje więcej wyników.</translation>
     </message>
     <message>
-        <source>Search for &quot;%searchText%&quot; returned %searchCount% matches</source>
-        <translation>Wyszukiwanie „%searchText%” dało %searchCount% wyników</translation>
+        <source>Search for "%searchText%" returned %searchCount% matches</source>
+        <translation>Wyszukiwanie „%searchText%” dało wyniki: %searchCount%</translation>
     </message>
     <message>
         <source>Submit search</source>
-        <translation>Wyszukaj</translation>
+        <translation>Wyszukać</translation>
     </message>
     <message>
         <source>No content has been tagged with this tag yet.</source>
-        <translation>Nic nie zostało jeszcze oznaczone tym tagiem.</translation>
+        <translation>Żadna treść nie została jeszcze oznaczona tym tagiem.</translation>
     </message>
     <message>
         <source>Related tags</source>
@@ -2380,7 +2380,7 @@
     </message>
     <message>
         <source>Your account information</source>
-        <translation>Dane Twojego konta</translation>
+        <translation>Informacje o koncie</translation>
     </message>
     <message>
         <source>Username</source>
@@ -2395,14 +2395,14 @@
     <name>kernel/user</name>
     <message>
         <source>Login</source>
-        <translation>Zaloguj</translation>
+        <translation>Login</translation>
     </message>
 </context>
 <context>
     <name>design/media/video</name>
     <message>
         <source>Playing this video loads it from YouTube (Google). See our %privacy_link.</source>
-        <translation>Odtworzenie tego filmu wczytuje go z YouTube (Google). Zobacz: %privacy_link.</translation>
+        <translation>Odtworzenie tego filmu powoduje wczytanie go z YouTube (Google). Szczegóły: %privacy_link.</translation>
     </message>
     <message>
         <source>Privacy policy</source>
@@ -2410,19 +2410,19 @@
     </message>
     <message>
         <source>Play video</source>
-        <translation>Odtwórz film</translation>
+        <translation>Odtworzyć film</translation>
     </message>
     <message>
         <source>Play video: %title</source>
-        <translation>Odtwórz film: %title</translation>
+        <translation>Odtworzyć film: %title</translation>
     </message>
     <message>
         <source>Always allow YouTube videos on this site</source>
-        <translation>Zawsze zezwalaj na filmy YouTube w tej witrynie</translation>
+        <translation>Zawsze zezwalać na filmy YouTube w tej witrynie</translation>
     </message>
     <message>
         <source>Stop loading YouTube automatically</source>
-        <translation>Nie wczytuj już automatycznie YouTube</translation>
+        <translation>Wyłączyć automatyczne wczytywanie YouTube</translation>
     </message>
     <message>
         <source>YouTube video</source>
@@ -2437,19 +2437,19 @@
     </message>
     <message>
         <source>Close without changes</source>
-        <translation>Zamknij bez zmian</translation>
+        <translation>Zamknąć bez zmian</translation>
     </message>
     <message>
-        <source>This website stores only what it needs to work: a session cookie when you sign in, and copies of the pages you visit, kept in your browser so they open faster. YouTube videos load only when you press play. &quot;Accept all&quot; lets them load as soon as a page opens; YouTube (Google) may then store data in your browser. Your choice is kept in a cookie for 6 months. Details are in our %cookie_link.</source>
-        <translation>Ta witryna przechowuje tylko to, czego potrzebuje do działania: plik cookie sesji po zalogowaniu oraz kopie odwiedzanych stron, przechowywane w przeglądarce, aby szybciej się otwierały. Filmy YouTube są wczytywane dopiero po naciśnięciu przycisku odtwarzania. „Akceptuj wszystkie” pozwala wczytywać je od razu po otwarciu strony; YouTube (Google) może wtedy zapisywać dane w przeglądarce. Wybór jest przechowywany w pliku cookie przez 6 miesięcy. Szczegóły: %cookie_link.</translation>
+        <source>This website stores only what it needs to work: a session cookie when you sign in, and copies of the pages you visit, kept in your browser so they open faster. YouTube videos load only when you press play. "Accept all" lets them load as soon as a page opens; YouTube (Google) may then store data in your browser. Your choice is kept in a cookie for 6 months. Details are in our %cookie_link.</source>
+        <translation>Ta witryna przechowuje tylko to, czego potrzebuje do działania: plik cookie sesji po zalogowaniu oraz kopie odwiedzonych stron, przechowywane w przeglądarce, aby otwierały się szybciej. Filmy YouTube wczytują się dopiero po naciśnięciu przycisku odtwarzania. Opcja „Zaakceptować wszystkie” pozwala wczytywać je od razu po otwarciu strony; YouTube (Google) może wtedy przechowywać dane w przeglądarce. Wybór jest zapisywany w pliku cookie na 6 miesięcy. Szczegóły podano w %cookie_link.</translation>
     </message>
     <message>
         <source>Reject all</source>
-        <translation>Odrzuć wszystkie</translation>
+        <translation>Odrzucić wszystkie</translation>
     </message>
     <message>
         <source>Accept all</source>
-        <translation>Akceptuj wszystkie</translation>
+        <translation>Zaakceptować wszystkie</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -2457,7 +2457,7 @@
     </message>
     <message>
         <source>Strictly necessary</source>
-        <translation>Niezbędne</translation>
+        <translation>Ściśle niezbędne</translation>
     </message>
     <message>
         <source>Always on</source>
@@ -2465,19 +2465,19 @@
     </message>
     <message>
         <source>The session cookie for signing in and for forms, the cookie that keeps this choice, and the copies of pages you visited that let them open faster. They stay on because the website needs them; you can delete them in your browser settings at any time.</source>
-        <translation>Plik cookie sesji do logowania i formularzy, plik cookie przechowujący ten wybór oraz kopie odwiedzonych stron, dzięki którym otwierają się szybciej. Pozostają włączone, ponieważ witryna ich potrzebuje; można je w każdej chwili usunąć w ustawieniach przeglądarki.</translation>
+        <translation>Plik cookie sesji do logowania i formularzy, plik cookie przechowujący ten wybór oraz kopie odwiedzonych stron, dzięki którym otwierają się szybciej. Pozostają włączone, ponieważ witryna ich potrzebuje; w każdej chwili można je usunąć w ustawieniach przeglądarki.</translation>
     </message>
     <message>
         <source>Embedded videos (YouTube)</source>
         <translation>Osadzone filmy (YouTube)</translation>
     </message>
     <message>
-        <source>Load YouTube videos as soon as a page opens, from www.youtube-nocookie.com. YouTube (Google) may then store data in your browser. When this is off, each video shows a picture and loads only when you press its play button. This is the same as &quot;Always allow YouTube videos on this site&quot; under a video.</source>
-        <translation>Wczytuj filmy YouTube od razu po otwarciu strony, z www.youtube-nocookie.com. YouTube (Google) może wtedy zapisywać dane w przeglądarce. Gdy ta opcja jest wyłączona, każdy film pokazuje obraz i jest wczytywany dopiero po naciśnięciu jego przycisku odtwarzania. Działa tak samo jak „Zawsze zezwalaj na filmy YouTube w tej witrynie” pod filmem.</translation>
+        <source>Load YouTube videos as soon as a page opens, from www.youtube-nocookie.com. YouTube (Google) may then store data in your browser. When this is off, each video shows a picture and loads only when you press its play button. This is the same as "Always allow YouTube videos on this site" under a video.</source>
+        <translation>Wczytywanie filmów YouTube od razu po otwarciu strony, z www.youtube-nocookie.com. YouTube (Google) może wtedy przechowywać dane w przeglądarce. Gdy opcja jest wyłączona, każdy film pokazuje obraz i wczytuje się dopiero po naciśnięciu jego przycisku odtwarzania. Działa tak samo jak opcja „Zawsze zezwalać na filmy YouTube w tej witrynie” pod filmem.</translation>
     </message>
     <message>
         <source>Save my choice</source>
-        <translation>Zapisz mój wybór</translation>
+        <translation>Zapisać wybór</translation>
     </message>
 </context>
 </TS>

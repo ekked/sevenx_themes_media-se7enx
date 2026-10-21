@@ -6,7 +6,7 @@
     <message>
         <source>Tags</source>
         <comment>Datatype name</comment>
-        <translation>Parole chiave</translation>
+        <translation>Tag</translation>
     </message>
     <message>
         <source>Tags</source>
@@ -284,7 +284,7 @@
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation>Sono state raccolte le seguenti informazioni</translation>
+        <translation>Sono arrivate le seguenti informazioni</translation>
     </message>
     <message>
         <source>Sent from</source>
@@ -521,15 +521,15 @@
         <translation>Autorizzazione necessaria</translation>
     </message>
     <message>
-        <source>You don&apos;t have access to this page</source>
+        <source>You don't have access to this page</source>
         <translation>Non hai accesso a questa pagina</translation>
     </message>
     <message>
-        <source>Your account is signed in but is not allowed to open this page. If you think it should be, ask the site&apos;s editors to give your account access, or sign in with another account.</source>
+        <source>Your account is signed in but is not allowed to open this page. If you think it should be, ask the site's editors to give your account access, or sign in with another account.</source>
         <translation>Il tuo account ha effettuato l’accesso, ma non può aprire questa pagina. Se pensi che dovrebbe poterlo fare, chiedi ai redattori del sito di concedergli l’accesso oppure accedi con un altro account.</translation>
     </message>
     <message>
-        <source>We couldn&apos;t find that page</source>
+        <source>We couldn't find that page</source>
         <translation>Non abbiamo trovato questa pagina</translation>
     </message>
     <message>
@@ -549,7 +549,7 @@
         <translation>Parte dell’indirizzo</translation>
     </message>
     <message>
-        <source>The address doesn&apos;t match any page on this site. It may have a typo, or the link that brought you here may be out of date.</source>
+        <source>The address doesn't match any page on this site. It may have a typo, or the link that brought you here may be out of date.</source>
         <translation>L’indirizzo non corrisponde a nessuna pagina del sito. Potrebbe contenere un errore di battitura, oppure il link che ti ha portato qui non è più aggiornato.</translation>
     </message>
     <message>
@@ -573,7 +573,7 @@
         <translation>kernel 22 (modulo disattivato)</translation>
     </message>
     <message>
-        <source>This page isn&apos;t available</source>
+        <source>This page isn't available</source>
         <translation>Questa pagina non è disponibile</translation>
     </message>
     <message>
@@ -597,7 +597,7 @@
         <translation>Vai alla nuova pagina</translation>
     </message>
     <message>
-        <source>This page isn&apos;t available in that language</source>
+        <source>This page isn't available in that language</source>
         <translation>Questa pagina non è disponibile in quella lingua</translation>
     </message>
     <message>
@@ -609,11 +609,11 @@
         <translation>kernel 5 (lingua non trovata)</translation>
     </message>
     <message>
-        <source>We&apos;ll be right back</source>
+        <source>We'll be right back</source>
         <translation>Torniamo subito</translation>
     </message>
     <message>
-        <source>The site can&apos;t reach its content right now. This is usually over within a minute or two, so please try again shortly.</source>
+        <source>The site can't reach its content right now. This is usually over within a minute or two, so please try again shortly.</source>
         <translation>Il sito al momento non riesce a raggiungere i suoi contenuti. Di solito si risolve in un paio di minuti, quindi riprova tra poco.</translation>
     </message>
     <message>
@@ -653,11 +653,11 @@
         <translation>Dettagli tecnici</translation>
     </message>
     <message>
-        <source>This item can&apos;t be bought</source>
+        <source>This item can't be bought</source>
         <translation>Questo articolo non può essere acquistato</translation>
     </message>
     <message>
-        <source>It isn&apos;t a product in the shop, or it is no longer for sale.</source>
+        <source>It isn't a product in the shop, or it is no longer for sale.</source>
         <translation>Non è un prodotto del negozio oppure non è più in vendita.</translation>
     </message>
     <message>
@@ -665,11 +665,11 @@
         <translation>shop 1 (non è un prodotto)</translation>
     </message>
     <message>
-        <source>This product can&apos;t be added to your basket</source>
+        <source>This product can't be added to your basket</source>
         <translation>Questo prodotto non può essere aggiunto al carrello</translation>
     </message>
     <message>
-        <source>It can&apos;t be bought together with what is already in your basket. Check out the basket first, or remove what is in it, and then add this product.</source>
+        <source>It can't be bought together with what is already in your basket. Check out the basket first, or remove what is in it, and then add this product.</source>
         <translation>Non può essere acquistato insieme a ciò che è già nel carrello. Completa prima l’acquisto o svuota il carrello, poi aggiungi questo prodotto.</translation>
     </message>
     <message>
@@ -677,11 +677,11 @@
         <translation>shop 2 (tipo di prodotto non compatibile)</translation>
     </message>
     <message>
-        <source>That currency isn&apos;t available</source>
+        <source>That currency isn't available</source>
         <translation>Questa valuta non è disponibile</translation>
     </message>
     <message>
-        <source>The shop doesn&apos;t sell in the currency that was asked for. Go back and choose another one.</source>
+        <source>The shop doesn't sell in the currency that was asked for. Go back and choose another one.</source>
         <translation>Il negozio non vende nella valuta richiesta. Torna indietro e scegline un’altra.</translation>
     </message>
     <message>
@@ -689,7 +689,7 @@
         <translation>shop 3 (la valuta non esiste)</translation>
     </message>
     <message>
-        <source>That currency isn&apos;t available at the moment</source>
+        <source>That currency isn't available at the moment</source>
         <translation>Questa valuta al momento non è disponibile</translation>
     </message>
     <message>
@@ -836,91 +836,91 @@
     </message>
     <message>
         <source>Hero Style 1</source>
-        <translation>Stile hero 1</translation>
+        <translation>Hero stile 1</translation>
     </message>
     <message>
         <source>Hero Style 2</source>
-        <translation>Stile hero 2</translation>
+        <translation>Hero stile 2</translation>
     </message>
     <message>
         <source>Hero Style 3</source>
-        <translation>Stile hero 3</translation>
+        <translation>Hero stile 3</translation>
     </message>
     <message>
         <source>Features Style 1</source>
-        <translation>Stile funzionalità 1</translation>
+        <translation>Caratteristiche stile 1</translation>
     </message>
     <message>
         <source>Features Style 2</source>
-        <translation>Stile funzionalità 2</translation>
+        <translation>Caratteristiche stile 2</translation>
     </message>
     <message>
         <source>Features Style 3</source>
-        <translation>Stile funzionalità 3</translation>
+        <translation>Caratteristiche stile 3</translation>
     </message>
     <message>
         <source>Features Style 4</source>
-        <translation>Stile funzionalità 4</translation>
+        <translation>Caratteristiche stile 4</translation>
     </message>
     <message>
         <source>Features Style 5</source>
-        <translation>Stile funzionalità 5</translation>
+        <translation>Caratteristiche stile 5</translation>
     </message>
     <message>
         <source>Features Style 6</source>
-        <translation>Stile funzionalità 6</translation>
+        <translation>Caratteristiche stile 6</translation>
     </message>
     <message>
         <source>Features Style 7</source>
-        <translation>Stile funzionalità 7</translation>
+        <translation>Caratteristiche stile 7</translation>
     </message>
     <message>
         <source>About Style 1</source>
-        <translation>Stile chi siamo 1</translation>
+        <translation>Chi siamo stile 1</translation>
     </message>
     <message>
         <source>About Style 2</source>
-        <translation>Stile chi siamo 2</translation>
+        <translation>Chi siamo stile 2</translation>
     </message>
     <message>
         <source>About Style 3</source>
-        <translation>Stile chi siamo 3</translation>
+        <translation>Chi siamo stile 3</translation>
     </message>
     <message>
         <source>About Style 4</source>
-        <translation>Stile chi siamo 4</translation>
+        <translation>Chi siamo stile 4</translation>
     </message>
     <message>
         <source>About Style 5</source>
-        <translation>Stile chi siamo 5</translation>
+        <translation>Chi siamo stile 5</translation>
     </message>
     <message>
         <source>Logos Style 1</source>
-        <translation>Stile loghi 1</translation>
+        <translation>Loghi stile 1</translation>
     </message>
     <message>
         <source>Logos Style 2</source>
-        <translation>Stile loghi 2</translation>
+        <translation>Loghi stile 2</translation>
     </message>
     <message>
         <source>Quote style 1</source>
-        <translation>Stile citazione 1</translation>
+        <translation>Citazione stile 1</translation>
     </message>
     <message>
         <source>Lead Style 1 (embed)</source>
-        <translation>Stile lead 1 (incorporato)</translation>
+        <translation>Lead stile 1 (incorporato)</translation>
     </message>
     <message>
         <source>Lead Style 2 (embed)</source>
-        <translation>Stile lead 2 (incorporato)</translation>
+        <translation>Lead stile 2 (incorporato)</translation>
     </message>
     <message>
         <source>Lead Style 1 (modal)</source>
-        <translation>Stile lead 1 (modale)</translation>
+        <translation>Lead stile 1 (modale)</translation>
     </message>
     <message>
         <source>Lead Style 2 (modal)</source>
-        <translation>Stile lead 2 (modale)</translation>
+        <translation>Lead stile 2 (modale)</translation>
     </message>
     <message>
         <source>Standard view</source>
@@ -964,11 +964,11 @@
     </message>
     <message>
         <source>Gallery grid view</source>
-        <translation>Vista griglia galleria</translation>
+        <translation>Vista galleria a griglia</translation>
     </message>
     <message>
         <source>Gallery thumb view</source>
-        <translation>Vista miniature galleria</translation>
+        <translation>Vista galleria a miniature</translation>
     </message>
     <message>
         <source>List (zig-zag) with banners</source>
@@ -987,7 +987,7 @@
     </message>
     <message>
         <source>What is Exponential?</source>
-        <translation>Che cos&apos;è Exponential?</translation>
+        <translation>Che cos'è Exponential?</translation>
     </message>
     <message>
         <source>License</source>
@@ -1380,15 +1380,15 @@
     </message>
     <message>
         <source>Account information</source>
-        <translation>Informazioni sull&apos;account</translation>
+        <translation>Informazioni sull'account</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation>Conferma l&apos;ordine</translation>
+        <translation>Conferma l'ordine</translation>
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
-        <translation>I seguenti articoli sono stati rimossi dal tuo carrello perché i prodotti sono stati modificati.</translation>
+        <translation>Gli elementi seguenti sono stati rimossi dal carrello perché i prodotti sono cambiati.</translation>
     </message>
     <message>
         <source>VAT is unknown</source>
@@ -1408,7 +1408,7 @@
     </message>
     <message>
         <source>Your payment was aborted.</source>
-        <translation>Il tuo pagamento è stato annullato.</translation>
+        <translation>Il tuo pagamento è stato abortito.</translation>
     </message>
     <message>
         <source>Product</source>
@@ -1424,7 +1424,7 @@
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation>Prezzo IVA inclusa</translation>
+        <translation>Prezzo con IVA</translation>
     </message>
     <message>
         <source>Discount</source>
@@ -1491,7 +1491,7 @@
     <name>design/ezwebin/shop/confirmorder</name>
     <message>
         <source>Confirm order</source>
-        <translation>Conferma l&apos;ordine</translation>
+        <translation>Conferma l'ordine</translation>
     </message>
     <message>
         <source>Shopping basket</source>
@@ -1499,7 +1499,7 @@
     </message>
     <message>
         <source>Account information</source>
-        <translation>Informazioni sull&apos;account</translation>
+        <translation>Informazioni sull'account</translation>
     </message>
     <message>
         <source>Product items</source>
@@ -1515,7 +1515,7 @@
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation>Prezzo IVA inclusa</translation>
+        <translation>Prezzo con IVA</translation>
     </message>
     <message>
         <source>Discount</source>
@@ -1657,7 +1657,7 @@
     </message>
     <message>
         <source>Price inc. VAT</source>
-        <translation>Prezzo IVA inclusa</translation>
+        <translation>Prezzo con IVA</translation>
     </message>
     <message>
         <source>Discount</source>
@@ -1689,7 +1689,7 @@
     </message>
     <message>
         <source>Order history</source>
-        <translation>Storia dell&apos;ordine</translation>
+        <translation>Storia dell'ordine</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1697,7 +1697,7 @@
     </message>
     <message>
         <source>Order status</source>
-        <translation>Stato dell&apos;ordine</translation>
+        <translation>Stato dell'ordine</translation>
     </message>
 </context>
 <context>
@@ -1712,15 +1712,15 @@
     </message>
     <message>
         <source>Account information</source>
-        <translation>Informazioni sull&apos;account</translation>
+        <translation>Informazioni sull'account</translation>
     </message>
     <message>
         <source>Confirm order</source>
-        <translation>Conferma l&apos;ordine</translation>
+        <translation>Conferma l'ordine</translation>
     </message>
     <message>
         <source>Input did not validate. All fields marked with * must be filled in.</source>
-        <translation>Dati non validi. Tutti i campi contrassegnati con * devono essere compilati.</translation>
+        <translation>Input non valido. Tutti i campi marcati con * devono essere compilati.</translation>
     </message>
     <message>
         <source>First name</source>
@@ -1779,11 +1779,11 @@
     <name>design/standard/user</name>
     <message>
         <source>Activate account</source>
-        <translation>Attivazione account</translation>
+        <translation>Account attivato</translation>
     </message>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation>Il tuo indirizzo e-mail è stato confermato. Un amministratore deve approvare la tua richiesta d&apos;iscrizione, prima che il tuo login diventi valido.</translation>
+        <translation>Il tuo indirizzo e-mail è stato confermato. Un amministratore deve approvare la tua richiesta di registrazione, prima che il tuo login diventi valido.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
@@ -1795,7 +1795,7 @@
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Spiacenti, la chiave inserita non è valida. L&apos;account non è stato attivato.</translation>
+        <translation>Spiacenti, la chiave inserita non è valida. L'account non è stato attivato.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -1854,17 +1854,17 @@
     </message>
     <message>
         <source>Please note that your browser must use and support cookies to register a new user.</source>
-        <translation>Nota: per registrare un nuovo utente il tuo browser deve supportare e accettare i cookie.</translation>
+        <translation>Si noti che il browser deve fare uso e supportare i cookies per registrare un nuovo utente.</translation>
     </message>
     <message>
         <source>Register</source>
         <comment>Button</comment>
-        <translation>Registra</translation>
+        <translation>Registrati</translation>
     </message>
     <message>
         <source>Discard</source>
         <comment>Button</comment>
-        <translation>Annulla</translation>
+        <translation>Scarta</translation>
     </message>
     <message>
         <source>Unable to register new user</source>
@@ -1886,7 +1886,7 @@
         <translation>La tua nuova password è in arrivo</translation>
     </message>
     <message>
-        <source>This link can&apos;t be used</source>
+        <source>This link can't be used</source>
         <translation>Questo link non può essere usato</translation>
     </message>
     <message>
@@ -1950,7 +1950,7 @@
         <translation>Reimposta la mia password</translation>
     </message>
     <message>
-        <source>That didn&apos;t work</source>
+        <source>That didn't work</source>
         <translation>Non ha funzionato</translation>
     </message>
     <message>
@@ -1966,11 +1966,11 @@
         <translation>Ricevi una nuova password via e-mail</translation>
     </message>
     <message>
-        <source>This account can&apos;t sign in here</source>
+        <source>This account can't sign in here</source>
         <translation>Questo account non può accedere qui</translation>
     </message>
     <message>
-        <source>Your username and password are right, but this account isn&apos;t allowed to use %1. Sign in with another account, or ask the site&apos;s editors for access.</source>
+        <source>Your username and password are right, but this account isn't allowed to use %1. Sign in with another account, or ask the site's editors for access.</source>
         <translation>Nome utente e password sono corretti, ma questo account non può usare %1. Accedi con un altro account oppure chiedi l’accesso ai redattori del sito.</translation>
     </message>
     <message>
@@ -2043,7 +2043,7 @@
     </message>
     <message>
         <source>We sent a message to the e-mail address you entered. Open the link in it to activate your account; then you can sign in.</source>
-        <translation>Abbiamo inviato un messaggio all&apos;indirizzo e-mail che hai inserito. Apri il link che contiene per attivare il tuo account; poi potrai accedere.</translation>
+        <translation>Abbiamo inviato un messaggio all'indirizzo e-mail che hai inserito. Apri il link che contiene per attivare il tuo account; poi potrai accedere.</translation>
     </message>
     <message>
         <source>No message after a few minutes? Look in your spam folder.</source>
@@ -2059,7 +2059,7 @@
     </message>
     <message>
         <source>You will get an e-mail as soon as your account is approved; then you can sign in.</source>
-        <translation>Riceverai un&apos;e-mail non appena il tuo account sarà approvato; poi potrai accedere.</translation>
+        <translation>Riceverai un'e-mail non appena il tuo account sarà approvato; poi potrai accedere.</translation>
     </message>
     <message>
         <source>Welcome, %name</source>
@@ -2071,7 +2071,7 @@
     </message>
     <message>
         <source>Your account is ready and you are signed in.</source>
-        <translation>Il tuo account è pronto e hai eseguito l&apos;accesso.</translation>
+        <translation>Il tuo account è pronto e hai eseguito l'accesso.</translation>
     </message>
     <message>
         <source>Your e-mail address is confirmed</source>
@@ -2079,7 +2079,7 @@
     </message>
     <message>
         <source>Your account is active and you are signed in.</source>
-        <translation>Il tuo account è attivo e hai eseguito l&apos;accesso.</translation>
+        <translation>Il tuo account è attivo e hai eseguito l'accesso.</translation>
     </message>
     <message>
         <source>Your account is active. You can sign in now.</source>
@@ -2095,11 +2095,11 @@
     </message>
     <message>
         <source>You are signed in.</source>
-        <translation>Hai eseguito l&apos;accesso.</translation>
+        <translation>Hai eseguito l'accesso.</translation>
     </message>
     <message>
         <source>The account was activated before. You can sign in.</source>
-        <translation>L&apos;account era già stato attivato. Puoi accedere.</translation>
+        <translation>L'account era già stato attivato. Puoi accedere.</translation>
     </message>
     <message>
         <source>This activation link does not work</source>
@@ -2111,7 +2111,7 @@
     </message>
     <message>
         <source>Copy the whole link from the e-mail into the address bar of your browser. If you activated the account before, sign in.</source>
-        <translation>Copia l&apos;intero link dall&apos;e-mail nella barra degli indirizzi del browser. Se hai già attivato l&apos;account, accedi.</translation>
+        <translation>Copia l'intero link dall'e-mail nella barra degli indirizzi del browser. Se hai già attivato l'account, accedi.</translation>
     </message>
     <message>
         <source>We could not find your account</source>
@@ -2119,7 +2119,7 @@
     </message>
     <message>
         <source>The account of this registration does not exist (any more).</source>
-        <translation>L&apos;account di questa registrazione non esiste (più).</translation>
+        <translation>L'account di questa registrazione non esiste (più).</translation>
     </message>
     <message>
         <source>Please register again, or contact us if the problem stays.</source>
@@ -2131,7 +2131,7 @@
     </message>
     <message>
         <source>Your account has been created and you are signed in.</source>
-        <translation>Il tuo account è stato creato e hai eseguito l&apos;accesso.</translation>
+        <translation>Il tuo account è stato creato e hai eseguito l'accesso.</translation>
     </message>
     <message>
         <source>Your account has been created. You can sign in now.</source>
@@ -2143,7 +2143,7 @@
     </message>
     <message>
         <source>You are still signed in here. Use the new password the next time you sign in.</source>
-        <translation>Qui hai ancora effettuato l&apos;accesso. Usa la nuova password al prossimo accesso.</translation>
+        <translation>Qui hai ancora effettuato l'accesso. Usa la nuova password al prossimo accesso.</translation>
     </message>
     <message>
         <source>We sent a confirmation to your e-mail address.</source>
@@ -2339,11 +2339,11 @@
         <translation>Forse cercavi</translation>
     </message>
     <message>
-        <source>No results were found when searching for &quot;%searchText%&quot;.</source>
+        <source>No results were found when searching for "%searchText%".</source>
         <translation>Nessun risultato per la ricerca «%searchText%».</translation>
     </message>
     <message>
-        <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
+        <source>Try changing some keywords (eg, "car" instead of "cars").</source>
         <translation>Prova a cambiare alcune parole chiave (ad esempio «auto» invece di «automobili»).</translation>
     </message>
     <message>
@@ -2359,7 +2359,7 @@
         <translation>Usa meno parole chiave per ottenere più risultati.</translation>
     </message>
     <message>
-        <source>Search for &quot;%searchText%&quot; returned %searchCount% matches</source>
+        <source>Search for "%searchText%" returned %searchCount% matches</source>
         <translation>La ricerca di «%searchText%» ha dato %searchCount% risultati</translation>
     </message>
     <message>
@@ -2426,22 +2426,22 @@
     </message>
     <message>
         <source>YouTube video</source>
-        <translation>Video di YouTube</translation>
+        <translation>Video YouTube</translation>
     </message>
 </context>
 <context>
     <name>design/media/cookieconsent</name>
     <message>
         <source>Cookies on this website</source>
-        <translation>Cookie su questo sito</translation>
+        <translation>Cookie su questo sito web</translation>
     </message>
     <message>
         <source>Close without changes</source>
         <translation>Chiudi senza modifiche</translation>
     </message>
     <message>
-        <source>This website stores only what it needs to work: a session cookie when you sign in, and copies of the pages you visit, kept in your browser so they open faster. YouTube videos load only when you press play. &quot;Accept all&quot; lets them load as soon as a page opens; YouTube (Google) may then store data in your browser. Your choice is kept in a cookie for 6 months. Details are in our %cookie_link.</source>
-        <translation>Questo sito memorizza solo ciò che gli serve per funzionare: un cookie di sessione quando accedi e copie delle pagine che visiti, conservate nel tuo browser perché si aprano più in fretta. I video di YouTube si caricano solo quando premi play. &quot;Accetta tutto&quot; li fa caricare appena si apre una pagina; YouTube (Google) può allora memorizzare dati nel tuo browser. La tua scelta viene conservata in un cookie per 6 mesi. I dettagli sono nella nostra %cookie_link.</translation>
+        <source>This website stores only what it needs to work: a session cookie when you sign in, and copies of the pages you visit, kept in your browser so they open faster. YouTube videos load only when you press play. "Accept all" lets them load as soon as a page opens; YouTube (Google) may then store data in your browser. Your choice is kept in a cookie for 6 months. Details are in our %cookie_link.</source>
+        <translation>Questo sito web memorizza solo ciò che gli serve per funzionare: un cookie di sessione quando accedi e copie delle pagine che visiti, conservate nel tuo browser perché si aprano più velocemente. I video di YouTube vengono caricati solo quando premi play. "Accetta tutto" li carica non appena si apre una pagina; YouTube (Google) può quindi memorizzare dati nel tuo browser. La tua scelta viene conservata in un cookie per 6 mesi. I dettagli sono nella nostra %cookie_link.</translation>
     </message>
     <message>
         <source>Reject all</source>
@@ -2449,7 +2449,7 @@
     </message>
     <message>
         <source>Accept all</source>
-        <translation>Accetta tutto</translation>
+        <translation>Accetta tutti</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -2465,15 +2465,15 @@
     </message>
     <message>
         <source>The session cookie for signing in and for forms, the cookie that keeps this choice, and the copies of pages you visited that let them open faster. They stay on because the website needs them; you can delete them in your browser settings at any time.</source>
-        <translation>Il cookie di sessione per l&apos;accesso e per i moduli, il cookie che conserva questa scelta e le copie delle pagine visitate che le fanno aprire più in fretta. Restano attivi perché il sito ne ha bisogno; puoi cancellarli in qualsiasi momento nelle impostazioni del browser.</translation>
+        <translation>Il cookie di sessione per l'accesso e per i moduli, il cookie che conserva questa scelta e le copie delle pagine visitate che permettono di aprirle più velocemente. Restano attivi perché il sito web ne ha bisogno; puoi eliminarli in qualsiasi momento nelle impostazioni del browser.</translation>
     </message>
     <message>
         <source>Embedded videos (YouTube)</source>
         <translation>Video incorporati (YouTube)</translation>
     </message>
     <message>
-        <source>Load YouTube videos as soon as a page opens, from www.youtube-nocookie.com. YouTube (Google) may then store data in your browser. When this is off, each video shows a picture and loads only when you press its play button. This is the same as &quot;Always allow YouTube videos on this site&quot; under a video.</source>
-        <translation>Carica i video di YouTube appena si apre una pagina, da www.youtube-nocookie.com. YouTube (Google) può allora memorizzare dati nel tuo browser. Quando questa opzione è disattivata, ogni video mostra un&apos;immagine e si carica solo quando premi il suo pulsante play. Equivale a &quot;Consenti sempre i video di YouTube su questo sito&quot; sotto un video.</translation>
+        <source>Load YouTube videos as soon as a page opens, from www.youtube-nocookie.com. YouTube (Google) may then store data in your browser. When this is off, each video shows a picture and loads only when you press its play button. This is the same as "Always allow YouTube videos on this site" under a video.</source>
+        <translation>Carica i video di YouTube non appena si apre una pagina, da www.youtube-nocookie.com. YouTube (Google) può quindi memorizzare dati nel tuo browser. Quando questa opzione è disattivata, ogni video mostra un'immagine e viene caricato solo quando premi il suo pulsante play. Equivale a "Consenti sempre i video di YouTube su questo sito" sotto un video.</translation>
     </message>
     <message>
         <source>Save my choice</source>

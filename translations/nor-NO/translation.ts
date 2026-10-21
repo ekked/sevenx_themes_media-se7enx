@@ -521,15 +521,15 @@
         <translation>Tilgang kreves</translation>
     </message>
     <message>
-        <source>You don&apos;t have access to this page</source>
+        <source>You don't have access to this page</source>
         <translation>Du har ikke tilgang til denne siden</translation>
     </message>
     <message>
-        <source>Your account is signed in but is not allowed to open this page. If you think it should be, ask the site&apos;s editors to give your account access, or sign in with another account.</source>
+        <source>Your account is signed in but is not allowed to open this page. If you think it should be, ask the site's editors to give your account access, or sign in with another account.</source>
         <translation>Kontoen din er logget inn, men har ikke lov til å åpne denne siden. Hvis du mener den burde ha det, kan du be redaktørene av nettstedet om å gi kontoen tilgang, eller logge inn med en annen konto.</translation>
     </message>
     <message>
-        <source>We couldn&apos;t find that page</source>
+        <source>We couldn't find that page</source>
         <translation>Vi fant ikke den siden</translation>
     </message>
     <message>
@@ -549,7 +549,7 @@
         <translation>Del av adressen</translation>
     </message>
     <message>
-        <source>The address doesn&apos;t match any page on this site. It may have a typo, or the link that brought you here may be out of date.</source>
+        <source>The address doesn't match any page on this site. It may have a typo, or the link that brought you here may be out of date.</source>
         <translation>Adressen passer ikke til noen side på dette nettstedet. Den kan inneholde en skrivefeil, eller lenken som førte deg hit, kan være utdatert.</translation>
     </message>
     <message>
@@ -573,7 +573,7 @@
         <translation>kernel 22 (modul deaktivert)</translation>
     </message>
     <message>
-        <source>This page isn&apos;t available</source>
+        <source>This page isn't available</source>
         <translation>Denne siden er ikke tilgjengelig</translation>
     </message>
     <message>
@@ -597,7 +597,7 @@
         <translation>Gå til den nye siden</translation>
     </message>
     <message>
-        <source>This page isn&apos;t available in that language</source>
+        <source>This page isn't available in that language</source>
         <translation>Denne siden finnes ikke på det språket</translation>
     </message>
     <message>
@@ -609,11 +609,11 @@
         <translation>kernel 5 (språk ikke funnet)</translation>
     </message>
     <message>
-        <source>We&apos;ll be right back</source>
+        <source>We'll be right back</source>
         <translation>Vi er straks tilbake</translation>
     </message>
     <message>
-        <source>The site can&apos;t reach its content right now. This is usually over within a minute or two, so please try again shortly.</source>
+        <source>The site can't reach its content right now. This is usually over within a minute or two, so please try again shortly.</source>
         <translation>Nettstedet får ikke tak i innholdet sitt akkurat nå. Det går som regel over i løpet av et par minutter, så prøv igjen om litt.</translation>
     </message>
     <message>
@@ -653,11 +653,11 @@
         <translation>Tekniske detaljer</translation>
     </message>
     <message>
-        <source>This item can&apos;t be bought</source>
+        <source>This item can't be bought</source>
         <translation>Denne varen kan ikke kjøpes</translation>
     </message>
     <message>
-        <source>It isn&apos;t a product in the shop, or it is no longer for sale.</source>
+        <source>It isn't a product in the shop, or it is no longer for sale.</source>
         <translation>Det er ikke et produkt i butikken, eller det selges ikke lenger.</translation>
     </message>
     <message>
@@ -665,11 +665,11 @@
         <translation>shop 1 (ikke et produkt)</translation>
     </message>
     <message>
-        <source>This product can&apos;t be added to your basket</source>
+        <source>This product can't be added to your basket</source>
         <translation>Dette produktet kan ikke legges i handlekurven</translation>
     </message>
     <message>
-        <source>It can&apos;t be bought together with what is already in your basket. Check out the basket first, or remove what is in it, and then add this product.</source>
+        <source>It can't be bought together with what is already in your basket. Check out the basket first, or remove what is in it, and then add this product.</source>
         <translation>Det kan ikke kjøpes sammen med det som allerede ligger i handlekurven. Fullfør kjøpet eller tøm handlekurven først, og legg deretter til dette produktet.</translation>
     </message>
     <message>
@@ -677,11 +677,11 @@
         <translation>shop 2 (inkompatibel produkttype)</translation>
     </message>
     <message>
-        <source>That currency isn&apos;t available</source>
+        <source>That currency isn't available</source>
         <translation>Den valutaen er ikke tilgjengelig</translation>
     </message>
     <message>
-        <source>The shop doesn&apos;t sell in the currency that was asked for. Go back and choose another one.</source>
+        <source>The shop doesn't sell in the currency that was asked for. Go back and choose another one.</source>
         <translation>Butikken selger ikke i valutaen du ba om. Gå tilbake og velg en annen.</translation>
     </message>
     <message>
@@ -689,7 +689,7 @@
         <translation>shop 3 (valutaen finnes ikke)</translation>
     </message>
     <message>
-        <source>That currency isn&apos;t available at the moment</source>
+        <source>That currency isn't available at the moment</source>
         <translation>Den valutaen er ikke tilgjengelig akkurat nå</translation>
     </message>
     <message>
@@ -836,91 +836,91 @@
     </message>
     <message>
         <source>Hero Style 1</source>
-        <translation>Hero-stil 1</translation>
+        <translation>Hero, stil 1</translation>
     </message>
     <message>
         <source>Hero Style 2</source>
-        <translation>Hero-stil 2</translation>
+        <translation>Hero, stil 2</translation>
     </message>
     <message>
         <source>Hero Style 3</source>
-        <translation>Hero-stil 3</translation>
+        <translation>Hero, stil 3</translation>
     </message>
     <message>
         <source>Features Style 1</source>
-        <translation>Funksjoner-stil 1</translation>
+        <translation>Funksjoner, stil 1</translation>
     </message>
     <message>
         <source>Features Style 2</source>
-        <translation>Funksjoner-stil 2</translation>
+        <translation>Funksjoner, stil 2</translation>
     </message>
     <message>
         <source>Features Style 3</source>
-        <translation>Funksjoner-stil 3</translation>
+        <translation>Funksjoner, stil 3</translation>
     </message>
     <message>
         <source>Features Style 4</source>
-        <translation>Funksjoner-stil 4</translation>
+        <translation>Funksjoner, stil 4</translation>
     </message>
     <message>
         <source>Features Style 5</source>
-        <translation>Funksjoner-stil 5</translation>
+        <translation>Funksjoner, stil 5</translation>
     </message>
     <message>
         <source>Features Style 6</source>
-        <translation>Funksjoner-stil 6</translation>
+        <translation>Funksjoner, stil 6</translation>
     </message>
     <message>
         <source>Features Style 7</source>
-        <translation>Funksjoner-stil 7</translation>
+        <translation>Funksjoner, stil 7</translation>
     </message>
     <message>
         <source>About Style 1</source>
-        <translation>Om-stil 1</translation>
+        <translation>Om oss, stil 1</translation>
     </message>
     <message>
         <source>About Style 2</source>
-        <translation>Om-stil 2</translation>
+        <translation>Om oss, stil 2</translation>
     </message>
     <message>
         <source>About Style 3</source>
-        <translation>Om-stil 3</translation>
+        <translation>Om oss, stil 3</translation>
     </message>
     <message>
         <source>About Style 4</source>
-        <translation>Om-stil 4</translation>
+        <translation>Om oss, stil 4</translation>
     </message>
     <message>
         <source>About Style 5</source>
-        <translation>Om-stil 5</translation>
+        <translation>Om oss, stil 5</translation>
     </message>
     <message>
         <source>Logos Style 1</source>
-        <translation>Logoer-stil 1</translation>
+        <translation>Logoer, stil 1</translation>
     </message>
     <message>
         <source>Logos Style 2</source>
-        <translation>Logoer-stil 2</translation>
+        <translation>Logoer, stil 2</translation>
     </message>
     <message>
         <source>Quote style 1</source>
-        <translation>Sitatstil 1</translation>
+        <translation>Sitat, stil 1</translation>
     </message>
     <message>
         <source>Lead Style 1 (embed)</source>
-        <translation>Lead-stil 1 (innebygd)</translation>
+        <translation>Lead, stil 1 (innebygd)</translation>
     </message>
     <message>
         <source>Lead Style 2 (embed)</source>
-        <translation>Lead-stil 2 (innebygd)</translation>
+        <translation>Lead, stil 2 (innebygd)</translation>
     </message>
     <message>
         <source>Lead Style 1 (modal)</source>
-        <translation>Lead-stil 1 (modal)</translation>
+        <translation>Lead, stil 1 (modalvindu)</translation>
     </message>
     <message>
         <source>Lead Style 2 (modal)</source>
-        <translation>Lead-stil 2 (modal)</translation>
+        <translation>Lead, stil 2 (modalvindu)</translation>
     </message>
     <message>
         <source>Standard view</source>
@@ -940,11 +940,11 @@
     </message>
     <message>
         <source>Listitem view</source>
-        <translation>Listepunktvisning</translation>
+        <translation>Listeelementvisning</translation>
     </message>
     <message>
         <source>Listitem with intro view</source>
-        <translation>Listepunktvisning med ingress</translation>
+        <translation>Listeelementvisning med ingress</translation>
     </message>
     <message>
         <source>Mini view</source>
@@ -960,15 +960,15 @@
     </message>
     <message>
         <source>Sushi slider view Full width</source>
-        <translation>Sushi-glidervisning, full bredde</translation>
+        <translation>Sushi-glidervisning i full bredde</translation>
     </message>
     <message>
         <source>Gallery grid view</source>
-        <translation>Gallerivisning (rutenett)</translation>
+        <translation>Gallerivisning som rutenett</translation>
     </message>
     <message>
         <source>Gallery thumb view</source>
-        <translation>Gallerivisning (miniatyrer)</translation>
+        <translation>Gallerivisning med miniatyrbilder</translation>
     </message>
     <message>
         <source>List (zig-zag) with banners</source>
@@ -1380,7 +1380,7 @@
     </message>
     <message>
         <source>Account information</source>
-        <translation>Kontoinformasjon</translation>
+        <translation>Informasjon om brukerkonto</translation>
     </message>
     <message>
         <source>Confirm order</source>
@@ -1388,7 +1388,7 @@
     </message>
     <message>
         <source>The following items were removed from your basket because the products were changed.</source>
-        <translation>Følgende varer ble fjernet fra handlekurven fordi produktene ble endret.</translation>
+        <translation>Følgende ble fjernet fra handlekurven din fordi produktene er blitt endret.</translation>
     </message>
     <message>
         <source>VAT is unknown</source>
@@ -1404,7 +1404,7 @@
     </message>
     <message>
         <source>Attempted to add object without price to basket.</source>
-        <translation>Du forsøkte å legge til et objekt uten pris til handlekurven.</translation>
+        <translation>Forsøkte å legge til vare uten pris i handlekurv.</translation>
     </message>
     <message>
         <source>Your payment was aborted.</source>
@@ -1484,7 +1484,7 @@
     </message>
     <message>
         <source>You have no products in your basket.</source>
-        <translation>Du har ingen produkter i handlekurven.</translation>
+        <translation>Handlekurven din er tom.</translation>
     </message>
 </context>
 <context>
@@ -1499,11 +1499,11 @@
     </message>
     <message>
         <source>Account information</source>
-        <translation>Kontoinformasjon</translation>
+        <translation>Informasjon om brukerkonto</translation>
     </message>
     <message>
         <source>Product items</source>
-        <translation>Varer</translation>
+        <translation>Produkter</translation>
     </message>
     <message>
         <source>Count</source>
@@ -1641,7 +1641,7 @@
     </message>
     <message>
         <source>Product items</source>
-        <translation>Varer</translation>
+        <translation>Produkter</translation>
     </message>
     <message>
         <source>Product</source>
@@ -1712,7 +1712,7 @@
     </message>
     <message>
         <source>Account information</source>
-        <translation>Kontoinformasjon</translation>
+        <translation>Informasjon om brukerkonto</translation>
     </message>
     <message>
         <source>Confirm order</source>
@@ -1720,7 +1720,7 @@
     </message>
     <message>
         <source>Input did not validate. All fields marked with * must be filled in.</source>
-        <translation>Inndataene ble ikke godkjent. Alle felt merket med * må fylles ut.</translation>
+        <translation>Innlagte data er ikke gyldige. Alle felter merket med * må fylles inn.</translation>
     </message>
     <message>
         <source>First name</source>
@@ -1886,7 +1886,7 @@
         <translation>Det nye passordet ditt er på vei</translation>
     </message>
     <message>
-        <source>This link can&apos;t be used</source>
+        <source>This link can't be used</source>
         <translation>Denne lenken kan ikke brukes</translation>
     </message>
     <message>
@@ -1950,7 +1950,7 @@
         <translation>Tilbakestill passordet mitt</translation>
     </message>
     <message>
-        <source>That didn&apos;t work</source>
+        <source>That didn't work</source>
         <translation>Det virket ikke</translation>
     </message>
     <message>
@@ -1966,11 +1966,11 @@
         <translation>Få et nytt passord på e-post</translation>
     </message>
     <message>
-        <source>This account can&apos;t sign in here</source>
+        <source>This account can't sign in here</source>
         <translation>Denne kontoen kan ikke logge inn her</translation>
     </message>
     <message>
-        <source>Your username and password are right, but this account isn&apos;t allowed to use %1. Sign in with another account, or ask the site&apos;s editors for access.</source>
+        <source>Your username and password are right, but this account isn't allowed to use %1. Sign in with another account, or ask the site's editors for access.</source>
         <translation>Brukernavnet og passordet er riktige, men denne kontoen har ikke lov til å bruke %1. Logg inn med en annen konto, eller be redaktørene av nettstedet om tilgang.</translation>
     </message>
     <message>
@@ -2339,12 +2339,12 @@
         <translation>Mente du</translation>
     </message>
     <message>
-        <source>No results were found when searching for &quot;%searchText%&quot;.</source>
-        <translation>Søket etter «%searchText%» ga ingen treff.</translation>
+        <source>No results were found when searching for "%searchText%".</source>
+        <translation>Søket etter "%searchText%" ga ingen treff.</translation>
     </message>
     <message>
-        <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation>Prøv å endre noen søkeord (for eksempel «bil» i stedet for «biler»).</translation>
+        <source>Try changing some keywords (eg, "car" instead of "cars").</source>
+        <translation>Prøv å endre noen søkeord (for eksempel "bil" i stedet for "biler").</translation>
     </message>
     <message>
         <source>Check spelling of keywords.</source>
@@ -2359,8 +2359,8 @@
         <translation>Bruk færre søkeord for å få flere treff.</translation>
     </message>
     <message>
-        <source>Search for &quot;%searchText%&quot; returned %searchCount% matches</source>
-        <translation>Søket etter «%searchText%» ga %searchCount% treff</translation>
+        <source>Search for "%searchText%" returned %searchCount% matches</source>
+        <translation>Søket etter "%searchText%" ga %searchCount% treff</translation>
     </message>
     <message>
         <source>Submit search</source>
@@ -2402,7 +2402,7 @@
     <name>design/media/video</name>
     <message>
         <source>Playing this video loads it from YouTube (Google). See our %privacy_link.</source>
-        <translation>Når du spiller av denne videoen, lastes den fra YouTube (Google). Se %privacy_link.</translation>
+        <translation>Når du spiller av denne videoen, lastes den fra YouTube (Google). Se vår %privacy_link.</translation>
     </message>
     <message>
         <source>Privacy policy</source>
@@ -2440,8 +2440,8 @@
         <translation>Lukk uten endringer</translation>
     </message>
     <message>
-        <source>This website stores only what it needs to work: a session cookie when you sign in, and copies of the pages you visit, kept in your browser so they open faster. YouTube videos load only when you press play. &quot;Accept all&quot; lets them load as soon as a page opens; YouTube (Google) may then store data in your browser. Your choice is kept in a cookie for 6 months. Details are in our %cookie_link.</source>
-        <translation>Dette nettstedet lagrer bare det som trengs for at det skal fungere: en øktkapsel når du logger inn, og kopier av sidene du besøker, lagret i nettleseren din slik at de åpnes raskere. YouTube-videoer lastes bare når du trykker på spill av. &quot;Godta alle&quot; lar dem lastes så snart en side åpnes; YouTube (Google) kan da lagre data i nettleseren din. Valget ditt lagres i en informasjonskapsel i 6 måneder. Detaljer finner du i %cookie_link.</translation>
+        <source>This website stores only what it needs to work: a session cookie when you sign in, and copies of the pages you visit, kept in your browser so they open faster. YouTube videos load only when you press play. "Accept all" lets them load as soon as a page opens; YouTube (Google) may then store data in your browser. Your choice is kept in a cookie for 6 months. Details are in our %cookie_link.</source>
+        <translation>Dette nettstedet lagrer bare det det trenger for å fungere: en sesjonsinformasjonskapsel når du logger inn, og kopier av sidene du besøker, som oppbevares i nettleseren din slik at de åpnes raskere. YouTube-videoer lastes bare når du trykker på avspilling. "Godta alle" lar dem lastes så snart en side åpnes; YouTube (Google) kan da lagre data i nettleseren din. Valget ditt lagres i en informasjonskapsel i 6 måneder. Detaljer finner du i vår %cookie_link.</translation>
     </message>
     <message>
         <source>Reject all</source>
@@ -2465,15 +2465,15 @@
     </message>
     <message>
         <source>The session cookie for signing in and for forms, the cookie that keeps this choice, and the copies of pages you visited that let them open faster. They stay on because the website needs them; you can delete them in your browser settings at any time.</source>
-        <translation>Øktkapselen for innlogging og skjemaer, informasjonskapselen som husker dette valget, og kopiene av sidene du har besøkt som gjør at de åpnes raskere. De er alltid på fordi nettstedet trenger dem; du kan når som helst slette dem i innstillingene i nettleseren din.</translation>
+        <translation>Sesjonsinformasjonskapselen for innlogging og skjemaer, informasjonskapselen som husker dette valget, og kopiene av sider du har besøkt, som gjør at de åpnes raskere. De er alltid på fordi nettstedet trenger dem; du kan når som helst slette dem i innstillingene i nettleseren din.</translation>
     </message>
     <message>
         <source>Embedded videos (YouTube)</source>
         <translation>Innebygde videoer (YouTube)</translation>
     </message>
     <message>
-        <source>Load YouTube videos as soon as a page opens, from www.youtube-nocookie.com. YouTube (Google) may then store data in your browser. When this is off, each video shows a picture and loads only when you press its play button. This is the same as &quot;Always allow YouTube videos on this site&quot; under a video.</source>
-        <translation>Last YouTube-videoer så snart en side åpnes, fra www.youtube-nocookie.com. YouTube (Google) kan da lagre data i nettleseren din. Når dette er av, viser hver video et bilde og lastes først når du trykker på avspillingsknappen. Dette er det samme som &quot;Tillat alltid YouTube-videoer på dette nettstedet&quot; under en video.</translation>
+        <source>Load YouTube videos as soon as a page opens, from www.youtube-nocookie.com. YouTube (Google) may then store data in your browser. When this is off, each video shows a picture and loads only when you press its play button. This is the same as "Always allow YouTube videos on this site" under a video.</source>
+        <translation>Last inn YouTube-videoer så snart en side åpnes, fra www.youtube-nocookie.com. YouTube (Google) kan da lagre data i nettleseren din. Når dette er av, viser hver video et bilde og lastes bare når du trykker på avspillingsknappen. Dette er det samme som "Tillat alltid YouTube-videoer på dette nettstedet" under en video.</translation>
     </message>
     <message>
         <source>Save my choice</source>
