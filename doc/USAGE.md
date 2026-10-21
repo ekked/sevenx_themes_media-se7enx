@@ -32,7 +32,9 @@ The `media` design (`design/media/`) is organised as:
    `ezwebin` → `base` (shipped `site.ini.append.php`).
 2. `override.ini` (~166 rules) picks the `full_*`/`embed_*` template for the
    content class being viewed.
-3. Layout pages are resolved by `explayouts`; its zones/blocks render
+3. Content pages (content/view, full) are resolved by `explayouts`; other
+   pages get a layout only from a mapping with a Route target
+   (`resolve_route_layout`, explayouts 1.4.42 or later). Zones/blocks render
    through `templates/explayouts/` and the block templates.
 4. The pagelayout loads the theme's stylesheets (`pagelayout/head/style.tpl`)
    and then the `design.ini` `CSSFileList[]`/`FrontendCSSFileList[]` entries

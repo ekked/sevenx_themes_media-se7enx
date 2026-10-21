@@ -1,5 +1,15 @@
 # sevenx_themes_media changelog
 
+## 1.5.75 (2026-10-21)
+
+- Fixed: A layout mapping with a Route target applies on the media pages that
+  are not content pages (search, user, a module of an extension). The
+  pagelayout laid out content pages only, so a Route mapping never showed;
+  on its other pages it now asks `fetch( 'explayouts', 'resolve_route_layout',
+  hash() )`, which answers only for a rule with a Route target that names the
+  page's module view (`content/search`, `user/*`). The path rules and the
+  catch-all keep to content pages, as before. Needs explayouts 1.4.42.
+
 ## 1.5.74 (2026-10-21)
 
 - Fixed: The media design loads the stylesheets other extensions add to

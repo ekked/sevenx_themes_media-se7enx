@@ -82,6 +82,10 @@
     {else}
         {set $el_layout = fetch('explayouts','resolve_layout',hash())}
     {/if}
+{elseif and( is_set($mp.module_name), $mp.module_name|ne('') )}
+    {* Other pages (search, user, a module of an extension) get a layout only from a mapping with a route target that
+       names their module view: the path rules and the catch-all keep to content pages. *}
+    {set $el_layout = fetch('explayouts','resolve_route_layout',hash())}
 {/if}
 {def $el_renderable_blocks = 0}
 {if and(is_array($el_layout), is_set($el_layout.zones))}
