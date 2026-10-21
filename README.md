@@ -76,9 +76,11 @@ full annotated list is in [doc/USAGE.md](doc/USAGE.md).
   `simple`, `ezwebin`, `base`.
 - `[TemplateSettings] ExtensionAutoloadPath[]=sevenx_themes_media` —
   registers the template operators.
-- `[MediaTheme] CSSFiles[]` (`explayouts.css`, `index.css`,
-  `index-noncritical.css`) and `JSFiles[]` (`runtime.js`, `index.js`,
-  `index-noncritical.js`) — the asset lists the `media` pagelayout loads.
+- `design.ini [StylesheetSettings]`: the `media` pagelayout loads the
+  theme's own stylesheets (listed in `pagelayout/head/style.tpl`) and then
+  every `CSSFileList[]` and `FrontendCSSFileList[]` entry other extensions
+  add, in one packed bundle; `MediaReplacedCSSFileList[]` names the entries
+  the theme replaces and never loads (see doc/USAGE.md).
 - ~166 `override.ini` rules mapping content classes to the design's
   `full_*` / `embed_*` / `ng_*` view templates.
 - The full `image.ini` alias list the templates request (`small`,
@@ -201,9 +203,10 @@ Usage
    the content class being viewed.
 3. Layout pages are resolved by `explayouts`; its zones/blocks render
    through `templates/explayouts/` and the hand-authored block templates.
-4. The pagelayout loads the `[MediaTheme]` asset lists:
-   CSS `explayouts.css`, `index.css`, `index-noncritical.css`;
-   JS `runtime.js`, `index.js`, `index-noncritical.js`.
+4. The pagelayout loads the theme's stylesheets (`pagelayout/head/style.tpl`)
+   and then the `design.ini` `CSSFileList[]`/`FrontendCSSFileList[]` entries
+   of other extensions, in one packed bundle; JS `runtime.js`, `index.js`,
+   `index-noncritical.js`.
 
 ### Template operators
 

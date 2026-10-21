@@ -34,9 +34,10 @@ The `media` design (`design/media/`) is organised as:
    content class being viewed.
 3. Layout pages are resolved by `explayouts`; its zones/blocks render
    through `templates/explayouts/` and the block templates.
-4. The pagelayout loads the `[MediaTheme]` asset lists:
-   CSS `explayouts.css`, `index.css`, `index-noncritical.css`;
-   JS `runtime.js`, `index.js`, `index-noncritical.js`.
+4. The pagelayout loads the theme's stylesheets (`pagelayout/head/style.tpl`)
+   and then the `design.ini` `CSSFileList[]`/`FrontendCSSFileList[]` entries
+   of other extensions, in one packed bundle; JS `runtime.js`, `index.js`,
+   `index-noncritical.js`.
 
 ## Template operators
 
@@ -133,18 +134,24 @@ INI values merge in ascending priority:
 
 Practical recipes:
 
-- **Change/extend the `[MediaTheme]` asset lists** — add to
-  `settings/siteaccess/<sa>/site.ini.append.php`:
+- **Add a stylesheet to the media pages** — the theme's own stylesheets
+  are listed, in order, in `templates/pagelayout/head/style.tpl`. After them
+  the pagelayout loads every entry of `design.ini [StylesheetSettings]
+  CSSFileList[]` and `FrontendCSSFileList[]`, in the same packed bundle, each
+  file once. So an extension (or your siteaccess) adds its file the usual
+  way, in `settings/design.ini.append.php`:
 
   ```ini
-  [MediaTheme]
-  CSSFiles[]=my_site_tweaks.css
-  JSFiles[]=my_site_tweaks.js
+  [StylesheetSettings]
+  FrontendCSSFileList[]=my_site_tweaks.css
   ```
 
-  and ship those files in your own design's `stylesheets/`/`javascript/`
-  directories. To *replace* the lists, reset first (`CSSFiles[]` on its own
-  line clears the array).
+  and ships it in its design's `stylesheets/` directory. It loads after the
+  theme's files, so it can build on them. Entries the media design replaces
+  are named in `MediaReplacedCSSFileList[]` (the simple theme's base styles,
+  Font Awesome, magnific-popup and the theme's retired files) and are never
+  loaded; add a file there to keep it off the media pages. After a change,
+  clear the INI and template-block caches (`exp:velocity deploy --packer`).
 
 - **Add or change an image alias** — same cascade in `image.ini.append.php`:
 
